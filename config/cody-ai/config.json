@@ -1,0 +1,78 @@
+{
+  "config": {
+    "proxy": "",
+    "codebase": "",
+    "customHeaders": {},
+    "useContext": "blended",
+    "debugVerbose": false,
+    "debugFilter": null,
+    "telemetryLevel": "all",
+    "autocomplete": true,
+    "autocompleteLanguages": {
+      "*": true
+    },
+    "chatPreInstruction": "",
+    "editPreInstruction": "",
+    "commandCodeLenses": false,
+    "autocompleteAdvancedProvider": null,
+    "autocompleteAdvancedModel": null,
+    "autocompleteCompleteSuggestWidgetSelection": true,
+    "autocompleteFormatOnAccept": false,
+    "autocompleteDisableInsideComments": false,
+    "codeActions": true,
+    "commandHints": true,
+    "internalUnstable": false,
+    "internalDebugContext": false,
+    "autocompleteExperimentalGraphContext": null,
+    "experimentalCommitMessage": true,
+    "experimentalNoodle": false,
+    "experimentalTracing": false,
+    "experimentalSupercompletions": false,
+    "autocompleteExperimentalOllamaOptions": {
+      "url": "http://localhost:11434",
+      "model": "codellama:7b-code"
+    },
+    "autocompleteExperimentalPreloadDebounceInterval": 0,
+    "isRunningInsideAgent": false,
+    "hasNativeWebview": true,
+    "agentHasPersistentStorage": false,
+    "autocompleteFirstCompletionTimeout": 3500,
+    "serverEndpoint": "https://sourcegraph.com/",
+    "accessToken": "sgp_636f79ad2075640f_937dfb9ecc885f6edac75500410ab64316f5c3a8"
+  },
+  "authStatus": {
+    "id": "VXNlcjoyMDg5OTc=",
+    "hasVerifiedEmail": true,
+    "displayName": null,
+    "username": "oyzad",
+    "avatarURL": "https://avatars.githubusercontent.com/u/151960122?v=4",
+    "primaryEmail": "oyzad5b7@gmail.com",
+    "organizations": {
+      "nodes": []
+    },
+    "endpoint": "https://sourcegraph.com/",
+    "siteVersion": "298863_2024-11-08_5.9-493c6e07eeba",
+    "configOverwrites": {
+      "chatModel": "sourcegraph/claude-3.5-sonnet",
+      "chatModelMaxTokens": 45000,
+      "fastChatModel": "sourcegraph/claude-3-haiku",
+      "fastChatModelMaxTokens": 7000,
+      "completionModel": "sourcegraph/deepseek-coder-v2-lite-base",
+      "completionModelMaxTokens": 2048,
+      "provider": "sourcegraph",
+      "smartContextWindow": false
+    },
+    "authenticated": true,
+    "userCanUpgrade": true,
+    "requiresVerifiedEmail": true,
+    "codyApiVersion": 1,
+    "isFireworksTracingEnabled": false
+  },
+  "anonymousUserID": "98444caf-52ae-4a25-ac32-c366f0707a0f",
+  "extensionDetails": {
+    "ide": "VSCode",
+    "arch": "x86_64",
+    "platform": "macos",
+    "version": "1.34.3"
+  }
+}

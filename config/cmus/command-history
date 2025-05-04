@@ -1,0 +1,55 @@
+save
+q
+set output_plugin=ao
+:set output_plugin=ao
+outputs
+flac
+seek 193
+set status_display_program=/Users/martin/Documents/finns_coding/bashy/cmus_notify.sh
+seek 50
+exit
+s
+search 
+seek 60
+seek 1
+stop
+play now
+proceed
+pause
+play
+seek 30
+vol 12
+help
+fset unheard=play_count=0
+W
+2
+Q
+volume
+seek 160
+seek 180
+next
+skip
+add /Users/martin/Downloads/music_downloads/Phoneboy/Neverminds.mp3
+add "/Users/martin/Downloads/music_downloads/Phoneboy/Phoneboy - Nevermind (feat. Justin Magnaye) [OFFICIAL MUSIC VIDEO].mp3"
+add /Users/martin/Downloads/music_downloads/Phoneboy/Phoneboy\ -\ Nevermind\ \(feat.\ Justin\ Magnaye\)\ \[OFFICIAL\ MUSIC\ VIDEO\].mp3 
+add /Users/martin/Downloads/music_downloads/Phon
+filter 
+bind -f common p win-mv-before
+bind -f common P win-mv-after
+bind -f common P win-mv-before
+colorscheme onedark
+
+colortheme
+colortheme onedark
+:colorsch
+color red
+colorscheme
+search
+add VANITY
+add
+add /Downloads/Music
+youtube https://www.youtube.com/watch?v=zecWZKgEPZc&ab_channel=MusicAgent
+add /Users/martin/Downloads/Music/age tape 0
+add /Users/martin/Downloads/Music
+add /Music
+x

@@ -1,0 +1,34 @@
+{
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Build",
+            "VCS",
+            "Presentation",
+            "Tutorial",
+            "Connections"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "show_margin": false,
+    "default_project_location": "~/Dropbox",
+    "pdf_previewer": "rstudio",
+    "new_proj_git_init": true,
+    "reuse_sessions_for_project_links": true,
+    "jobs_tab_visibility": "closed"
+}

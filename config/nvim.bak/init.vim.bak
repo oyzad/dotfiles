@@ -1,0 +1,58 @@
+" Enable syntax highlighting
+syntax on
+
+" Enable line numbers
+set number
+
+" Enable relative line numbers
+set relativenumber
+
+" Set the default search to be case insensitive
+set ignorecase
+
+" Enable line wrapping
+set wrap
+
+" Enable line highlighting
+set cursorline
+
+" Set the indentation to use spaces instead of tabs
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Enable line break at word boundaries
+set linebreak 
+" Show matching parentheses, brackets, and braces
+set showmatch
+
+" Enable auto-indentation
+filetype plugin indent on
+
+" Set clipboard support (Linux/macOS only)
+set clipboard=unnamedplus
+
+" Set up status line
+set laststatus=2
+
+" Initialize vim-plug
+call plug#begin('~/.vim/plugged')
+
+" Add plugins here, for example:
+Plug 'tpope/vim-sensible'
+Plug 'preservim/nerdtree'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+" Initialize plugin system
+call plug#end()
+
+require("plugins.lazy")
+
+
+" Set a theme 
+let g:airline_theme='dark'
+set background=dark
+
