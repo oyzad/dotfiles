@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apps_transparent="(iTerm2|Spotify|kitty)"
+apps_transparent="(Spotify|kitty)"
 
 display_resolution=$(system_profiler SPDisplaysDataType | grep Resolution)
 if [[ $(echo "$display_resolution" | grep -c "Resolution") -ge 2 ]]; then
