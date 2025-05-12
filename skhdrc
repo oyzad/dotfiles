@@ -26,8 +26,10 @@ ctrl - m : yabai -m space --mirror vertical
 
 # Launch apps
 ctrl - return : open -a "kitty"
-ctrl - b : open -a "Brave Browser"
+ctrl - s : open -a "Brave Browser"
 ctrl + shift - f : open -a "Finder"
+ctrl - d: open -a "Obsidian"
+ctrl - e: open -a "Spotify"
 
 # Move to spaces
 ctrl + shift - 1 : yabai -m window --space 1; yabai -m space --focus 1
