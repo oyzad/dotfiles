@@ -1,0 +1,88 @@
+{
+  "title": "Mouse Control Layer (Caps Lock)",
+  "rules": [
+    {
+      "description": "Caps Lock activates mouse layer",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "mouse_layer",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "mouse_layer",
+                "value": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Mouse movement on HJKL when mouse layer is active",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "h" },
+          "to": [{ "mouse_key": { "x": -300 } }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "j" },
+          "to": [{ "mouse_key": { "y": 300 } }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "k" },
+          "to": [{ "mouse_key": { "y": -300 } }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "l" },
+          "to": [{ "mouse_key": { "x": 300 } }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        }
+      ]
+    },
+    {
+      "description": "Mouse clicks on U/I/O when mouse layer is active",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "u" },
+          "to": [{ "pointing_button": "button1" }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "i" },
+          "to": [{ "pointing_button": "button2" }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "o" },
+          "to": [{ "pointing_button": "button3" }],
+          "conditions": [{ "type": "variable_if", "name": "mouse_layer", "value": 1 }]
+        }
+      ]
+    }
+  ]
+}
+

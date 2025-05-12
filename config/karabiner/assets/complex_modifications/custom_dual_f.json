@@ -1,0 +1,30 @@
+{
+  "title": "Custom Dual-Function F Key",
+  "rules": [
+    {
+      "description": "Change F to Control if held, F if tapped (with reduced delay)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to_if_alone": [
+            { "key_code": "f" }
+          ],
+          "to_if_held_down": [
+            { "key_code": "left_control" }
+          ],
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 150,
+            "basic.to_if_held_down_threshold_milliseconds": 150
+          }
+        }
+      ]
+    }
+  ]
+}
+
