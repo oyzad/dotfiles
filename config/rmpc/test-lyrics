@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+LRCLIB_INSTANCE="https://lrclib.net"
+LOG_FILE="/tmp/rmpc-lyrics-debug.log"
+
+echo "=== Lyrics Fetch Started ===" >>"$LOG_FILE"
+echo "ARTIST=$ARTIST" >>"$LOG_FILE"
+echo "TITLE=$TITLE" >>"$LOG_FILE"
+echo "ALBUM=$ALBUM" >>"$LOG_FILE"
+echo "LRC_FILE=$LRC_FILE" >>"$LOG_FILE"
+echo "HAS_LRC=$HAS_LRC" >>"$LOG_FILE"
+
+if [ "$HAS_LRC" = "false" ]; then
+  mkdir -p "$(dirname "$LRC_FILE")"
+
+  RAW_RESPONSE="$(curl -sG \
+    --data-urlencode "artist_name=$ARTIST" \
+    --data-urlencode "track_name=$TITLE" \
+    --data-urlencode "album_name=$ALBUM" \
+    "$LRCLIB_INSTANCE/api/get")"
+
+  echo "API Response: $RAW_RESPONSE" >>"$LOG_FILE"
+
+  LYRICS="$(echo "$RAW_RESPONSE" | jq -r '.syncedLyrics')"
+
+  if [ -z "$LYRICS" ] || [ "$LYRICS" = "null" ]; then
+    rmpc remote --pid "$PID" status "Lyrics not found for $ARTIST - $TITLE" --level warn
+    exit
+  fi
+
+  echo "Writing lyrics to $LRC_FILE" >>"$LOG_FILE"
+  echo "[ar:$ARTIST]" >"$LRC_FILE"
+  {
+    echo "[al:$ALBUM]"
+    echo "[ti:$TITLE]"
+  } >>"$LRC_FILE"
+  echo "$LYRICS" | sed -E '/^\[(ar|al|ti):/d' >>"$LRC_FILE"
+
+  rmpc remote --pid "$PID" indexlrc --path "$LRC_FILE"
+  rmpc remote --pid "$PID" status "Downloaded lyrics for $ARTIST - $TITLE" --level info
+fi

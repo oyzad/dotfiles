@@ -1,5 +1,14 @@
-save
 q
+save
+seek 120
+seek 35
+seek 40
+seek 20
+seek 20 
+seek 45
+s 45
+seek 30
+fset classical=genre="Classical"
 set output_plugin=ao
 :set output_plugin=ao
 outputs
@@ -17,7 +26,6 @@ play now
 proceed
 pause
 play
-seek 30
 vol 12
 help
 fset unheard=play_count=0

@@ -102,3 +102,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Aliases: tmux
+alias tn='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias ta='tmux attach-session'
+alias nv='nvim'
+
+# Created by `pipx` on 2025-06-18 20:49:45
+export PATH="$PATH:/Users/martin/.local/bin"

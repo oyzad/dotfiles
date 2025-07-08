@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+echo "[rmpc lyrics] Triggered at $(date)" >> /tmp/rmpc-lyrics.log
+

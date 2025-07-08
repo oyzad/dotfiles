@@ -10,7 +10,7 @@
 # yabai -m query --windows | jq -r '.[].app'
 
 # Load all the variables I need from the yabai_env.sh file
-source ~/.config/yabai/yabai_env.sh
+source ~/.dotfiles/config/yabai/yabai_env.sh
 
 # This command is the one that loads the scripting addition
 # Configure your user to execute `yabai --load-sa` as the root user without having to enter a password.

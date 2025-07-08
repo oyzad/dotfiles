@@ -1,5 +1,5 @@
 {
-  description = "Pinixer Darwin system flake";
+  description = "Oyazd darwin system flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -14,13 +14,16 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ pkgs.vim
+          pkgs.mpd
+
         ];
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
 
       # Enable alternative shell support in nix-darwin.
-      # programs.fish.enable = true;
+      programs.zsh.enable = true;
+      services.nix-daemon.enable = true;
 
       # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;
@@ -30,13 +33,13 @@
       system.stateVersion = 6;
 
       # The platform the configuration will be used on.
-      nixpkgs.hostPlatform = "x86_64-darwin";
+      nixpkgs.hostPlatform = "X86_64-darwin";
     };
   in
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."martin" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."macpro" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };

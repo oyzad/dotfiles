@@ -1,0 +1,10 @@
+# srhd.toml
+[[bindings]]
+key = "f"
+command = "open /Applications/Min.app" # or any arbitrary shell script
+mods = ["control"]
+
+[[bindings]]
+key = "equal"
+command = "echo 'hello from srhd'"
+mods = ["control", "fn"]

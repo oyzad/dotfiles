@@ -40,7 +40,7 @@ ctrl + shift - 4 : yabai -m window --space 4; yabai -m space --focus 4
 
 # float toggle
 ctrl - t : yabai -m window --toggle float
-ctrl - f : yabai -m window --toggle zoom-fullscreen
+ctrl - F : yabai -m window --toggle zoom-fullscreen
 
 ctrl + shift - t : \
     current_layout=$(yabai -m query --spaces --space | jq -r '.type'); \

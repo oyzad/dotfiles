@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+LRCLIB_INSTANCE="https://lrclib.net"
+
+if [ -z "$ARTIST" ] || [ -z "$TITLE" ] || [ -z "$LRC_FILE" ]; then
+  exit 1
+fi
+
+if [ "$HAS_LRC" = "false" ]; then
+  mkdir -p "$(dirname "$LRC_FILE")"
+
+  RAW_RESPONSE=$(curl -sG \
+    --data-urlencode "artist_name=$ARTIST" \
+    --data-urlencode "track_name=$TITLE" \
+    --data-urlencode "album_name=$ALBUM" \
+    "$LRCLIB_INSTANCE/api/get")
+
+  LYRICS=$(jq -r '.syncedLyrics' <<<"$RAW_RESPONSE")
+
+  if [ -z "$LYRICS" ] || [ "$LYRICS" = "null" ]; then
+    exit 0
+  fi
+
+  {
+    echo "[ar:$ARTIST]"
+    echo "[al:$ALBUM]"
+    echo "[ti:$TITLE]"
+    echo "$LYRICS" | sed -E '/^\[(ar|al|ti):/d'
+  } >"$LRC_FILE"
+
+  if [ -n "$PID" ]; then
+    rmpc remote --pid "$PID" indexlrc --path "$LRC_FILE"
+    rmpc remote --pid "$PID" status "Downloaded lyrics for $ARTIST - $TITLE" --level info
+  fi
+fi

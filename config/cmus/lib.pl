@@ -301,6 +301,57 @@
 /Users/martin/Documents/Downloads/Music/Sunset Ballad/Sambossa.m4a
 /Users/martin/Documents/Downloads/Music/Switch/Switch.m4a
 /Users/martin/Documents/Downloads/Music/Blur/02 Song 2.flac
+/Users/martin/Documents/Downloads/Music/Exodus/1-01 Natural Mystic.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-02 So Much Things To Say.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-03 Guiltiness.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-04 The Heathen.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-05 Exodus.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-06 Jamming.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-07 Waiting In Vain.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-08 Turn Your Lights Down Low.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-09 Three Little Birds.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-10 One Love + People Get Ready.mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-11 Roots (B-Side Of Waiting In Vain Single - Bonus).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-12 Waiting In Vain (Alternate Version - Bonus).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-13 Jamming (Long Version - Bonus).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-14 Jamming (Version - Bonus).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/1-15 Exodus (Version - Bonus).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-01 The Heathen (Previously Unreleased).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-02 Crazy Baldhead + Running Away (Previously Unreleased).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-03 War + No More Trouble (Prevoiusly Unreleased).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-04 Jamming (Previously Unreleased).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-05 Exodus (Previously Unreleased).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-06 Punky Reggae Party (A Side Of Jamaican 12 Inch Single).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-07 Punky Reggae Party (Dub B Side Of Jamaican 12 Inch Single).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-08 Keep On Moving (Previously Unreleased Original Mix).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-09 Keep On Moving (Dub Previously Unreleased Original Mix).mp3
+/Users/martin/Documents/Downloads/Music/Exodus/2-10 Exodus Advertisement.mp3
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/01 - Is This Love.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/02 - No Woman No Cry (live 1975-07-19 Lyceum Theatre London UK).m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/03 - Could You Be Loved.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/04 - Three Little Birds.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/05 - Buffalo Soldier.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/06 - Get Up Stand Up.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/07 - Stir It Up.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/08 - Easy Skanking.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/09 - One Love  People Get Ready.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/10 - I Shot the Sheriff.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/11 - Waiting in Vain.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/12 - Redemption Song.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/13 - Satisfy My Soul.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/14 - Exodus.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/15 - Jamming.m4a
+/Users/martin/Documents/Downloads/Music/Legend The Best of Bob Marley and The Wailers/16 - Punky Reggae Party.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 05 Hunger Games.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 01 Humble As The Sun.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 02 Reign.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 03 GYAG (Get Yourself A Gun).m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 04 Dream Big.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 06 Right Here.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 07 Makes Me Violent.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 08 He's A Man.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 09 Ring The Alarm.m4a
+/Users/martin/Documents/Downloads/Music/Humble As The Sun/Bob Vylan - Humble As The Sun - 10 I'm Still Here.m4a
 /Users/martin/Documents/Downloads/Music/Bruno Mars/02. Just the way you are.flac
 /Users/martin/Documents/Downloads/Music/Bruno Mars/24K Magic/01 24k magic.m4a
 /Users/martin/Documents/Downloads/Music/Bruno Mars/24K Magic/02 chunky.m4a
@@ -328,6 +379,20 @@
 /Users/martin/Documents/Downloads/Music/VANITY/I'd Rather Pretend - Bryant Barnes.mp3
 /Users/martin/Documents/Downloads/Music/VANITY/Universe - Bryant Barnes.mp3
 /Users/martin/Documents/Downloads/Music/VANITY/Want You All The Time - Bryant Barnes.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/01 Frank Sinatra.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/02 The Distance.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/03 Friend Is a Four Letter Word.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/04 Open Book.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/05 Daria.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/06 Race Car Ya-Yas.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/07 I Will Survive.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/08 Stickshifts and Safetybelts.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/09 Perhaps, Perhaps, Perhaps.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/10 It's Coming Down.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/11 Nugget.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/12 She'll Come Back to Me.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/13 Italian Leather Sofa.mp3
+/Users/martin/Documents/Downloads/Music/Jungle Mania 2/Fashion Nugget/14 Sad Songs and Waltzes.mp3
 /Users/martin/Documents/Downloads/Music/Would You (go to bed with me？)/Would You (go to bed with me？).m4a
 /Users/martin/Documents/Downloads/Music/various artists/Bumpy Johnson (Lyrics).m4a
 /Users/martin/Documents/Downloads/Music/BRAT/360.m4a
@@ -396,6 +461,20 @@
 /Users/martin/Documents/Downloads/Music/Random Access Memories/Motherboard - Daft Punk.mp3
 /Users/martin/Documents/Downloads/Music/Random Access Memories/The Game of Love - Daft Punk.mp3
 /Users/martin/Documents/Downloads/Music/Random Access Memories/Within - Daft Punk.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/01 DANGERDOOM - El Chupa Nibre.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/02 DANGERDOOM - Sofa King.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/03 DANGERDOOM - The Mask (Feat. Ghostface).mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/04 DANGERDOOM - Perfect Hair.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/05 DANGERDOOM - Benzi Box (Feat. Cee-Lo).mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/06 DANGERDOOM - Old School Rules (Feat. Talib Kweli).mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/07 DANGERDOOM - A.T.H.F..mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/08 DANGERDOOM - Basket Case.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/09 DANGERDOOM - No Names (Black Debbie).mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/10 DANGERDOOM - Crosshairs.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/11 DANGERDOOM - Mince Meat.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/12 DANGERDOOM - Vats Of Urine.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/13 DANGERDOOM - Space Hoes.mp3
+/Users/martin/Documents/Downloads/Music/DANGERDOOM - The Mouse And The Mask (2005)/14 DANGERDOOM - Bada Bing.mp3
 /Users/martin/Documents/Downloads/Music/We're All Alone In This Together/BothSidesOfASmile.m4a
 /Users/martin/Documents/Downloads/Music/We're All Alone In This Together/Clash.m4a
 /Users/martin/Documents/Downloads/Music/We're All Alone In This Together/HeartAttack.m4a
@@ -442,8 +521,30 @@
 /Users/martin/Documents/Downloads/Music/Dominic Fike/Sunburn/Mama's Boy.m4a
 /Users/martin/Documents/Downloads/Music/Dominic Fike/Sunburn/Dark.m4a
 /Users/martin/Documents/Downloads/Music/Dominic Fike/Sunburn/What Kinda Woman.m4a
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/01 - Stranger.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/02 - Shadow People.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/03 - Station.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/04 - Unbearable Why.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/05 - Where'd All The Time Go_.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/06 - Later.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/07 - I Only Wear Blue.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/08 - Someday.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/09 - Mirror, Mirror.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/10 - Jackie Wants A Black Eye.mp3
+/Users/martin/Documents/Downloads/Music/Dr. Dog (2010) - Shame, Shame/11 - Shame, Shame.mp3
 /Users/martin/Documents/Downloads/Music/Free/Free.m4a
 /Users/martin/Documents/Downloads/Music/various artists/sakanigadik.m4a
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/01 - Right Here, Right Now.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/02 - The Rockafeller Skank.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/03 - In Heaven.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/04 - Gangster Tripping.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/05 - Build It Up, Tear It Down.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/06 - Kalifornia.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/07 - Soul Surfing.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/08 - You're Not From Brighton.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/09 - Praise You.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/10 - Love Island.mp3
+/Users/martin/Documents/Downloads/Music/1998 - You've Come A Long Way, Baby/11 - Acid 8000.mp3
 /Users/martin/Documents/Downloads/Music/FettyWap/01 Trap Queen.mp3
 /Users/martin/Documents/Downloads/Music/FettyWap/07 Again.mp3
 /Users/martin/Documents/Downloads/Music/I Have a Love (Overmono Remix)/I Have a Love (Overmono Remix).m4a
@@ -505,6 +606,20 @@
 /Users/martin/Documents/Downloads/Music/2014 Forest Hills Drive/Love Yourz.m4a
 /Users/martin/Documents/Downloads/Music/2014 Forest Hills Drive/Note To Self.m4a
 /Users/martin/Documents/Downloads/Music/various artists/Hello Miss Johnson [Official Music Video].m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-01 Better Together.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-02 Never Know.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-03 Banana Pancakes.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-04 Good People.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-05 No Other Way.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-06 Sitting, Waiting, Wishing.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-07 Staple It Together.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-08 Situations.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-09 Crying Shame.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-10 If I Could.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-11 Breakdown.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-12 Belle.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-13 Do You Remember.m4a
+/Users/martin/Documents/Downloads/Music/2005 - In Between Dreams/1-14 Constellations.m4a
 /Users/martin/Documents/Downloads/Music/For Abby/Intro (Side A).m4a
 /Users/martin/Documents/Downloads/Music/For Abby/Sabotage.m4a
 /Users/martin/Documents/Downloads/Music/For Abby/Super Bad Mantra.m4a
@@ -535,7 +650,63 @@
 /Users/martin/Documents/Downloads/Music/dexter_in_the_newsagents/06-kwollem-talk_to_me_(feat_dexter_in_the_newsagent_and_mover)-uvu.mp3
 /Users/martin/Documents/Downloads/Music/Bruno Mars/15 - Die with a Smile.flac
 /Users/martin/Documents/Downloads/Music/Bruno Mars/Die with a Smile [Kue's Piano Mix].m4a
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 01 - The Isle of Arran.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 01 - The Isle of Arran.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 02 - Mean It in the Morning.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 02 - Mean It in the Morning.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 03 - +44.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 03 - +44.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 04 - Damselfly.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 04 - Damselfly.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 05 - Ain’t Nothing Changed.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 05 - Ain’t Nothing Changed.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 06 - Swear.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 06 - Swear.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 07 - Florence.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 07 - Florence.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 08 - The Seamstress (Tooting Masala).m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 08 - The Seamstress (Tooting Masala).flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 09 - Stars & Shards.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 09 - Stars & Shards.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 10 - No Worries.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 10 - No Worries.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 11 - Rebel 101.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 11 - Rebel 101.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 12 - NO CD.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 12 - NO CD.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 13 - Mrs C.m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 13 - Mrs C.flac
+/Users/martin/Documents/Downloads/Music/Yesterday's Gone/Loyle Carner - Yesterday’s Gone - 14 - Sun of Jean (feat. Mum & Dad).m4a
+/Users/martin/Documents/Downloads/Music/Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 14 - Sun of Jean (feat. Mum & Dad).flac
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/01 - Loyle Carner - Dear Jean.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/02 - Loyle Carner - Angel.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/03 - Loyle Carner - Ice Water.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/04 - Loyle Carner - Ottolenghi (Feat. Jordan Rakei).mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/05 - Loyle Carner - You Don't Know.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/06 - Loyle Carner - Still.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/07 - Loyle Carner - It’s Coming Home!.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/08 - Loyle Carner - Desoleil (Brilliant Corners).mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/09 - Loyle Carner - Loose Ends.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/10 - Loyle Carner - Not Waving, But Drowning.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/11 - Loyle Carner - Krispy.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/12 - Loyle Carner - Sail Away Freestyle.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/13 - Loyle Carner - Looking Back.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/14 - Loyle Carner - Carluccio.mp3
+/Users/martin/Documents/Downloads/Music/Not Waving, But Drowning (2019)/15 - Loyle Carner - Dear Ben.mp3
 /Users/martin/Documents/Downloads/Music/Down Under (feat. Colin Hay)/Down Under (feat. Colin Hay).m4a
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - My Old Man.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - This Old Dog.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Baby You're Out.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - For The First Time.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - One Another.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Still Beating.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Sister.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Dreams From Yesterday.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - A Wolf Who Wears Sheeps Clothes.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - One More Love Song.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - On The Level.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Moonlight On The River.mp3
+/Users/martin/Documents/Downloads/Music/2017 - This Old Dog/Mac DeMarco - Watching Him Fade Away.mp3
 /Users/martin/Documents/Downloads/Music/Tour/Tour.m4a
 /Users/martin/Documents/Downloads/Music/above/All Alone - Mad Season.mp3
 /Users/martin/Documents/Downloads/Music/above/Lifeless Dead - Mad Season.mp3
@@ -557,6 +728,21 @@
 /Users/martin/Documents/Downloads/Music/Sweet Boy/Hot in NY.m4a
 /Users/martin/Documents/Downloads/Music/Sweet Boy/Pillow.m4a
 /Users/martin/Documents/Downloads/Music/Sweet Boy/Mr. Incorrect.m4a
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/01 - Beef Rapp.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/02 - Hoe Cakes.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/03 - Potholderz.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/04 - One Beer.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/05 - Deep Fried Frenz.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/06 - Poo-Putt Platter.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/07 - Fillet-O-Rapper.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/08 - Gumbo.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/09 - Fig Leaf Bi-Carbonate.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/10 - Kon Karne.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/11 - Guinesses.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/12 - Kon Queso.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/13 - Rapp Snitch Knishes.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/14 - Vomitspit.mp3
+/Users/martin/Documents/Downloads/Music/2004 - Mm...Food/15 - Kookies.mp3
 /Users/martin/Documents/Downloads/Music/Micah./One On One. (Remix).m4a
 /Users/martin/Documents/Downloads/Music/Her Love Still Haunts Me Like a Ghost/Every Night.m4a
 /Users/martin/Documents/Downloads/Music/Her Love Still Haunts Me Like a Ghost/Hotel.m4a
@@ -631,9 +817,35 @@
 /Users/martin/Documents/Downloads/Music/Niko B /dog eat dog food world/forteen days.m4a
 /Users/martin/Documents/Downloads/Music/Niko B /dog eat dog food world/who's in designer.m4a
 /Users/martin/Documents/Downloads/Music/Niko B /singles/Niko B - Why's this dealer_.flac
+/Users/martin/Documents/Downloads/Music/Niko B /singles/02 Niko B - Why's this dealer?.m4a
+/Users/martin/Documents/Downloads/Music/Niko B /singles/01 Niko B - just call me.m4a
 /Users/martin/Documents/Downloads/Music/Niko B /singles/Niko B - just call me.flac
 /Users/martin/Documents/Downloads/Music/Niko B /dog eat dog food world/trespass coat.m4a
 /Users/martin/Documents/Downloads/Music/trespass coat (feat. dexter in the newsagent)/trespass coat (feat. dexter in the newsagent).m4a
+/Users/martin/Documents/Downloads/Music/Nevermind/01 Smells Like Teen Spirit.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/02 In Bloom.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/03 Come as You Are.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/04 Breed.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/05 Lithium.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/06 Polly.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/07 Territorial Pissings.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/08 Drain You.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/09 Lounge Act.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/10 Stay Away.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/11 On a Plain.mp3
+/Users/martin/Documents/Downloads/Music/Nevermind/12 Something in the Way  Endless, Nameless.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/01 Serve the Servants.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/02 Scentless Apprentice.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/03 Heart-Shaped Box.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/04 Rape Me.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/05 Frances Farmer Will Have Her Revenge on Seattle.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/06 Dumb.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/07 Very Ape.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/08 Milk It.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/09 Pennyroyal Tea.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/10 Radio Friendly Unit Shifter.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/11 Tourette's.mp3
+/Users/martin/Documents/Downloads/Music/In Utero/12 All Apologies.mp3
 /Users/martin/Documents/Downloads/Music/FORWARDS/GRAVITY.m4a
 /Users/martin/Documents/Downloads/Music/FORWARDS/TV DREAMS.m4a
 /Users/martin/Documents/Downloads/Music/FORWARDS/FEEL LIKE ME.m4a
@@ -732,21 +944,37 @@
 /Users/martin/Documents/Downloads/Music/SremmLife/YNO.m4a
 /Users/martin/Documents/Downloads/Music/SremmLife/Unlock The Swag.m4a
 /Users/martin/Documents/Downloads/Music/SremmLife/Throw Sum Mo.m4a
-/Users/martin/Documents/Downloads/Music/Californication/01 - Around The World.flac
-/Users/martin/Documents/Downloads/Music/Californication/02 - Parallel Universe.flac
-/Users/martin/Documents/Downloads/Music/Californication/03 - Scar Tissue.flac
-/Users/martin/Documents/Downloads/Music/Californication/04 - Otherside.flac
-/Users/martin/Documents/Downloads/Music/Californication/05 - Get On Top.flac
-/Users/martin/Documents/Downloads/Music/Californication/06 - Californication.flac
-/Users/martin/Documents/Downloads/Music/Californication/07 - Easily.flac
-/Users/martin/Documents/Downloads/Music/Californication/08 - Porcelain.flac
-/Users/martin/Documents/Downloads/Music/Californication/09 - Emit Remmus.flac
-/Users/martin/Documents/Downloads/Music/Californication/10 - I Like Dirt.flac
-/Users/martin/Documents/Downloads/Music/Californication/11 - This Velvet Glove.flac
-/Users/martin/Documents/Downloads/Music/Californication/12 - Savior.flac
-/Users/martin/Documents/Downloads/Music/Californication/13 - Purple Stain.flac
-/Users/martin/Documents/Downloads/Music/Californication/14 - Right On Time.flac
-/Users/martin/Documents/Downloads/Music/Californication/15 - Road Trippin'.flac
+/Users/martin/Documents/Downloads/Music/Californication/01 Red Hot Chili Peppers - Around The World.m4a
+/Users/martin/Documents/Downloads/Music/Californication/02 Red Hot Chili Peppers - Parallel Universe.m4a
+/Users/martin/Documents/Downloads/Music/Californication/03 Red Hot Chili Peppers - Scar Tissue.m4a
+/Users/martin/Documents/Downloads/Music/Californication/04 Red Hot Chili Peppers - Otherside.m4a
+/Users/martin/Documents/Downloads/Music/Californication/05 Red Hot Chili Peppers - Get On Top.m4a
+/Users/martin/Documents/Downloads/Music/Californication/06 Red Hot Chili Peppers - Californication.m4a
+/Users/martin/Documents/Downloads/Music/Californication/07 Red Hot Chili Peppers - Easily.m4a
+/Users/martin/Documents/Downloads/Music/Californication/08 Red Hot Chili Peppers - Porcelain.m4a
+/Users/martin/Documents/Downloads/Music/Californication/09 Red Hot Chili Peppers - Emit Remmus.m4a
+/Users/martin/Documents/Downloads/Music/Californication/10 Red Hot Chili Peppers - I Like Dirt.m4a
+/Users/martin/Documents/Downloads/Music/Californication/11 Red Hot Chili Peppers - This Velvet Glove.m4a
+/Users/martin/Documents/Downloads/Music/Californication/12 Red Hot Chili Peppers - Savior.m4a
+/Users/martin/Documents/Downloads/Music/Californication/13 Red Hot Chili Peppers - Purple Stain.m4a
+/Users/martin/Documents/Downloads/Music/Californication/14 Red Hot Chili Peppers - Right On Time.m4a
+/Users/martin/Documents/Downloads/Music/Californication/15 Red Hot Chili Peppers - Road Trippin'.m4a
+/Users/martin/Documents/Downloads/Music/By the Way/01 By the Way.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/02 Universally Speaking.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/03 This is the Place.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/04 Dosed.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/05 Don't Forget Me.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/06 The Zephyr Song.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/07 Can't Stop.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/08 I Could Die for You.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/09 Midnight.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/10 Throw Away Your Television.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/11 Cabron.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/12 Tear.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/13 On Mercury.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/14 Minor Thing.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/15 Warm Tape.mp3
+/Users/martin/Documents/Downloads/Music/By the Way/16 Venice Queen.mp3
 /Users/martin/Documents/Downloads/Music/Sick Boi/Seven Sins.m4a
 /Users/martin/Documents/Downloads/Music/Sick Boi/Animal Flow.m4a
 /Users/martin/Documents/Downloads/Music/Sick Boi/Money Game, Pt. 3.m4a
@@ -846,6 +1074,15 @@
 /Users/martin/Documents/Downloads/Music/Currents/11 Reality in Motion.m4a
 /Users/martin/Documents/Downloads/Music/Currents/12 Love_Paranoia.m4a
 /Users/martin/Documents/Downloads/Music/Currents/13 New Person, Same Old Mistakes.m4a
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/01 - Watch Your Mouth.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/02 - Pool House.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/03 - Intuition.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/04 - Kilby Girl.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/05 - Dugout.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/06 - Davy Crochet.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/07 - Maple Syrup.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/08 - Olivia.mp3
+/Users/martin/Documents/Downloads/Music/The Backseat Lovers [2019] When We Were Friends @128/09 - Sinking Ship.mp3
 /Users/martin/Documents/Downloads/Music/Songs Of A Lost World/Alone.m4a
 /Users/martin/Documents/Downloads/Music/Songs Of A Lost World/And Nothing Is Forever.m4a
 /Users/martin/Documents/Downloads/Music/Songs Of A Lost World/A Fragile Thing.m4a
@@ -873,6 +1110,20 @@
 /Users/martin/Documents/Downloads/Music/Unity/Unity.m4a
 /Users/martin/Documents/Downloads/Music/Back One Day (Outro Song)/Back One Day (Outro Song).m4a
 /Users/martin/Documents/Downloads/Music/various artists/Skibidi toilet (Lyrics).m4a
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/01 - Turnstile - NEVER ENOUGH.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/02 - Turnstile - SOLE.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/03 - Turnstile - I CARE.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/04 - Turnstile - DREAMING.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/05 - Turnstile - LIGHT DESIGN.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/06 - Turnstile - DULL.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/07 - Turnstile - SUNSHOWER.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/08 - Turnstile - LOOK OUT FOR ME.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/09 - Turnstile - CEILING.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/10 - Turnstile - SEEIN’ STARS.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/11 - Turnstile - BIRDS.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/12 - Turnstile - SLOWDIVE.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/13 - Turnstile - TIME IS HAPPENING.mp3
+/Users/martin/Documents/Downloads/Music/NEVER ENOUGH/14 - Turnstile - MAGIC MAN.mp3
 /Users/martin/Documents/Downloads/Music/Who Really Cares/Taking What's Not Yours.m4a
 /Users/martin/Documents/Downloads/Music/Who Really Cares/Song About Me.m4a
 /Users/martin/Documents/Downloads/Music/Who Really Cares/Cigarettes out the Window.m4a
@@ -972,6 +1223,7 @@
 /Users/martin/Documents/Downloads/Music/Jungle Mania 2/CD 2/Jungle Mania 2 (Disc 2) - 16 - Jazz Note - DJ Krust.flac
 /Users/martin/Documents/Downloads/Music/Jungle Mania 2/CD 2/Jungle Mania 2 (Disc 2) - 17 - Iniquity Worker (Number of the Beast Mix) - D Note featuring Navigtor.flac
 /Users/martin/Documents/Downloads/Music/Jungle Mania 2/CD 2/Jungle Mania 2 (Disc 2) - 18 - Yabba Dabba Doo (M Beat Jungle Mix) - Darkman.flac
+/Users/martin/Documents/Downloads/Music/Decenium Lijst/1914 - Jack Johnson - Upside Down.m4a
 /Users/martin/Documents/Downloads/Music/Lend Me Your Troubles ⧸ Unspoken/Lend Me Your Troubles.m4a
 /Users/martin/Documents/Downloads/Music/wivcore/breakcore-mix.exe.m4a
 /Users/martin/Documents/Downloads/Music/wivcore/try harder.m4a
@@ -986,3 +1238,13 @@
 /Users/martin/Documents/Downloads/Music/wivcore/turn back again.m4a
 /Users/martin/Documents/Downloads/Music/wivcore/the end.m4a
 /Users/martin/Documents/Downloads/Music/various artists/Yellow Is The New White X Chase & Status X Travis Scott X Danny Avila X Playboi Carti - Carnival X Baddadan X Fein X Yes Bitch (Dj Arman Aveiru 'Down' Edit) Dirty 132.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/01-young_franco_master_peace-wake_up-5bef64b2.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/02-young_franco_franc_moody-daydreaming-6734391e.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/03-young_franco_kah-lo-stunt_like_this-3f206c4a.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/04-young_franco_denzel_curry_pell-fallin_apart-fad74da7.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/05-young_franco_piri_mc_dt-going_on-e48323b7.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/06-young_franco_earthgang_jafunk-lose_control-51b6027f.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/07-young_franco_p-rallel_dana_williams-sing_it_back-bf3a416d.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/08-young_franco_general_levy_tommy_villiers-give_thanks_give_praise-2b543aed.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/09-young_franco_pell-juice-35a925db.mp3
+/Users/martin/Documents/Downloads/Music/Young_Franco-its_Franky_baby-WEB-2025-ENRiCH/10-young_franco_muroki-sunrise-0485e526.mp3

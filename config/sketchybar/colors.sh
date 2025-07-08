@@ -7,12 +7,12 @@ export ITEM_COLOR=0xff000000
 export ACCENT_COLOR=0xffc3c6cb
 
 # -- White Scheme --
-# export ITEM_COLOR=0xff000000
-# export ACCENT_COLOR=0xffffffff
+#export ITEM_COLOR=0xff000000
+#export ACCENT_COLOR=0xffffffff
 
 # -- Teal Scheme --
-# export ITEM_COLOR=0xff000000
-# export ACCENT_COLOR=0xff2cf9ed
+#export ITEM_COLOR=0xff000000
+#export ACCENT_COLOR=0xff2cf9ed
 
 # -- Purple Scheme --
 # export ITEM_COLOR=0xff000000
@@ -23,8 +23,8 @@ export ACCENT_COLOR=0xffc3c6cb
 # export ACCENT_COLOR=0xffff2453
 
 # -- Blue Scheme ---
-# export ITEM_COLOR=0xff000000
-# export ACCENT_COLOR=0xff15bdf9
+#export ITEM_COLOR=0xff000000
+#export ACCENT_COLOR=0xff15bdf9
 
 # -- Green Scheme --
 # export ITEM_COLOR=0xff000000
