@@ -1,9 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
-SSID=$(system_profiler SPAirPortDataType | awk '/Current Network Information:/ { getline; print substr($0, 13, (length($0) - 13)); exit }')
+source "$HOME/.config/sketchybar/vars.sh"
 
-if [ "$SSID" = "" ]; then
-  sketchybar --set $NAME icon="􀙈" label="Disconnected"
+# CURRENT_WIFI="$(wdutil info)"
+SSID="$(networksetup -getairportnetwork en0 | sed -E 's/Current Wi-Fi Network: //')"
+# CURR_TX="$(echo "$CURRENT_WIFI" | grep "Tx Rate" | sed -E 's/.*Tx Rate.*: //')"
+
+if [[ "$SSID" = "" ]]; then
+  sketchybar --set wifi label="W!!" label.color="$ISSUE_COLOUR" icon.drawing=off
 else
-  sketchybar --set $NAME icon="􀙇" label="$SSID"
+  sketchybar --set wifi label="W:ON" label.color="$DEFAULT_COLOUR" icon.drawing=off drawing=off
 fi

@@ -25,7 +25,7 @@ ctrl - r : yabai -m space --rotate 90
 ctrl - m : yabai -m space --mirror vertical
 
 # Launch apps
-ctrl - return : open -a "kitty"
+ctrl - return : open -a "iTerm"
 ctrl - s : open -a "Brave Browser"
 ctrl + shift - f : open -a "Finder"
 ctrl - d: open -a "Obsidian"

@@ -6,3 +6,11 @@ image/*)
 ;;
 *) file "$1" ;;
 esac
+case "$1" in
+    *.epub)
+        bk --meta "$1"
+        ;;
+    *)
+        # fallback to something else, or do nothing
+        ;;
+esac

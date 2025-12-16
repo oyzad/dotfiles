@@ -1,42 +1,34 @@
-#!/bin/sh
+#!/bin/zsh
 
-source "$CONFIG_DIR/colors.sh"
+source "$HOME/.config/sketchybar/vars.sh"
 
-PERCENTAGE=$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)
-CHARGING=$(pmset -g batt | grep 'AC Power')
+PERCENTAGE="$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)"
+CHARGING="$(pmset -g batt | grep 'AC Power')"
 
-if [ $PERCENTAGE = "" ]; then
+if [[ "$PERCENTAGE" == "" ]]; then
   exit 0
 fi
 
-case ${PERCENTAGE} in
-9[0-9] | 100)
-  ICON="􀛨"
-  COLOR=$ITEM_COLOR
-  ;;
-[6-8][0-9])
-  ICON="􀺸"
-  COLOR=$ITEM_COLOR
-  ;;
-[3-5][0-9])
-  ICON="􀺶"
-  COLOR="0xFFd97706"
-  ;;
-[1-2][0-9])
-  ICON="􀛩"
-  COLOR="0xFFf97316"
-  ;;
-*)
-  ICON="􀛪"
-  COLOR="0xFFef4444"
-  ;;
-esac
-
-if [[ $CHARGING != "" ]]; then
-  ICON="􀢋"
-  COLOR=$ITEM_COLOR
+if [[ "$PERCENTAGE" == "100" ]]; then
+  sketchybar --set "$NAME" drawing=off
+  exit 0;
 fi
 
-# The item invoking this script (name $NAME) will get its icon and label
-# updated with the current battery status
-sketchybar --set $NAME icon="$ICON" label="${PERCENTAGE}%" icon.color="$COLOR"
+LABEL="B:"
+
+if [[ "$CHARGING" != "" ]]; then
+  LABEL="P:"
+fi
+LABEL="$LABEL$PERCENTAGE"
+
+COLOUR=$DEFAULT_COLOUR
+if (( "$PERCENTAGE" < 40 )); then
+  COLOUR=$WARNING_COLOUR
+fi
+if (( "$PERCENTAGE" < 15 )); then
+  COLOUR=$ISSUE_COLOUR
+fi
+
+# todo: tweak the left gap on this...
+sketchybar --set "$NAME" label="${LABEL}" label.color="${COLOUR}" drawing=on \
+  icon.drawing=off padding_left=7

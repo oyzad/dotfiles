@@ -56,8 +56,6 @@ alias cmus-notify="sh /Users/martin/Documents/finns_coding/bashy/cmus+notify.sh"
 alias get-lyrics="python3 /Users/martin/Documents/finns_coding/python/lyrics.py" 
 alias playlistdown="sh /Users/martin/Documents/finns_coding/bashy/yt-dlp.sh"
 alias slsk='open "/Users/martin/Wine Files/drive_c/Program Files/SoulseekNS/slsk.exe" -a "Wine"'
-export HOMEBREW_NO_AUTO_UPDATE=1
-
 export PATH=$PATH:/Users/martin/.spicetify
 export HOMEBREW_NO_AUTO_UPDATE=1
 export TERM=xterm-256color

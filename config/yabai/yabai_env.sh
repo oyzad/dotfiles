@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apps_transparent="(Spotify|kitty|qTox)"
+apps_transparent="(Spotify|qTox)"
 
 display_resolution=$(system_profiler SPDisplaysDataType | grep Resolution)
 if [[ $(echo "$display_resolution" | grep -c "Resolution") -ge 2 ]]; then

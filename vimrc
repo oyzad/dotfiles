@@ -19,9 +19,6 @@ set backspace=indent,eol,start " Intuitive backspace behavior
 set ruler 
 set wildmenu 
 
-
-
-
 " Use case-insensitive search
 set ignorecase
 set smartcase
@@ -50,5 +47,3 @@ let g:rainbow_ctermfgs = ['204', '223', '229', '157', '159', '217']
 
 " Toggle NERDTree with Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
-
-

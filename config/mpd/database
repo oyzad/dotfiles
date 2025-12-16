@@ -37,6 +37,25 @@ tag: MUSICBRAINZ_RELEASETRACKID
 tag: MUSICBRAINZ_WORKID
 tag: MUSICBRAINZ_RELEASEGROUPID
 info_end
+directory: (2012) Colourmeinkindness
+mtime: 1758644202
+begin: (2012) Colourmeinkindness
+song_begin: Covet.m4a
+Time: 227.34
+Artist: Basement
+Album: Colourmeinkindness
+Title: Covet
+Track: 2
+Genre: Alternatif et Indé
+Date: 2012
+Disc: 1
+Label: Run For Cover Records
+AlbumArtist: Basement
+Format: 44100:16:2
+mtime: 1758644343
+added: 1758659590
+song_end
+end: (2012) Colourmeinkindness
 directory: 1991 - Blood Sugar Sex Magik
 mtime: 1750959057
 begin: 1991 - Blood Sugar Sex Magik
@@ -2438,6 +2457,24 @@ mtime: 1680122169
 added: 1750582491
 song_end
 end: Bass Belters 4
+directory: Beatport Top 100 - July 2025
+mtime: 1757607177
+begin: Beatport Top 100 - July 2025
+song_begin: Skepta, Sammy Virji - Cops & Robbers (Extended Mix).flac
+Time: 212.559
+Album: Cops & Robbers (Extended Mix)
+AlbumArtist: Skepta, Sammy Virji
+Artist: Skepta, Sammy Virji
+Date: 2025-05-29
+Genre: Dance / Pop
+Label: Positiva
+Title: Cops & Robbers (Extended Mix)
+Track: 67
+Format: 44100:16:2
+mtime: 1757607209
+added: 1757607226
+song_end
+end: Beatport Top 100 - July 2025
 directory: Blonde
 mtime: 1728849068
 begin: Blonde
@@ -3234,6 +3271,360 @@ mtime: 1744192109
 added: 1750582494
 song_end
 end: Bruno Mars
+directory: Business As Usual
+mtime: 1762798493
+begin: Business As Usual
+song_begin: 01 Who Can It Be Now-.mp3
+Time: 205.595
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Who Can It Be Now?
+Album: Business as Usual
+Track: 1
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: Rock/New Wave
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 2da5df6d-5993-3ba8-8ae6-ba64fa7cc52a
+MUSICBRAINZ_TRACKID: 34111948-8e27-4422-8012-2e41980094c1
+Format: 44100:16:2
+mtime: 1762798419
+added: 1762798592
+song_end
+song_begin: 02 I Can See It In Your Eyes.mp3
+Time: 212.752
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: I Can See It in Your Eyes
+Album: Business as Usual
+Track: 2
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock/Pop Rock
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 72b639de-9ee3-3f5c-9994-e070a7e0907f
+MUSICBRAINZ_TRACKID: 549d21b7-73f7-4dfc-92fc-0a27fd262fed
+Format: 44100:16:2
+mtime: 1762798424
+added: 1762798592
+song_end
+song_begin: 03 Down Under.mp3
+Time: 225.94400000000002
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Down Under
+Album: Business as Usual
+Track: 3
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Pop Rock
+Composer: Colin Hay; Ron Strykert
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 121c5ca8-cfdf-3f1a-b22d-9240299d237f
+MUSICBRAINZ_TRACKID: 78c2a211-1c63-48f1-ad20-28b70eb98491
+Format: 44100:16:2
+mtime: 1762798431
+added: 1762798592
+song_end
+song_begin: 04 Underground.mp3
+Time: 187.701
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Underground
+Album: Business as Usual
+Track: 4
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: f1779c3c-b398-3df0-9e22-c33e98ab327a
+MUSICBRAINZ_TRACKID: 8dfd04cd-0320-44e0-b5cc-199565e4ec68
+Format: 44100:16:2
+mtime: 1762798435
+added: 1762798592
+song_end
+song_begin: 05 Helpless Automaton.mp3
+Time: 203.08700000000002
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Helpless Automaton
+Album: Business as Usual
+Track: 5
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Greg Ham
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 53045354-a434-3f1c-9da3-065dd9992bfb
+MUSICBRAINZ_TRACKID: d659153d-c52c-48f4-98ae-792a1e2e9372
+Format: 44100:16:2
+mtime: 1762798446
+added: 1762798592
+song_end
+song_begin: 06 People Just Love To Play With Words.mp3
+Time: 212.439
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: People Just Love to Play With Words
+Album: Business as Usual
+Track: 6
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Ron Strykert
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: d6a76b86-a16c-3a22-a151-d2c3521358ca
+MUSICBRAINZ_TRACKID: 78013cf3-5498-4757-8f86-d7dacde23eb4
+Format: 44100:16:2
+mtime: 1762798452
+added: 1762798592
+song_end
+song_begin: 07 Be Good Johnny.mp3
+Time: 219.936
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Be Good Johnny
+Album: Business as Usual
+Track: 7
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave
+Composer: Colin Hay; Greg Ham
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: f881df50-68a5-350b-95cb-d22dc57540ab
+MUSICBRAINZ_TRACKID: 3e2d445e-a610-470d-8729-33dcf7595ac3
+Format: 44100:16:2
+mtime: 1762798459
+added: 1762798592
+song_end
+song_begin: 08 Touching The Untouchables.mp3
+Time: 221.686
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Touching the Untouchables
+Album: Business as Usual
+Track: 8
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Colin Hay; Ron Strykert
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: f7c11996-72d9-333c-84e1-2ad370013401
+MUSICBRAINZ_TRACKID: 67e60e4b-e636-4fd6-8d73-32a946f3f782
+Format: 44100:16:2
+mtime: 1762798465
+added: 1762798592
+song_end
+song_begin: 09 Catch A Star.mp3
+Time: 212.491
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Catch a Star
+Album: Business as Usual
+Track: 9
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 4cef0aba-d618-351d-aa27-92fd77938e52
+MUSICBRAINZ_TRACKID: b15e9a41-fd5d-4e54-98ef-dc7ceec909a8
+Format: 44100:16:2
+mtime: 1762798469
+added: 1762798592
+song_end
+song_begin: 10 Down By The Sea.mp3
+Time: 415.41
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Down by the Sea
+Album: Business as Usual
+Track: 10
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Colin Hay; Greg Ham; Jerry Speiser; Ron Strykert
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 0decc557-bff1-3229-a40a-8481bd218319
+MUSICBRAINZ_TRACKID: 79f7ee67-161f-4f73-aaf1-48270e87f190
+Format: 44100:16:2
+mtime: 1762798477
+added: 1762798592
+song_end
+song_begin: 11 Crazy [Non LP B-Side].mp3
+Time: 157.477
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Crazy
+Album: Business as Usual
+Track: 11
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: Rock/Pop Rock/New Wave
+Composer: Ron Strykert
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 0e9c0a0d-4154-34d8-a6a7-e661a34307d5
+MUSICBRAINZ_TRACKID: 675fdf00-9edb-4f33-aaa9-44dd017023b6
+Format: 44100:16:2
+mtime: 1762798481
+added: 1762798592
+song_end
+song_begin: 12 Underground [Live].mp3
+Time: 223.149
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Underground (live)
+Album: Business as Usual
+Track: 12
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: Rock/New Wave
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 4ef784cb-4dce-33c1-a73c-4080c8615b36
+MUSICBRAINZ_TRACKID: f51991a5-6c6a-4d06-8d3e-e2f536072731
+Format: 44100:16:2
+mtime: 1762798487
+added: 1762798592
+song_end
+song_begin: 13 Who Can It Be Now- [Live].mp3
+Time: 246.946
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: Who Can It Be Now? (live)
+Album: Business as Usual
+Track: 13
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave/Rock
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: c9f0e249-36a5-3b20-9595-7488c82b5fce
+MUSICBRAINZ_TRACKID: df0be3b5-ebb3-4155-b1d7-c3cd22adf699
+Format: 44100:16:2
+mtime: 1762798492
+added: 1762798592
+song_end
+song_begin: 14 F-19 [Non LP B-Side].mp3
+Time: 232.866
+Artist: Men at Work
+AlbumArtist: Men at Work
+ArtistSort: Men at Work
+AlbumArtistSort: Men at Work
+Title: F-19
+Album: Business as Usual
+Track: 14
+Date: 2003-02-11
+OriginalDate: 1981
+Genre: New Wave
+Composer: Colin Hay
+Disc: 1
+Label: Legacy
+MUSICBRAINZ_ALBUMID: f43f6018-82e1-3b7a-b5ac-5594d40a0a63
+MUSICBRAINZ_ARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_ALBUMARTISTID: 395cc503-63b5-4a0b-a20a-604e3fcacea2
+MUSICBRAINZ_RELEASEGROUPID: c9bff180-434f-3c93-aba5-ff579e3976aa
+MUSICBRAINZ_RELEASETRACKID: 1371abbb-e6e3-390c-a971-3e0f39ff7474
+MUSICBRAINZ_TRACKID: dd3001c4-dc63-44a7-bd24-afe368cbc66a
+Format: 44100:16:2
+mtime: 1762798498
+added: 1762798592
+song_end
+end: Business As Usual
 directory: By the Way
 mtime: 1747952563
 begin: By the Way
@@ -3675,6 +4066,25 @@ mtime: 1746549395
 added: 1750582490
 song_end
 end: Californication
+directory: CD1
+mtime: 1758467048
+begin: CD1
+song_begin: 19. Katy Perry - Hot N Cold.m4a
+Time: 220.893
+Artist: Katy Perry
+Album: Now That's What I Call Music! 71
+Title: Hot N Cold
+Track: 19
+Genre: Alternative Rock/House/Brit Pop/Electro/Ballad/Contemporary R&B
+Date: 2008
+Composer: Katy Perry/L. "Doctor Luke" Gottwald/Max Martin
+Disc: 1
+AlbumArtist: Various
+Format: 44100:16:2
+mtime: 1758467109
+added: 1758467309
+song_end
+end: CD1
 directory: Chase and Status
 mtime: 1745159067
 begin: Chase and Status
@@ -4382,6 +4792,181 @@ added: 1750582493
 song_end
 end: Chase and Status/More Than Alot
 end: Chase and Status
+directory: covers
+mtime: 1758393616
+begin: covers
+song_begin: 1979 - smashing pumpkins (cover) by alicia widar.m4a
+Time: 235.02100000000002
+Artist: Alicia Widar
+Album: Covers
+Title: 1979
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: and i love her (kurt's version) - the beatles (cover) by alicia widar.m4a
+Time: 133.281
+Artist: Alicia Widar
+Album: Covers
+Title: and i love her 
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: black hole sun - soundgarden (cover) by alicia widar.m4a
+Time: 240.52100000000002
+Artist: Alicia Widar
+Album: Covers
+Title: black hole sun
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: dumb - nirvana (cover) by alicia widar.m4a
+Time: 138.421
+Artist: Alicia Widar
+Album: Covers
+Title: dumb
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441386
+song_end
+song_begin: everlong - foo fighters (cover) by alicia widar.m4a
+Time: 245.761
+Artist: Alicia Widar
+Album: Covers
+Title: everlong
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: heart-shaped box - nirvana (cover) by alicia widar.m4a
+Time: 311.161
+Artist: Alicia Widar
+Album: Covers
+Title: heart shaped box
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: hey - pixies (cover) by alicia widar.m4a
+Time: 166.881
+Artist: Alicia Widar
+Album: Covers
+Title: hey
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441386
+song_end
+song_begin: in bloom - nirvana (cover) by alicia widar.m4a
+Time: 176.241
+Artist: Alicia Widar
+Album: Covers
+Title: in bloom
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: island in the sun - weezer (cover) by alicia widar.m4a
+Time: 161.921
+Artist: Alicia Widar
+Album: Covers
+Title: island in the sun
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441386
+song_end
+song_begin: karma police - radiohead (cover) by alicia widar.m4a
+Time: 206.321
+Artist: Alicia Widar
+Album: Covers
+Title: karma police
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: linger - the cranberries (cover) by alicia widar.m4a
+Time: 261.221
+Artist: Alicia Widar
+Album: Covers
+Title: linger
+Format: 48000:f:2
+mtime: 1758393761
+added: 1758441387
+song_end
+song_begin: lithium - nirvana (cover) by alicia widar.m4a
+Time: 240.30100000000002
+Artist: Alicia Widar
+Album: Covers
+Title: lithium
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441386
+song_end
+song_begin: say it ain't so - weezer (cover) by alicia widar.m4a
+Time: 243.421
+Artist: Alicia Widar
+Album: Covers
+Title: say it ain't so
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: something in the way - nirvana (cover) by alicia widar.m4a
+Time: 173.621
+Artist: Alicia Widar
+Album: Covers
+Title: something in the way
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: the world has turned and left me here - weezer (cover) by alicia widar.m4a
+Time: 205.661
+Artist: Alicia Widar
+Album: Covers
+Title: the world has turned and left me here 
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: undone (the sweater song) - weezer (cover) by alicia widar.m4a
+Time: 162.961
+Artist: Alicia Widar
+Album: Covers
+Title: undone (the sweater song)
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: washing machine heart - mitski (cover) by alicia widar.m4a
+Time: 130.901
+Artist: Alicia Widar
+Album: Covers
+Title: washing machine heart
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: where is my mind？ - pixies (cover) by alicia widar.m4a
+Time: 209.981
+Artist: Alicia Widar
+Album: Covers
+Title: where is my mind？
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+song_begin: zombie - the cranberries (cover) by alicia widar.m4a
+Time: 216.681
+Artist: Alicia Widar
+Album: Covers
+Title: zombie
+Format: 48000:f:2
+mtime: 1758393762
+added: 1758441387
+song_end
+end: covers
 directory: Currents
 mtime: 1744117497
 begin: Currents
@@ -7451,6 +8036,101 @@ mtime: 1744117047
 added: 1750582491
 song_end
 end: Gorillaz Essentials
+directory: Green Day
+mtime: 1762883666
+begin: Green Day
+directory: 1994 - Dookie
+mtime: 1762799202
+begin: Green Day/1994 - Dookie
+song_begin: 10 - When I Come Around.mp3
+Time: 178.233
+Artist: Green Day
+Title: When I Come Around
+Album: Dookie
+Track: 10
+Date: 1994
+Format: 44100:16:2
+mtime: 1762799205
+added: 1762883673
+song_end
+end: Green Day/1994 - Dookie
+directory: American Idiot
+mtime: 1762799424
+begin: Green Day/American Idiot
+song_begin: American Idiot.mp3
+Time: 174.335
+Artist: Green Day
+AlbumArtist: Green Day
+Title: American Idiot
+Album: American Idiot
+Format: 44100:16:2
+mtime: 1762799314
+added: 1762883673
+song_end
+song_begin: Boulevard of Broken Dreams.mp3
+Time: 274.796
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Boulevard of Broken Dreams
+Album: American Idiot
+Format: 44100:16:2
+mtime: 1762799423
+added: 1762883673
+song_end
+song_begin: Wake Me up When September Ends.mp3
+Time: 285.653
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Wake Me up When September Ends
+Album: American Idiot
+Format: 48000:16:2
+mtime: 1762799555
+added: 1762883673
+song_end
+end: Green Day/American Idiot
+directory: Dookie
+mtime: 1762799148
+begin: Green Day/Dookie
+song_begin: Basket Case.mp3
+Time: 181.53300000000002
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Basket Case
+Album: Dookie
+Format: 48000:16:2
+mtime: 1762799233
+added: 1762883673
+song_end
+end: Green Day/Dookie
+directory: Insomniac
+mtime: 1762799179
+begin: Green Day/Insomniac
+song_begin: 10-Brain Stew.mp3
+Time: 193.014
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Brain Stew
+Album: Insomniac
+Track: 10
+Date: 1995-10-10
+OriginalDate: 1995-10-06
+Genre: Alternative Rock
+Genre: Hardcore Punk
+Genre: Pop
+Genre: Pop Punk
+Genre: Post-Grunge
+Genre: Punk
+Genre: Punk Rock
+Genre: Rock
+Disc: 1
+Label: Reprise Records
+MUSICBRAINZ_TRACKID: cff07a49-2f48-4644-8086-29057a995c57
+Format: 44100:16:2
+mtime: 1762799183
+added: 1762883673
+song_end
+end: Green Day/Insomniac
+end: Green Day
 directory: Halo
 mtime: 1728493752
 begin: Halo
@@ -7576,6 +8256,70 @@ mtime: 1728851094
 added: 1750582492
 song_end
 end: Halo
+directory: Hard Work： EP
+mtime: 1759667960
+begin: Hard Work： EP
+song_begin: Bees.m4a
+Time: 165.754
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: Bees
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759326382
+added: 1759770936
+song_end
+song_begin: Lame.m4a
+Time: 183.09900000000002
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: Lame
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759326292
+added: 1759770936
+song_end
+song_begin: Squares & Walls.m4a
+Time: 199.098
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: Squares & Walls
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759327777
+added: 1759770936
+song_end
+song_begin: The Night Has To End.m4a
+Time: 222.875
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: The Night Has To End
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759326785
+added: 1759770936
+song_end
+song_begin: Uncle Yawn (jam).m4a
+Time: 341.32
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: Uncle Yawn (jam)
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759326707
+added: 1759770936
+song_end
+song_begin: Unorthodox.m4a
+Time: 208.873
+Artist: Empty Chairs
+Album: Hard Work: EP
+Title: Unorthodox
+Date: 20251001
+Format: 44100:f:2
+mtime: 1759326627
+added: 1759770936
+song_end
+end: Hard Work： EP
 directory: Her Love Still Haunts Me Like a Ghost
 mtime: 1729097791
 begin: Her Love Still Haunts Me Like a Ghost
@@ -7657,6 +8401,270 @@ mtime: 1729097993
 added: 1750582493
 song_end
 end: Her Love Still Haunts Me Like a Ghost
+directory: Hozier - Hozier
+mtime: 1753016433
+begin: Hozier - Hozier
+song_begin: 01. Take Me to Church.m4a
+Time: 241.68800000000002
+Artist: Hozier
+Album: Hozier
+Title: Take Me to Church
+Track: 1
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Take Me to Church
+Format: 48000:32:2
+mtime: 1753016287
+added: 1753016832
+song_end
+song_begin: 02. Angel of Small Death and the Codeine Scene.m4a
+Time: 219.214
+Artist: Hozier
+Album: Hozier
+Title: Angel of Small Death and the Codeine Scene
+Track: 2
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Angel of Small Death and the Codeine Scene
+Format: 48000:32:2
+mtime: 1753016152
+added: 1753016832
+song_end
+song_begin: 03. Jackie and Wilson.m4a
+Time: 223.12
+Artist: Hozier
+Album: Hozier
+Title: Jackie and Wilson
+Track: 3
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Jackie and Wilson
+Format: 48000:32:2
+mtime: 1753016329
+added: 1753016832
+song_end
+song_begin: 04. Someone New.m4a
+Time: 222.814
+Artist: Hozier
+Album: Hozier
+Title: Someone New
+Track: 4
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier & Sallay-Matu Garnett
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Someone New
+Format: 48000:32:2
+mtime: 1753016176
+added: 1753016832
+song_end
+song_begin: 05. To Be Alone.m4a
+Time: 323.64
+Artist: Hozier
+Album: Hozier
+Title: To Be Alone
+Track: 5
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier & Junior Kimbrough
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: To Be Alone
+Format: 48000:32:2
+mtime: 1753016204
+added: 1753016832
+song_end
+song_begin: 06. From Eden.m4a
+Time: 283.467
+Artist: Hozier
+Album: Hozier
+Title: From Eden
+Track: 6
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: From Eden
+Format: 48000:32:2
+mtime: 1753016230
+added: 1753016832
+song_end
+song_begin: 07. In a Week (feat. Karen Cowley).m4a
+Time: 318.493
+Artist: Hozier
+Album: Hozier
+Title: In a Week (feat. Karen Cowley)
+Track: 7
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: In a Week (feat. Karen Cowley)
+Format: 48000:32:2
+mtime: 1753016264
+added: 1753016832
+song_end
+song_begin: 08. Sedated.m4a
+Time: 207.669
+Artist: Hozier
+Album: Hozier
+Title: Sedated
+Track: 8
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Sedated
+Format: 48000:32:2
+mtime: 1753016307
+added: 1753016832
+song_end
+song_begin: 09. Work Song.m4a
+Time: 229.716
+Artist: Hozier
+Album: Hozier
+Title: Work Song
+Track: 9
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Work Song
+Format: 48000:32:2
+mtime: 1753016348
+added: 1753016832
+song_end
+song_begin: 10. Like Real People Do.m4a
+Time: 198.029
+Artist: Hozier
+Album: Hozier
+Title: Like Real People Do
+Track: 10
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Like Real People Do
+Format: 48000:32:2
+mtime: 1753016365
+added: 1753016832
+song_end
+song_begin: 11. It Will Come Back.m4a
+Time: 277.65500000000003
+Artist: Hozier
+Album: Hozier
+Title: It Will Come Back
+Track: 11
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: It Will Come Back
+Format: 48000:32:2
+mtime: 1753016390
+added: 1753016832
+song_end
+song_begin: 12. Foreigner's God.m4a
+Time: 225.216
+Artist: Hozier
+Album: Hozier
+Title: Foreigner's God
+Track: 12
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Foreigner's God
+Format: 48000:32:2
+mtime: 1753016411
+added: 1753016832
+song_end
+song_begin: 13. Cherry Wine (Live).m4a
+Time: 240.147
+Artist: Hozier
+Album: Hozier
+Title: Cherry Wine (Live)
+Track: 13
+Genre: Alternative
+Date: 2014-09-19
+Composer: Hozier
+Performer: Hozier
+Label: Columbia
+AlbumArtist: Hozier
+AlbumArtistSort: Hozier
+AlbumSort: Hozier
+ArtistSort: Hozier
+TitleSort: Cherry Wine (Live)
+Format: 48000:32:2
+mtime: 1753016432
+added: 1753016832
+song_end
+end: Hozier - Hozier
 directory: Humble As The Sun
 mtime: 1748276682
 begin: Humble As The Sun
@@ -9212,16 +10220,22 @@ added: 1750582491
 song_end
 end: Liquor & Cigarettes
 directory: Loud
-mtime: 1750964564
+mtime: 1753008174
 begin: Loud
-song_begin: 01 S&M.mp3
+song_begin: S&M.mp3
+Time: 243.484
 Artist: Rihanna
+AlbumArtist: Rihanna
 Title: S&M
 Album: Loud
 Track: 1
-Format: 32000:16:2
-mtime: 1750964643
-added: 1750964576
+Date: 2010
+Genre: 5+ Wochen
+Disc: 1
+Label: The Island Def Jam Music Group
+Format: 44100:16:2
+mtime: 1753008189
+added: 1753014546
 song_end
 end: Loud
 directory: Loyle Carner - hopefully ! (2025)
@@ -9419,6 +10433,22 @@ mtime: 1751106758
 added: 1751106888
 song_end
 end: Loyle Carner - hopefully ! (2025)
+directory: Men At Work
+mtime: 1762798028
+begin: Men At Work
+song_begin: 01 - Down Under.flac
+Time: 219.293
+Genre: Pop
+Track: 1
+Artist: Men At Work
+Album: Simply The Best
+Date: 1998
+Title: Down Under
+Format: 44100:16:2
+mtime: 1762798142
+added: 1762798169
+song_end
+end: Men At Work
 directory: Micah.
 mtime: 1739017331
 begin: Micah.
@@ -10160,6 +11190,21 @@ mtime: 1747952361
 added: 1750582494
 song_end
 end: Nevermind
+directory: New DJ Music 01-14-24
+mtime: 1762798283
+begin: New DJ Music 01-14-24
+song_begin: Issey Cross - Bittersweet Goodbye.mp3
+Time: 166.778
+Artist: Issey Cross
+Title: Bittersweet Goodbye
+Album: Bittersweet Goodbye
+Track: 1
+Date: 2023
+Format: 44100:16:2
+mtime: 1762798290
+added: 1762798308
+song_end
+end: New DJ Music 01-14-24
 directory: New Mythology
 mtime: 1729096000
 begin: New Mythology
@@ -11155,25 +12200,6 @@ mtime: 1725712448
 added: 1750582491
 song_end
 end: Phoneboy
-directory: Playlists
-mtime: 1746278580
-begin: Playlists
-playlist_begin: Jungle Mania 2 (Disc 2).m3u
-mtime: 1744368706
-playlist_end
-playlist_begin: sigm.m3u
-mtime: 1746278740
-playlist_end
-playlist_begin: Playlist 1.m3u
-mtime: 1745677751
-playlist_end
-playlist_begin: Jungle Mania 2 (Disc 1).m3u
-mtime: 1744367961
-playlist_end
-playlist_begin: fixed_playlist.m3u
-mtime: 1746277996
-playlist_end
-end: Playlists
 directory: Pop Smoke
 mtime: 1744816422
 begin: Pop Smoke
@@ -11979,6 +13005,38 @@ mtime: 1742038915
 added: 1750582489
 song_end
 end: Second Nature (feat. Jozzy)
+directory: Shelly - Shelly
+mtime: 1758471354
+begin: Shelly - Shelly
+song_begin: 01 - Steeeam.m4a
+Time: 170.893
+Artist: Shelly
+Album: Shelly
+Title: Steeeam
+Track: 1
+Genre: Alternative;Rock;Rock Indé/Pop Rock
+Date: 2020-10-30
+Disc: 1
+AlbumArtist: Shelly
+Format: 44100:16:2
+mtime: 1758471354
+added: 1758471401
+song_end
+song_begin: 02 - Natural.m4a
+Time: 163.76500000000001
+Artist: Shelly
+Album: Shelly
+Title: Natural
+Track: 2
+Genre: Alternative;Rock;Rock Indé/Pop Rock
+Date: 2020-10-30
+Disc: 1
+AlbumArtist: Shelly
+Format: 44100:16:2
+mtime: 1758471355
+added: 1758471401
+song_end
+end: Shelly - Shelly
 directory: Sick Boi
 mtime: 1735908985
 begin: Sick Boi
@@ -12198,6 +13256,75 @@ mtime: 1712884159
 added: 1750582491
 song_end
 end: Silence Is Loud
+directory: Skepta Fred
+mtime: 1758471603
+begin: Skepta Fred
+song_begin: 01 - Back 2 Back.m4a
+Time: 187.411
+Artist: Skepta;Fred again..
+Album: Skepta .. Fred
+Title: Back 2 Back
+Track: 1
+Date: 2025
+Disc: 1
+AlbumArtist: Skepta;Fred again..
+Format: 44100:16:2
+mtime: 1758471599
+added: 1758471687
+song_end
+song_begin: 02 - London.m4a
+Time: 166.929
+Artist: Skepta;Fred again..
+Album: Skepta .. Fred
+Title: London
+Track: 2
+Date: 2025
+Disc: 1
+AlbumArtist: Skepta;Fred again..
+Format: 44100:16:2
+mtime: 1758471600
+added: 1758471687
+song_end
+song_begin: 03 - Last 1s Left.m4a
+Time: 225.897
+Artist: Skepta;Fred again..
+Album: Skepta .. Fred
+Title: Last 1s Left
+Track: 3
+Date: 2025
+Disc: 1
+AlbumArtist: Skepta;Fred again..
+Format: 44100:16:2
+mtime: 1758471602
+added: 1758471687
+song_end
+song_begin: 04 - 21 Years.m4a
+Time: 225
+Artist: Skepta;Fred again..
+Album: Skepta .. Fred
+Title: 21 Years
+Track: 4
+Date: 2025
+Disc: 1
+AlbumArtist: Skepta;Fred again..
+Format: 44100:16:2
+mtime: 1758471603
+added: 1758471687
+song_end
+song_begin: 05 - Victory Lap.m4a
+Time: 165.857
+Artist: Fred again..;Skepta;PlaqueBoyMax
+Album: Skepta .. Fred
+Title: Victory Lap
+Track: 5
+Date: 2025
+Disc: 1
+AlbumArtist: Skepta;Fred again..
+Format: 44100:16:2
+mtime: 1758471605
+added: 1758471687
+song_end
+end: Skepta Fred
 directory: Songs Of A Lost World
 mtime: 1734471002
 begin: Songs Of A Lost World
@@ -12674,6 +13801,106 @@ mtime: 1673544874
 added: 1750582491
 song_end
 end: Stars On The Roof (feat. MOMO)
+directory: Stereophonics - Make ‘em Laugh, Make ‘em Cry, Make ‘em Wait
+mtime: 1753016586
+begin: Stereophonics - Make ‘em Laugh, Make ‘em Cry, Make ‘em Wait
+song_begin: 01 - Make It On Your Own.mp3
+Time: 320.75100000000003
+Artist: Stereophonics
+Title: Make It On Your Own
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 1
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016449
+added: 1753016832
+song_end
+song_begin: 02 - There’s Always Gonna Be Someth.mp3
+Time: 242.87800000000001
+Artist: Stereophonics
+Title: There’s Always Gonna Be Someth
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 2
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016470
+added: 1753016832
+song_end
+song_begin: 03 - Seems Like You Don’t Know Me.mp3
+Time: 217.103
+Artist: Stereophonics
+Title: Seems Like You Don’t Know Me
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 3
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016496
+added: 1753016832
+song_end
+song_begin: 04 - Colours Of October.mp3
+Time: 166.395
+Artist: Stereophonics
+Title: Colours Of October
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 4
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016514
+added: 1753016832
+song_end
+song_begin: 05 - Eyes Too Big For My Belly.mp3
+Time: 163.162
+Artist: Stereophonics
+Title: Eyes Too Big For My Belly
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 5
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016530
+added: 1753016832
+song_end
+song_begin: 06 - Mary Is A Singer.mp3
+Time: 199.529
+Artist: Stereophonics
+Title: Mary Is A Singer
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 6
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016557
+added: 1753016832
+song_end
+song_begin: 07 - Backroom Boys.mp3
+Time: 252.15
+Artist: Stereophonics
+Title: Backroom Boys
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 7
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016585
+added: 1753016832
+song_end
+song_begin: 08 - Feeling Of Falling We Crave.mp3
+Time: 223.471
+Artist: Stereophonics
+Title: Feeling Of Falling We Crave
+Album: Make ‘em Laugh, Make ‘em Cry,
+Track: 8
+Date: 2025
+Genre: Britpop
+Format: 44100:16:2
+mtime: 1753016607
+added: 1753016832
+song_end
+end: Stereophonics - Make ‘em Laugh, Make ‘em Cry, Make ‘em Wait
 directory: Sub Focus
 mtime: 1739017428
 begin: Sub Focus
@@ -12800,6 +14027,22 @@ mtime: 1739209806
 added: 1750582492
 song_end
 end: Sunset Ballad
+directory: Surfer Rosa
+mtime: 1752967563
+begin: Surfer Rosa
+song_begin: 07 Where Is My Mind.mp3
+Time: 234.973
+Artist: Pixies
+Title: Where Is My Mind?
+Album: Surfer Rosa
+Track: 7
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1752967567
+added: 1752967595
+song_end
+end: Surfer Rosa
 directory: Sweet Boy
 mtime: 1741513271
 begin: Sweet Boy
@@ -12994,6 +14237,297 @@ mtime: 1610495572
 added: 1750582493
 song_end
 end: Switch
+directory: Teenage Dream - The Complete Confection
+mtime: 1759770757
+begin: Teenage Dream - The Complete Confection
+song_begin: 01 Teenage Dream.m4a
+Time: 227.811
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Teenage Dream
+Track: 1
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald, Benjamin Levin & Bonnie McKee
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770433
+added: 1759770936
+song_end
+song_begin: 02 Last Friday Night (T.G.I.F.).m4a
+Time: 230.806
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Last Friday Night (T.G.I.F.)
+Track: 2
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald & Bonnie McKee
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770448
+added: 1759770936
+song_end
+song_begin: 03 California Gurls (feat. Snoop Dogg).m4a
+Time: 234.707
+Artist: Katy Perry & Snoop Dogg
+Album: Teenage Dream - The Complete Confection
+Title: California Gurls (feat. Snoop Dogg)
+Track: 3
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Calvin Broadus, Lukasz Gottwald, Benjamin Levin & Bonnie McKee
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770458
+added: 1759770936
+song_end
+song_begin: 04 Firework.m4a
+Time: 227.95000000000002
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Firework
+Track: 4
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Tor Erik Hermansen, Mikkel S. Eriksen, Sandy Wilhelm & Ester Dean
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770497
+added: 1759770936
+song_end
+song_begin: 05 Peacock.m4a
+Time: 231.991
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Peacock
+Track: 5
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Tor Erik Hermansen, Mikkel S. Eriksen & Ester Dean
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770528
+added: 1759770936
+song_end
+song_begin: 06 Circle the Drain.m4a
+Time: 272.974
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Circle the Drain
+Track: 6
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Christopher Stewart & Monte Neuble
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770580
+added: 1759770936
+song_end
+song_begin: 07 The One That Got Away.m4a
+Time: 227.393
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: The One That Got Away
+Track: 7
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin & Lukasz Gottwald
+Disc: 1
+AlbumArtist: Katy Perry
+TitleSort: One That Got Away
+Format: 44100:f:2
+mtime: 1759770598
+added: 1759770936
+song_end
+song_begin: 08 E.T..m4a
+Time: 206.425
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: E.T.
+Track: 8
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald & Joshua Coleman
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770610
+added: 1759770936
+song_end
+song_begin: 09 Who Am I Living For_.m4a
+Time: 248.59300000000002
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Who Am I Living For?
+Track: 9
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Brian Thomas, Christopher Stewart & Monte Neuble
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770632
+added: 1759770936
+song_end
+song_begin: 10 Pearl.m4a
+Time: 247.687
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Pearl
+Track: 10
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Christopher Stewart & Greg Wells
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770654
+added: 1759770936
+song_end
+song_begin: 11 Hummingbird Heartbeat.m4a
+Time: 212.346
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Hummingbird Heartbeat
+Track: 11
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Christopher Stewart, Monte Neuble & Stacy Barthe
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770664
+added: 1759770936
+song_end
+song_begin: 12 Not Like the Movies.m4a
+Time: 241.371
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Not Like the Movies
+Track: 12
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry & Greg Wells
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770675
+added: 1759770936
+song_end
+song_begin: 13 The One That Got Away (Acoustic).m4a
+Time: 259.088
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: The One That Got Away (Acoustic)
+Track: 13
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin & Lukasz Gottwald
+Disc: 1
+AlbumArtist: Katy Perry
+TitleSort: One That Got Away (Acoustic)
+Format: 44100:f:2
+mtime: 1759770692
+added: 1759770936
+song_end
+song_begin: 14 Part of Me.m4a
+Time: 216.22400000000002
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Part of Me
+Track: 14
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald & Bonnie McKee
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770704
+added: 1759770936
+song_end
+song_begin: 15 Wide Awake.m4a
+Time: 221.008
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Wide Awake
+Track: 15
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald, Bonnie McKee & Henry Walter
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770714
+added: 1759770936
+song_end
+song_begin: 16 Dressin' Up.m4a
+Time: 223.608
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Dressin' Up
+Track: 16
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Matt Thiessen, Christopher Stewart & Monte Neuble
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770723
+added: 1759770936
+song_end
+song_begin: 17 E.T. (feat. Kanye West).m4a
+Time: 229.622
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: E.T. (feat. Kanye West)
+Track: 17
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald & Joshua Coleman
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770741
+added: 1759770936
+song_end
+song_begin: 18 Last Friday Night (T.G.I.F.) [feat. Missy Elliott].m4a
+Time: 238.817
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Last Friday Night (T.G.I.F.) [feat. Missy Elliott]
+Track: 18
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Max Martin, Lukasz Gottwald & Bonnie McKee
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770756
+added: 1759770936
+song_end
+song_begin: 19 Tommie Sunshine's Megasix Smash-Up.m4a
+Time: 423.11400000000003
+Artist: Katy Perry
+Album: Teenage Dream - The Complete Confection
+Title: Tommie Sunshine's Megasix Smash-Up
+Track: 19
+Genre: Pop
+Date: 2012-03-23T07:00:00Z
+Composer: Katy Perry, Tor Erik Hermansen, Max Martin, Mikkel S. Eriksen, Calvin Broadus, Lukasz Gottwald, Sandy Wilhelm, Benjamin Levin, Bonnie McKee, Joshua Coleman & Ester Dean
+Disc: 1
+AlbumArtist: Katy Perry
+Format: 44100:f:2
+mtime: 1759770772
+added: 1759770936
+song_end
+end: Teenage Dream - The Complete Confection
 directory: The Backseat Lovers [2019] When We Were Friends @128
 mtime: 1746287831
 begin: The Backseat Lovers [2019] When We Were Friends @128
@@ -13125,7 +14659,7 @@ added: 1750582493
 song_end
 end: The Backseat Lovers [2019] When We Were Friends @128
 directory: The Days
-mtime: 1750626563
+mtime: 1753008039
 begin: The Days
 directory: Chrystal - The Days (NOTION Remix)
 mtime: 1750618995
@@ -13629,6 +15163,43 @@ mtime: 1731705579
 added: 1750582492
 song_end
 end: The Lo-Fis
+directory: Thiago Silva
+mtime: 1762797362
+begin: Thiago Silva
+song_begin: 01 Thiago Silva.mp3
+Time: 201.979
+Artist: Dave
+Title: Thiago Silva
+Album: Thiago Silva
+Track: 1
+Date: 2016
+Genre: Grime
+Format: 44100:16:2
+mtime: 1762797389
+added: 1762797403
+song_end
+end: Thiago Silva
+directory: Too sweet
+mtime: 1753016135
+begin: Too sweet
+song_begin: 020. Hozier - Too Sweet.mp3
+Time: 251.424
+Artist: Hozier
+AlbumArtist: Hozier
+Title: Too Sweet
+Album: Unheard
+Track: 20
+Date: 2024-03-22
+Genre: Folk
+Composer: Andrew Hozier-Byrne
+Grouping: PMEDIA
+Disc: 1
+Label: P.M.E.D.I.A
+Format: 44100:16:2
+mtime: 1753016158
+added: 1753016832
+song_end
+end: Too sweet
 directory: Tour
 mtime: 1739017410
 begin: Tour
@@ -15666,6 +17237,22 @@ mtime: 1728423097
 added: 1750582492
 song_end
 end: We're All Alone In This Together
+directory: Weathered (2001 US Wind-Up CD Pressing)
+mtime: 1764618592
+begin: Weathered (2001 US Wind-Up CD Pressing)
+song_begin: 05 One Last Breath.m4a
+Time: 238.24
+Artist: Creed
+Album: Weathered (2001 US Wind-Up CD Pressing) (16/44)
+Title: One Last Breath
+Track: 5
+Genre: Rock
+Date: 2001
+Format: 44100:16:2
+mtime: 1764618637
+added: 1764618721
+song_end
+end: Weathered (2001 US Wind-Up CD Pressing)
 directory: West Ryder Pauper Lunatic Asylum
 mtime: 1751107194
 begin: West Ryder Pauper Lunatic Asylum
@@ -16864,3 +18451,29 @@ mtime: 1746904572
 added: 1750582492
 song_end
 end: Young_Franco-its_Franky_baby-WEB-2025-ENRiCH
+directory: zzz Country Best of
+mtime: 1753018045
+begin: zzz Country Best of
+song_begin: Shaboozey - A Bar Song (Tipsy).mp3
+Time: 171.312
+Artist: Shaboozey
+Title: A Bar Song (Tipsy)
+Album: Country Radio - July 2024
+Track: 2
+Date: 2024
+Genre: Country
+Format: 44100:16:2
+mtime: 1753018050
+added: 1753018087
+song_end
+end: zzz Country Best of
+song_begin: Ren - Bittersweet Symphony (The Verve).mp3
+Time: 170.747
+Artist: Ren
+Title: Bittersweet Symphony (The Verve)
+Date: 2023
+Genre: Rap
+Format: 48000:16:2
+mtime: 1762798445
+added: 1762798592
+song_end
