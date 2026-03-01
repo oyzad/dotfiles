@@ -92,21 +92,13 @@ underline = true
 
 [auth]
 # Authentication settings
-# Note the use of single quotes for values, so that backslashes will not be escaped.
 
 [auth.certs]
-# Client certificates
-# Set URL equal to path to client cert file
-#
-# "example.com" = 'mycert.crt'      # Cert is used for all paths on this domain
-# "example.com/dir/"=  'mycert.crt' # Cert is used for /dir/ and everything below only
-#
-# See the comment at the beginning of this file for examples of all valid types of
-# URLs, ports and schemes can be used too
-
+"bbs.geminispace.org" = '~/.local/share/amfora/bbs-cert.pem'
+"dev.spool-five.com/src/app/wordle" = '~/.local/share/amfora/wordle-cert.pem'
 [auth.keys]
-# Client certificate keys
-# Same as [auth.certs] but the path is to the client key file.
+"bbs.geminispace.org" = '~/.local/share/amfora/bbs-key.pem'
+"dev.spool-five.com/src/app/wordle" = '~/.local/share/amfora/wordle-key.pem'
 
 
 [commands]
@@ -232,7 +224,8 @@ underline = true
 # bind_beginning: moving to beginning of page (top left)
 # bind_end: same but the for the end (bottom left)
 # bind_url_handler_open: Open highlighted URL with URL handler (#143)
-
+bind_sub = ["A"]
+bind_add_bookmark = ["B"]
 # Search
 # bind_search = "/"
 # bind_next_match = "n"

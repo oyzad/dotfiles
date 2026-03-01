@@ -37,6 +37,166 @@ tag: MUSICBRAINZ_RELEASETRACKID
 tag: MUSICBRAINZ_WORKID
 tag: MUSICBRAINZ_RELEASEGROUPID
 info_end
+directory: (1997) OK Computer
+mtime: 1768862968
+begin: (1997) OK Computer
+song_begin: 01 Radiohead - Airbag.mp3
+Time: 284.40000000000003
+Artist: Radiohead
+Title: Airbag
+Album: OK Computer
+Track: 1
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862076
+added: 1768926630
+song_end
+song_begin: 02 Radiohead - Paranoid Android.mp3
+Time: 383.493
+Artist: Radiohead
+Title: Paranoid Android
+Album: OK Computer
+Track: 2
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862088
+added: 1768926630
+song_end
+song_begin: 03 Radiohead - Subterranean Homesick Alien.mp3
+Time: 267.706
+Artist: Radiohead
+Title: Subterranean Homesick Alien
+Album: OK Computer
+Track: 3
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862961
+added: 1768926630
+song_end
+song_begin: 04 Radiohead - Exit Music (For a Film).mp3
+Time: 264.8
+Artist: Radiohead
+Title: Exit Music (For a Film)
+Album: OK Computer
+Track: 4
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862967
+added: 1768926630
+song_end
+song_begin: 05 Radiohead - Let Down.mp3
+Time: 299.266
+Artist: Radiohead
+Title: Let Down
+Album: OK Computer
+Track: 5
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862973
+added: 1768926630
+song_end
+song_begin: 06 Radiohead - Karma Police.mp3
+Time: 261.62600000000003
+Artist: Radiohead
+Title: Karma Police
+Album: OK Computer
+Track: 6
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862308
+added: 1768926630
+song_end
+song_begin: 07 Radiohead - Fitter Happier.mp3
+Time: 117.333
+Artist: Radiohead
+Title: Fitter Happier
+Album: OK Computer
+Track: 7
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862303
+added: 1768926630
+song_end
+song_begin: 08 Radiohead - Electioneering.mp3
+Time: 230.64000000000001
+Artist: Radiohead
+Title: Electioneering
+Album: OK Computer
+Track: 8
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862312
+added: 1768926630
+song_end
+song_begin: 09 Radiohead - Climbing Up the Walls.mp3
+Time: 285.2
+Artist: Radiohead
+Title: Climbing Up the Walls
+Album: OK Computer
+Track: 9
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862318
+added: 1768926630
+song_end
+song_begin: 10 Radiohead - No Surprises.mp3
+Time: 228.53300000000002
+Artist: Radiohead
+Title: No Surprises
+Album: OK Computer
+Track: 10
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862322
+added: 1768926630
+song_end
+song_begin: 11 Radiohead - Lucky.mp3
+Time: 259.62600000000003
+Artist: Radiohead
+Title: Lucky
+Album: OK Computer
+Track: 11
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862330
+added: 1768926630
+song_end
+song_begin: 12 Radiohead - The Tourist.mp3
+Time: 324.533
+Artist: Radiohead
+Title: The Tourist
+Album: OK Computer
+Track: 12
+Date: 1997
+Genre: Alternative
+Disc: 1
+Format: 44100:16:2
+mtime: 1768862339
+added: 1768926630
+song_end
+end: (1997) OK Computer
 directory: (2012) Colourmeinkindness
 mtime: 1758644202
 begin: (2012) Colourmeinkindness
@@ -71,6 +231,142 @@ mtime: 1750959062
 added: 1750959309
 song_end
 end: 1991 - Blood Sugar Sex Magik
+directory: 1995 - The Bends
+mtime: 1768649667
+begin: 1995 - The Bends
+song_begin: 01 - Planet Telex.mp3
+Time: 258.481
+Artist: Radiohead
+Title: Planet Telex
+Album: The Bends
+Track: 1
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649639
+added: 1768649744
+song_end
+song_begin: 02 - The Bends.mp3
+Time: 246.308
+Artist: Radiohead
+Title: The Bends
+Album: The Bends
+Track: 2
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649641
+added: 1768649744
+song_end
+song_begin: 03 - High And Dry.mp3
+Time: 257.697
+Artist: Radiohead
+Title: High And Dry
+Album: The Bends
+Track: 3
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649644
+added: 1768649744
+song_end
+song_begin: 04 - Fake Plastic Trees.mp3
+Time: 290.612
+Artist: Radiohead
+Title: Fake Plastic Trees
+Album: The Bends
+Track: 4
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649646
+added: 1768649744
+song_end
+song_begin: 05 - Bones.mp3
+Time: 189.022
+Artist: Radiohead
+Title: Bones
+Album: The Bends
+Track: 5
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649648
+added: 1768649744
+song_end
+song_begin: 06 - (Nice Dream).mp3
+Time: 233.142
+Artist: Radiohead
+Title: Nice Dream
+Album: The Bends
+Track: 6
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649651
+added: 1768649744
+song_end
+song_begin: 07 - Just.mp3
+Time: 234.161
+Artist: Radiohead
+Title: Just
+Album: The Bends
+Track: 7
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649653
+added: 1768649744
+song_end
+song_begin: 08 - My Iron Lung.mp3
+Time: 276.48
+Artist: Radiohead
+Title: My Iron Lung
+Album: The Bends
+Track: 8
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649656
+added: 1768649744
+song_end
+song_begin: 09 - Bullet Proof...I Wish I Was.mp3
+Time: 208.796
+Artist: Radiohead
+Title: Bullet Proof...I Wish I Was
+Album: The Bends
+Track: 9
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649658
+added: 1768649744
+song_end
+song_begin: 10 - Black Star.mp3
+Time: 247.092
+Artist: Radiohead
+Title: Black Star
+Album: The Bends
+Track: 10
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649661
+added: 1768649744
+song_end
+song_begin: 11 - Sulk.mp3
+Time: 223.007
+Artist: Radiohead
+Title: Sulk
+Album: The Bends
+Track: 11
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649663
+added: 1768649744
+song_end
+song_begin: 12 - Street Spirit (Fade Out).mp3
+Time: 252.656
+Artist: Radiohead
+Title: Street Spirit
+Album: The Bends
+Track: 12
+Date: 1995
+Format: 44100:16:2
+mtime: 1768649666
+added: 1768649744
+song_end
+end: 1995 - The Bends
 directory: 1998 - You've Come A Long Way, Baby
 mtime: 1748275574
 begin: 1998 - You've Come A Long Way, Baby
@@ -927,6 +1223,23 @@ mtime: 1728422998
 added: 1750582492
 song_end
 end: 2014 Forest Hills Drive
+directory: 2016 - Guilty Pleasure
+mtime: 1768494729
+begin: 2016 - Guilty Pleasure
+song_begin: 04 - Life Goes On.flac
+Time: 284
+Genre: Jazz
+Artist: Chihiro Yamanaka
+Title: Life Goes On
+Album: Guilty Pleasure
+Date: 2016
+Track: 4
+Genre: Piano
+Format: 44100:16:2
+mtime: 1768494774
+added: 1768495519
+song_end
+end: 2016 - Guilty Pleasure
 directory: 2017 - This Old Dog
 mtime: 1748079986
 begin: 2017 - This Old Dog
@@ -1594,405 +1907,6 @@ mtime: 1726950734
 added: 1750582494
 song_end
 end: above
-directory: age tapes
-mtime: 1727030583
-begin: age tapes
-song_begin: 4 walls (with Sarcastic Sounds) - Arden Jones.mp3
-Time: 134.741
-Artist: Arden Jones
-Title: 4 wallsTPE1
-Title: Arden Jones
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: bad 4 me.mp3
-Time: 190.869
-Artist: Arden Jones
-Title: bad 4 me
-Album: age tape 0
-Date: 2022
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582493
-song_end
-song_begin: bedroom floor - Arden Jones.mp3
-Time: 121.732
-Artist: Arden Jones
-Title: bedroom floor
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: bonnie & clyde - Arden Jones.mp3
-Time: 172.541
-Artist: Arden Jones
-Title: bonnie & clyde
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: call it even - Arden Jones.mp3
-Time: 124.157
-Artist: Arden Jones
-Title: call it even
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: call it even.mp3
-Time: 124.18
-Artist: Arden Jones
-Title: call it even
-Album: age tape 0
-Date: 2022
-Format: 44100:16:2
-mtime: 1728423521
-added: 1750582493
-song_end
-song_begin: careless - Arden Jones.mp3
-Time: 126.772
-Artist: Arden Jones
-Title: careless
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: daisy - Arden Jones.mp3
-Time: 83.116
-Artist: Arden Jones
-Title: daisy
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: day by day - Arden Jones.mp3
-Time: 112.133
-Artist: Arden Jones
-Title: day by day
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: gold plated - Arden Jones.mp3
-Time: 157.733
-Artist: Arden Jones
-Title: gold plated
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: green eyes - Arden Jones.mp3
-Time: 131.62
-Artist: Arden Jones
-Title: green eyes
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: horror story - Arden Jones.mp3
-Time: 123.316
-Artist: Arden Jones
-Title: horror story
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: horror story.mp3
-Time: 123.297
-Artist: Arden Jones
-Title: horror story
-Album: age tape 0
-Date: 2022
-Format: 44100:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: la di da (acoustic) - Arden Jones.mp3
-Time: 88.20400000000001
-Artist: Arden Jones
-Title: la di da (acoustic)
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: leave a message - Arden Jones.mp3
-Time: 105.893
-Artist: Arden Jones
-Title: leave a message
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: love on u - Arden Jones.mp3
-Time: 145.589
-Artist: Arden Jones
-Title: love on u
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: mr. sunshine - Arden Jones.mp3
-Time: 177.269
-Artist: Arden Jones
-Title: mr. sunshine
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: mr. sunshine.mp3
-Time: 177.024
-Artist: Arden Jones
-Title: mr. sunshine
-Album: age tape 0
-Date: 2022
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582493
-song_end
-song_begin: not afraid at all - Arden Jones.mp3
-Time: 156.53300000000002
-Artist: Arden Jones
-Title: not afraid at all
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: not afraid at all.mp3
-Time: 156.501
-Artist: Arden Jones
-Title: not afraid at all
-Album: age tape 0
-Date: 2022
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: ordinary - Arden Jones.mp3
-Time: 133.012
-Artist: Arden Jones
-Title: ordinary
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: push start - Arden Jones.mp3
-Time: 117.004
-Artist: Arden Jones
-Title: push start
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: run wild - Arden Jones.mp3
-Time: 151.78
-Artist: Arden Jones
-Title: run wild
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: sabrina - Arden Jones.mp3
-Time: 124.828
-Artist: Arden Jones
-Title: sabrina
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: serotonin highs (feat. Allen Haley) - Arden Jones.mp3
-Time: 154.829
-Artist: Arden Jones
-Title: serotonin highs (feat. Allen Haley)
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: slow it down (u ain’t gotta move like that) - Arden Jones.mp3
-Time: 130.71
-Artist: Arden Jones
-Title: slow it down (u ain’t gotta move like that)
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: starstruck - Arden Jones.mp3
-Time: 123.36500000000001
-Artist: Arden Jones
-Title: starstruck
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: starstruck (demo) - Arden Jones.mp3
-Time: 103.325
-Artist: Arden Jones
-Title: starstruck (demo)
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: the other side - Arden Jones.mp3
-Time: 117.74900000000001
-Artist: Arden Jones
-Title: the other side
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582493
-song_end
-song_begin: the ringer.mp3
-Time: 154.133
-Artist: Arden Jones
-Title: the ringer
-Album: age tape 0
-Date: 2022
-Format: 48000:16:2
-mtime: 1728423521
-added: 1750582494
-song_end
-song_begin: toxic crush - Arden Jones.mp3
-Time: 134.909
-Artist: Arden Jones
-Title: toxic crush
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: trippin - Arden Jones.mp3
-Time: 109.99600000000001
-Artist: Arden Jones
-Title: trippin
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: viisine - Arden Jones.mp3
-Time: 139.516
-Artist: Arden Jones
-Title: viisine
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-song_begin: without me - Arden Jones.mp3
-Time: 171.437
-Artist: Arden Jones
-Title: without me
-Album: age tape 0
-Format: 48000:16:2
-mtime: 1728456955
-added: 1750582494
-song_end
-end: age tapes
-directory: Album - Let's Dance Until We Get Scared
-mtime: 1728417876
-begin: Album - Let's Dance Until We Get Scared
-song_begin: 01 - Let's Dance Until We Get Scared.m4a
-Time: 242.008
-Format: 44100:f:2
-mtime: 1726966204
-added: 1750582491
-song_end
-song_begin: 02 - Looking For The Danger.m4a
-Time: 151.00900000000001
-Format: 44100:f:2
-mtime: 1726966193
-added: 1750582491
-song_end
-song_begin: 03 - NEWSFLASH! BRAINBLAST!.m4a
-Time: 256.01
-Format: 44100:f:2
-mtime: 1726966218
-added: 1750582491
-song_end
-song_begin: 04 - Broken People Breaking Hearts.m4a
-Time: 130.738
-Format: 44100:f:2
-mtime: 1726966190
-added: 1750582491
-song_end
-song_begin: 05 - pipe down.m4a
-Time: 222.016
-Format: 44100:f:2
-mtime: 1726966173
-added: 1750582491
-song_end
-song_begin: 06 - always online.m4a
-Time: 256.822
-Format: 44100:f:2
-mtime: 1726966211
-added: 1750582491
-song_end
-song_begin: 07 - baby, Was It Me？.m4a
-Time: 107.843
-Format: 44100:f:2
-mtime: 1726966185
-added: 1750582491
-song_end
-song_begin: 08 - The Boxes Are Bumming me Out.m4a
-Time: 228.169
-Format: 44100:f:2
-mtime: 1726966214
-added: 1750582491
-song_end
-song_begin: 09 - alone, in her mind.m4a
-Time: 204.624
-Format: 44100:f:2
-mtime: 1726966214
-added: 1750582491
-song_end
-song_begin: 10 - baby boy Interlude.m4a
-Time: 208.014
-Format: 44100:f:2
-mtime: 1726966204
-added: 1750582491
-song_end
-song_begin: 11 - I'll Keep Thinking I'm Important!.m4a
-Time: 170.026
-Format: 44100:f:2
-mtime: 1726966192
-added: 1750582491
-song_end
-song_begin: 12 - ripping my tshirt.m4a
-Time: 105.916
-Format: 44100:f:2
-mtime: 1726966164
-added: 1750582491
-song_end
-song_begin: 13 - IN THE FUTURE.m4a
-Time: 176.365
-Format: 44100:f:2
-mtime: 1726966206
-added: 1750582491
-song_end
-end: Album - Let's Dance Until We Get Scared
 directory: Arctic Monkeys
 mtime: 1745075813
 begin: Arctic Monkeys
@@ -2666,6 +2580,248 @@ mtime: 1728849218
 added: 1750582491
 song_end
 end: Blonde
+directory: Blood Sugar Sex Magik
+mtime: 1769461935
+begin: Blood Sugar Sex Magik
+song_begin: 01 Power Of Equality.mp3
+Time: 243.106
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Power Of Equality
+Album: Blood Sugar Sex Magik
+Track: 1
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461519
+added: 1769466376
+song_end
+song_begin: 02 If You Have To Ask.mp3
+Time: 216.066
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: If You Have To Ask
+Album: Blood Sugar Sex Magik
+Track: 2
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461530
+added: 1769466376
+song_end
+song_begin: 03 Breaking The Girl.mp3
+Time: 294.426
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Breaking The Girl
+Album: Blood Sugar Sex Magik
+Track: 3
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461554
+added: 1769466376
+song_end
+song_begin: 04 Funky Monks.mp3
+Time: 321.946
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Funky Monks
+Album: Blood Sugar Sex Magik
+Track: 4
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461573
+added: 1769466376
+song_end
+song_begin: 05 Suck My Kiss.mp3
+Time: 218.053
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Suck My Kiss
+Album: Blood Sugar Sex Magik
+Track: 5
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461598
+added: 1769466376
+song_end
+song_begin: 06 I Could Have Lied.mp3
+Time: 244.493
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: I Could Have Lied
+Album: Blood Sugar Sex Magik
+Track: 6
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461620
+added: 1769466376
+song_end
+song_begin: 07 Mellowship Slinky In B Major.mp3
+Time: 250.546
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Mellowship Slinky In B Major
+Album: Blood Sugar Sex Magik
+Track: 7
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461639
+added: 1769466376
+song_end
+song_begin: 08 Righteous And The Wicked.mp3
+Time: 229.773
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Righteous And The Wicked
+Album: Blood Sugar Sex Magik
+Track: 8
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461650
+added: 1769466376
+song_end
+song_begin: 09 Give It Away.mp3
+Time: 290
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Give It Away
+Album: Blood Sugar Sex Magik
+Track: 9
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461670
+added: 1769466376
+song_end
+song_begin: 10 Blood Sugar Sex Magik.mp3
+Time: 271.62600000000003
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Blood Sugar Sex Magik
+Album: Blood Sugar Sex Magik
+Track: 10
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461702
+added: 1769466376
+song_end
+song_begin: 11 Under The Bridge.mp3
+Time: 263.50600000000003
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Under The Bridge
+Album: Blood Sugar Sex Magik
+Track: 11
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461744
+added: 1769466376
+song_end
+song_begin: 12 Naked In The Rain.mp3
+Time: 264.613
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Naked In The Rain
+Album: Blood Sugar Sex Magik
+Track: 12
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461804
+added: 1769466376
+song_end
+song_begin: 13 Apache Rose Peacock.mp3
+Time: 282.76
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Apache Rose Peacock
+Album: Blood Sugar Sex Magik
+Track: 13
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461834
+added: 1769466376
+song_end
+song_begin: 14 Greeting Song.mp3
+Time: 193.733
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Greeting Song
+Album: Blood Sugar Sex Magik
+Track: 14
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461861
+added: 1769466376
+song_end
+song_begin: 15 My Lovely Man.mp3
+Time: 278.01300000000003
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: My Lovely Man
+Album: Blood Sugar Sex Magik
+Track: 15
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461890
+added: 1769466376
+song_end
+song_begin: 16 Sir Psycho Sexy.mp3
+Time: 495.053
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Sir Psycho Sexy
+Album: Blood Sugar Sex Magik
+Track: 16
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461931
+added: 1769466376
+song_end
+song_begin: 17 They're Red Hot.mp3
+Time: 61.666000000000004
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: They're Red Hot
+Album: Blood Sugar Sex Magik
+Track: 17
+Date: 1991
+Genre: Alternative Rock
+Disc: 1
+Format: 44100:16:2
+mtime: 1769461939
+added: 1769466376
+song_end
+end: Blood Sugar Sex Magik
 directory: Blur
 mtime: 1744123740
 begin: Blur
@@ -4793,8 +4949,14 @@ song_end
 end: Chase and Status/More Than Alot
 end: Chase and Status
 directory: covers
-mtime: 1758393616
+mtime: 1769375761
 begin: covers
+song_begin: cranberries-zombies-instruments-medievaux.mp3
+Time: 311.211
+Format: 48000:16:2
+mtime: 1769375707
+added: 1769466376
+song_end
 song_begin: 1979 - smashing pumpkins (cover) by alicia widar.m4a
 Time: 235.02100000000002
 Artist: Alicia Widar
@@ -4967,6 +5129,19 @@ mtime: 1758393762
 added: 1758441387
 song_end
 end: covers
+directory: CUCK
+mtime: 1769184233
+begin: CUCK
+song_begin: YE - HH (Hooligan version).mp3
+Time: 155.434
+Artist: Ye
+Title: HH
+Album: HH
+Format: 44100:16:2
+mtime: 1769184334
+added: 1769184256
+song_end
+end: CUCK
 directory: Currents
 mtime: 1744117497
 begin: Currents
@@ -6039,6 +6214,339 @@ mtime: 1744116670
 added: 1750582492
 song_end
 end: Dire Straits Essentials
+directory: Dirt (1992)
+mtime: 1769450388
+begin: Dirt (1992)
+song_begin: Alice in Chains - 01 - Them Bones.mp3
+Time: 150
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Them Bones
+Album: Dirt
+Track: 1
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: fba87631-6ed8-457a-87d3-2388c6a45e5c
+Format: 44100:16:2
+mtime: 1769450312
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 02 - Dam That River.mp3
+Time: 189.333
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Dam That River
+Album: Dirt
+Track: 2
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 4a6ad571-f3d8-40d2-b5b5-aabaf1fb7dd0
+Format: 44100:16:2
+mtime: 1769450318
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 03 - Rain When I Die.mp3
+Time: 361.693
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Rain When I Die
+Album: Dirt
+Track: 3
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 616cf1e6-cb9e-40a2-a59c-de0ead5c18ae
+Format: 44100:16:2
+mtime: 1769450326
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 04 - Down in a Hole.mp3
+Time: 338.173
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Down in a Hole
+Album: Dirt
+Track: 4
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: b5502d6e-25af-4655-966d-faceab6fa0df
+Format: 44100:16:2
+mtime: 1769450334
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 05 - Sickman.mp3
+Time: 329.493
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Sickman
+Album: Dirt
+Track: 5
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 3f92bc80-8490-42ac-b77e-e20c9f25ea6b
+Format: 44100:16:2
+mtime: 1769450342
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 06 - Rooster.mp3
+Time: 375.06600000000003
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Rooster
+Album: Dirt
+Track: 6
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: fb9e081f-d9ae-4a18-8f4a-7f8bfbbac588
+Format: 44100:16:2
+mtime: 1769450350
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 07 - Junkhead.mp3
+Time: 309.133
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Junkhead
+Album: Dirt
+Track: 7
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: be18ea38-8b2c-4eeb-b876-8d171bbbff8c
+Format: 44100:16:2
+mtime: 1769450357
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 08 - Dirt.mp3
+Time: 316.44
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Dirt
+Album: Dirt
+Track: 8
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 4472aacc-3ba6-40b3-9cdf-ee9677805d15
+Format: 44100:16:2
+mtime: 1769450364
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 09 - God Smack.mp3
+Time: 230.8
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: God Smack
+Album: Dirt
+Track: 9
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 9be9dad8-1982-4839-a4dc-3a1e6f3765c2
+Format: 44100:16:2
+mtime: 1769450369
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 10 - Iron Gland.mp3
+Time: 43.493
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Iron Gland
+Album: Dirt
+Track: 10
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: c04f7382-db8d-424c-9e1d-58b7b5b10b9f
+Format: 44100:16:2
+mtime: 1769450372
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 11 - Hate to Feel.mp3
+Time: 316.106
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Hate to Feel
+Album: Dirt
+Track: 11
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 0119e24d-eaa6-426d-b6aa-3509813d3249
+Format: 44100:16:2
+mtime: 1769450379
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 12 - Angry Chair.mp3
+Time: 287.866
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Angry Chair
+Album: Dirt
+Track: 12
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: 66c29b8d-cec8-423c-beb2-77e4d79c45f2
+Format: 44100:16:2
+mtime: 1769450387
+added: 1769466377
+song_end
+song_begin: Alice in Chains - 13 - Would.mp3
+Time: 207.466
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+ArtistSort: Alice in Chains
+AlbumArtistSort: Alice in Chains
+Title: Would?
+Album: Dirt
+Track: 13
+Date: 1992
+OriginalDate: 1992-09-29
+Genre: Metal
+Disc: 1
+Label: Columbia
+MUSICBRAINZ_TRACKID: b0b9e9c1-a234-42db-a2b6-d0d576bf525d
+Format: 44100:16:2
+mtime: 1769450393
+added: 1769466377
+song_end
+end: Dirt (1992)
+directory: Dogpark-Corporate Pudding
+mtime: 1770585812
+begin: Dogpark-Corporate Pudding
+song_begin: 01-dogpark-dialtone-f1dd4312.flac
+Time: 148.615
+Track: 1
+Artist: Dogpark
+Title: DIALTONE
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585455
+added: 1771596267
+song_end
+song_begin: 02-dogpark-i_dont_mind-7c912dbc.flac
+Time: 171.75
+Track: 2
+Artist: Dogpark
+Title: I Don’t Mind
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585528
+added: 1771596267
+song_end
+song_begin: 03-dogpark-dandelion-6a3ea203.flac
+Time: 194.76500000000001
+Track: 3
+Artist: Dogpark
+Title: Dandelion
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585601
+added: 1771596267
+song_end
+song_begin: 04-dogpark-whats_my_line_again-b799bf19.flac
+Time: 229.51500000000001
+Track: 4
+Artist: Dogpark
+Title: What’s My Line Again?
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585700
+added: 1771596267
+song_end
+song_begin: 05-dogpark-september-d655e78c.flac
+Time: 254.059
+Track: 5
+Artist: Dogpark
+Title: September
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585810
+added: 1771596267
+song_end
+song_begin: 06-dogpark-75s72-825d2260.flac
+Time: 208.925
+Track: 6
+Artist: Dogpark
+Title: 75$72
+Genre: Indie
+AlbumArtist: Dogpark
+Album: Corporate Pudding
+Date: 2026
+Format: 48000:24:2
+mtime: 1770585931
+added: 1771596267
+song_end
+end: Dogpark-Corporate Pudding
 directory: Dominic Fike
 mtime: 1744192693
 begin: Dominic Fike
@@ -7037,6 +7545,70 @@ mtime: 1681927820
 added: 1750582492
 song_end
 end: Fine Day
+directory: Fling
+mtime: 1771596128
+begin: Fling
+song_begin: 1. Violet.mp3
+Time: 234.303
+Artist: Jack Murnin
+Title: Violet
+Album: Fling
+Track: 1
+Format: 44100:16:2
+mtime: 1771596256
+added: 1771596267
+song_end
+song_begin: 2. Toss and Turn.mp3
+Time: 188.44400000000002
+Artist: Jack Murnin
+Title: Toss and Turn
+Album: Fling
+Track: 2
+Format: 44100:16:2
+mtime: 1771596256
+added: 1771596267
+song_end
+song_begin: 3. Bitter Love (feat. Ryann Barnes).mp3
+Time: 183.969
+Artist: Jack Murnin
+Title: Bitter Love (feat. Ryann Barne
+Album: Fling
+Track: 3
+Format: 44100:16:2
+mtime: 1771596257
+added: 1771596267
+song_end
+song_begin: 4. IcyHot.mp3
+Time: 154.032
+Artist: Jack Murnin
+Title: IcyHot
+Album: Fling
+Track: 4
+Format: 44100:16:2
+mtime: 1771596257
+added: 1771596267
+song_end
+song_begin: 5. Text Me.mp3
+Time: 127.95100000000001
+Artist: Jack Murnin
+Title: Text Me
+Album: Fling
+Track: 5
+Format: 44100:16:2
+mtime: 1771596257
+added: 1771596267
+song_end
+song_begin: 6. Cave.mp3
+Time: 214.281
+Artist: Jack Murnin
+Title: Cave
+Album: Fling
+Track: 6
+Format: 44100:16:2
+mtime: 1771596257
+added: 1771596267
+song_end
+end: Fling
 directory: For Abby
 mtime: 1729631748
 begin: For Abby
@@ -8803,6 +9375,366 @@ mtime: 1633673627
 added: 1750582492
 song_end
 end: I Have a Love (Overmono Remix)
+directory: II (2013)
+mtime: 1767179090
+begin: II (2013)
+song_begin: Unknown Mortal Orchestra - II - 01 - From the Sun.mp3
+Time: 283.50600000000003
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: From the Sun
+Album: II
+Track: 1
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 8c88f666-6f69-388d-8b18-9da875d06fbc
+MUSICBRAINZ_TRACKID: c4d7018d-dccb-4078-84f4-21230ae2c764
+Format: 44100:16:2
+mtime: 1767179050
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 02 - Swim and Sleep (Like a Shark).mp3
+Time: 165.226
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: Swim and Sleep (Like a Shark)
+Album: II
+Track: 2
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 3e678765-2d50-3584-86c4-e144e0dcdb18
+MUSICBRAINZ_TRACKID: ce84bab2-8534-4760-bd7b-00e65d41a6e1
+Format: 44100:16:2
+mtime: 1767178939
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 03 - So Good at Being in Trouble.mp3
+Time: 230.14600000000002
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: So Good at Being in Trouble
+Album: II
+Track: 3
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 3a60d0d4-c955-357c-b4ce-fcd77bef4405
+MUSICBRAINZ_TRACKID: 8acbf005-4ef6-44b0-b46f-b026c0da12e9
+Format: 44100:16:2
+mtime: 1767179003
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 04 - One at a Time.mp3
+Time: 148.52
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: One at a Time
+Album: II
+Track: 4
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 76d93527-6b41-37c8-b1f9-c02f005a9e6e
+MUSICBRAINZ_TRACKID: b51514fe-fa1e-4617-8f31-11fb03cfcc5a
+Format: 44100:16:2
+mtime: 1767179099
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 05 - The Opposite of Afternoon.mp3
+Time: 325.493
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: The Opposite of Afternoon
+Album: II
+Track: 5
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 661c5e3e-7639-3c90-b915-ca9100b3ea00
+MUSICBRAINZ_TRACKID: ac69c038-55c9-457e-a9fb-71192081b83f
+Format: 44100:16:2
+mtime: 1767179089
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 06 - No Need for a Leader.mp3
+Time: 344.50600000000003
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: No Need for a Leader
+Album: II
+Track: 6
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 679a8852-1ce9-3203-a6a0-2d4c07e24030
+MUSICBRAINZ_TRACKID: f8d88c3d-2fbe-4e21-8ff8-41a2c6145228
+Format: 44100:16:2
+mtime: 1767178927
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 07 - Monki.mp3
+Time: 438.906
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: Monki
+Album: II
+Track: 7
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 35391321-6f11-36f4-9d90-454a110f7da7
+MUSICBRAINZ_TRACKID: e7bed576-d227-4351-83cc-06359a746294
+Format: 44100:16:2
+mtime: 1767179041
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 08 - Dawn.mp3
+Time: 68.04
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: Dawn
+Album: II
+Track: 8
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: cc95c8fc-c34e-3d76-9229-acf8795bc5cb
+MUSICBRAINZ_TRACKID: 8861a370-6959-4fd7-bf75-a782ceed36b4
+Format: 44100:16:2
+mtime: 1767179062
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 09 - Faded in the Morning.mp3
+Time: 261.52
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: Faded in the Morning
+Album: II
+Track: 9
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 59fc1406-d8e0-3ea8-a8cd-96420e7ecde1
+MUSICBRAINZ_TRACKID: bbf6c9e8-637c-4a95-a0b1-f9b0a465c355
+Format: 44100:16:2
+mtime: 1767178969
+added: 1768495519
+song_end
+song_begin: Unknown Mortal Orchestra - II - 10 - Secret Xtians.mp3
+Time: 163.333
+Artist: Unknown Mortal Orchestra
+AlbumArtist: Unknown Mortal Orchestra
+Title: Secret Xtians
+Album: II
+Track: 10
+Date: 2013-02-05
+OriginalDate: 2013
+Genre: Electronic;Indie Pop;Indie Rock;Lo-Fi;Pop;Psychedelic;Psychedelic Rock;Rock;Neo-Psychedelia
+Disc: 1
+Label: Jagjaguwar
+MUSICBRAINZ_ALBUMID: c6f44f26-f8ec-4c0b-a4ba-b4211cb95f26
+MUSICBRAINZ_ARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_ALBUMARTISTID: e2305342-0bde-4a2c-aed0-4b88694834de
+MUSICBRAINZ_RELEASEGROUPID: 191f7eed-1e6b-45f7-acdc-ef103cc05bfd
+MUSICBRAINZ_RELEASETRACKID: 383e8d14-374d-38b6-b284-fe99b400116a
+MUSICBRAINZ_TRACKID: bdfa27ba-4299-4559-8f32-a98a58bbb2b6
+Format: 44100:16:2
+mtime: 1767179057
+added: 1768495519
+song_end
+end: II (2013)
+directory: In Rainbows
+mtime: 1768862387
+begin: In Rainbows
+song_begin: 01 15 Step.mp3
+Time: 238.12
+Artist: Radiohead
+Title: 15 Step
+Album: In Rainbows
+Track: 1
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862331
+added: 1768926630
+song_end
+song_begin: 15 Step.mp3
+Time: 238.12
+Artist: Radiohead
+Title: 15 Step
+Album: In Rainbows
+Track: 1
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862391
+added: 1768926630
+song_end
+song_begin: 02 Bodysnatchers.mp3
+Time: 242.293
+Artist: Radiohead
+Title: Bodysnatchers
+Album: In Rainbows
+Track: 2
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862341
+added: 1768926630
+song_end
+song_begin: 03 Nude.mp3
+Time: 255.386
+Artist: Radiohead
+Title: Nude
+Album: In Rainbows
+Track: 3
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862346
+added: 1768926630
+song_end
+song_begin: 04 Weird FishesArpeggi.mp3
+Time: 318.186
+Artist: Radiohead
+Title: Weird Fishes/Arpeggi
+Album: In Rainbows
+Track: 4
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862353
+added: 1768926630
+song_end
+song_begin: 05 All I Need.mp3
+Time: 228.746
+Artist: Radiohead
+Title: All I Need
+Album: In Rainbows
+Track: 5
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862358
+added: 1768926630
+song_end
+song_begin: 06 Faust Arp.mp3
+Time: 129.68
+Artist: Radiohead
+Title: Faust Arp
+Album: In Rainbows
+Track: 6
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862362
+added: 1768926630
+song_end
+song_begin: 07 Reckoner.mp3
+Time: 290.213
+Artist: Radiohead
+Title: Reckoner
+Album: In Rainbows
+Track: 7
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862368
+added: 1768926630
+song_end
+song_begin: 08 House of Cards.mp3
+Time: 328.293
+Artist: Radiohead
+Title: House of Cards
+Album: In Rainbows
+Track: 8
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862375
+added: 1768926630
+song_end
+song_begin: 09 Jigsaw Falling Into Place.mp3
+Time: 248.893
+Artist: Radiohead
+Title: Jigsaw Falling Into Place
+Album: In Rainbows
+Track: 9
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862380
+added: 1768926630
+song_end
+song_begin: 10 Videotape.mp3
+Time: 281.8
+Artist: Radiohead
+Title: Videotape
+Album: In Rainbows
+Track: 10
+Date: 2007
+Genre: Art Rock;Alternative Rock;Electronic;Dream Pop;Art Pop
+Format: 44100:16:2
+mtime: 1768862386
+added: 1768926630
+song_end
+end: In Rainbows
 directory: In Utero
 mtime: 1747952398
 begin: In Utero
@@ -9079,6 +10011,130 @@ mtime: 1729097566
 added: 1750582490
 song_end
 end: JAMIE
+directory: Jar of Flies
+mtime: 1769450530
+begin: Jar of Flies
+song_begin: 01 Rotten Apple.mp3
+Time: 442.033
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: Rotten Apple
+Album: Jar of Flies
+Track: 1
+Date: 1994
+Genre: Grunge
+Composer: M. Inez
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450391
+added: 1769466377
+song_end
+song_begin: 02 Nutshell.mp3
+Time: 282.336
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: Nutshell
+Album: Jar of Flies
+Track: 2
+Date: 1994
+Genre: Grunge
+Composer: M. Inez/Kinney
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450422
+added: 1769466377
+song_end
+song_begin: 03 I Stay Away.mp3
+Time: 277.504
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: I Stay Away
+Album: Jar of Flies
+Track: 3
+Date: 1994
+Genre: Grunge
+Composer: L. Staley/M. Inez
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450454
+added: 1769466377
+song_end
+song_begin: 04 No Excuses.mp3
+Time: 278.68
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: No Excuses
+Album: Jar of Flies
+Track: 4
+Date: 1994
+Genre: Grunge
+Composer: J. Cantrell
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450472
+added: 1769466377
+song_end
+song_begin: 05 Whale & Wasp.mp3
+Time: 180.155
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: Whale & Wasp
+Album: Jar of Flies
+Track: 5
+Date: 1994
+Genre: Grunge
+Composer: J. Cantrell
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450486
+added: 1769466377
+song_end
+song_begin: 06 Don't Follow.mp3
+Time: 285.314
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: Don't Follow
+Album: Jar of Flies
+Track: 6
+Date: 1994
+Genre: Grunge
+Composer: J. Cantrell
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450527
+added: 1769466377
+song_end
+song_begin: 07 Swing On This.mp3
+Time: 267.657
+Artist: Alice in Chains
+AlbumArtist: Alice in Chains
+Title: Swing On This
+Album: Jar of Flies
+Track: 7
+Date: 1994
+Genre: Grunge
+Composer: M. Inez/Kinney
+Disc: 1
+Format: 44100:16:2
+mtime: 1769450552
+added: 1769466377
+song_end
+end: Jar of Flies
+directory: JLO
+mtime: 1770398162
+begin: JLO
+song_begin: 04-Jennifer Lopez-On the Floor.mp3
+Time: 294.1
+Artist: Jennifer Lopez Feat Pitbull
+Title: On The Floor
+Album: NhacCuaTui.Com
+Track: 1412
+Genre: Nhac US - UK
+Format: 44100:16:2
+mtime: 1770398268
+added: 1770398336
+song_end
+end: JLO
 directory: Julien Doré
 mtime: 1751106654
 begin: Julien Doré
@@ -10433,6 +11489,175 @@ mtime: 1751106758
 added: 1751106888
 song_end
 end: Loyle Carner - hopefully ! (2025)
+directory: mac de marco - salad days (2014)
+mtime: 1769461852
+begin: mac de marco - salad days (2014)
+song_begin: 01 - Salad Days.mp3
+Time: 147.308
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Salad Days
+Album: Salad Days
+Track: 1
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461781
+added: 1769466377
+song_end
+song_begin: 02 - Blue Boy.mp3
+Time: 127.665
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Blue Boy
+Album: Salad Days
+Track: 2
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461786
+added: 1769466377
+song_end
+song_begin: 03 - Brother.mp3
+Time: 214.174
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Brother
+Album: Salad Days
+Track: 3
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461794
+added: 1769466377
+song_end
+song_begin: 04 - Let Her Go.mp3
+Time: 184.032
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Let Her Go
+Album: Salad Days
+Track: 4
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461801
+added: 1769466377
+song_end
+song_begin: 05 - Goodbye Weekend.mp3
+Time: 181.185
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Goodbye Weekend
+Album: Salad Days
+Track: 5
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461809
+added: 1769466377
+song_end
+song_begin: 06 - Let My Baby Stay.mp3
+Time: 249.59300000000002
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Let My Baby Stay
+Album: Salad Days
+Track: 6
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461820
+added: 1769466377
+song_end
+song_begin: 07 - Passing Out Pieces.mp3
+Time: 168.517
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Passing Out Pieces
+Album: Salad Days
+Track: 7
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461826
+added: 1769466377
+song_end
+song_begin: 08 - Treat Her Better.mp3
+Time: 230.53300000000002
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Treat Her Better
+Album: Salad Days
+Track: 8
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461834
+added: 1769466377
+song_end
+song_begin: 09 - Chamber of Reflection.mp3
+Time: 233.138
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Chamber of Reflection
+Album: Salad Days
+Track: 9
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461843
+added: 1769466377
+song_end
+song_begin: 10 - Go Easy.mp3
+Time: 206.338
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Go Easy
+Album: Salad Days
+Track: 10
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769461851
+added: 1769466377
+song_end
+song_begin: 11 - Jonny's Odyssey.mp3
+Time: 159.558
+Artist: Mac DeMarco
+AlbumArtist: Mac DeMarco
+Title: Jonny's Odyssey
+Album: Salad Days
+Track: 11
+Date: 2014
+Genre: Lo - Fi
+Disc: 1
+Label: Captured Tracks
+Format: 44100:16:2
+mtime: 1769462513
+added: 1769466377
+song_end
+end: mac de marco - salad days (2014)
 directory: Men At Work
 mtime: 1762798028
 begin: Men At Work
@@ -10725,6 +11950,55 @@ mtime: 1751106753
 added: 1751106888
 song_end
 end: Muse - Black Holes And Revelations
+directory: NA
+mtime: 1748204755
+begin: NA
+song_begin: Bob Marley (acoustic cover).m4a
+Time: 346.581
+Artist: I Shot the Sheriff
+Title: Bob Marley (acoustic cover)
+Date: 20220608
+Format: 44100:f:2
+mtime: 1747877363
+added: 1767179304
+song_end
+song_begin: Money For Nothing (acoustic cover).m4a
+Time: 317.115
+Artist: Dire Straits
+Title: Money For Nothing (acoustic cover)
+Date: 20230228
+Format: 44100:f:2
+mtime: 1747501955
+added: 1767179304
+song_end
+song_begin: Red Hot Chili Peppers (acoustic cover).m4a
+Time: 274.39
+Artist: Snow (Hey Oh)
+Title: Red Hot Chili Peppers (acoustic cover)
+Date: 20210803
+Format: 44100:f:2
+mtime: 1731719264
+added: 1767179304
+song_end
+song_begin: The Smiths (acoustic cover).m4a
+Time: 256.58
+Artist: The Boy With the Thorn In His Side
+Title: The Smiths (acoustic cover)
+Date: 20210223
+Format: 44100:f:2
+mtime: 1705669218
+added: 1767179304
+song_end
+song_begin: Under the bridge Live acoustic.m4a
+Time: 246.619
+Artist: Red hot chili peppers
+Title: Under the bridge Live acoustic
+Date: 20060131
+Format: 44100:f:2
+mtime: 1729867895
+added: 1767179304
+song_end
+end: NA
 directory: NEVER ENOUGH
 mtime: 1749748865
 begin: NEVER ENOUGH
@@ -11683,8 +12957,32 @@ added: 1750582490
 song_end
 end: Niko B /dog eat dog food world
 directory: singles
-mtime: 1746549260
+mtime: 1768863790
 begin: Niko B /singles
+song_begin: grip-and-happy-pharrell-and-harlem-8.mp3
+Time: 145.554
+Artist: Niko B
+Title: Grip and Happy - Pharrell and Harlem
+Format: 44100:16:2
+mtime: 1768863678
+added: 1768926576
+song_end
+song_begin: rucksack-yb-5.mp3
+Time: 140.643
+Artist: Niko B
+Title: Rucksack! YB
+Format: 44100:16:2
+mtime: 1768863789
+added: 1768926576
+song_end
+song_begin: subway-surfers-loading-2.mp3
+Time: 162.06300000000002
+Artist: Niko B
+Title: SUBWAY SURFERS LOADING
+Format: 44100:16:2
+mtime: 1768863772
+added: 1768926576
+song_end
 song_begin: 01 Niko B - just call me.m4a
 Time: 191.635
 Artist: Niko B
@@ -11998,6 +13296,142 @@ mtime: 1614142836
 added: 1750582493
 song_end
 end: Original Nuttah 25
+directory: Out of Time (1991)
+mtime: 1769461804
+begin: Out of Time (1991)
+song_begin: 01-R.E.M.-Radio Song.mp3
+Time: 255.42600000000002
+Artist: R.E.M.
+Title: Radio Song
+Album: Out Of Time
+Track: 1
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461624
+added: 1769466376
+song_end
+song_begin: 02-R.E.M.-Losing My Religion.mp3
+Time: 268.973
+Artist: R.E.M.
+Title: Losing My Religion
+Album: Out Of Time
+Track: 2
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461648
+added: 1769466376
+song_end
+song_begin: 03-R.E.M.-Low.mp3
+Time: 296.76
+Artist: R.E.M.
+Title: Low
+Album: Out Of Time
+Track: 3
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461668
+added: 1769466376
+song_end
+song_begin: 04-R.E.M.-Near Wild Heaven.mp3
+Time: 199.64000000000001
+Artist: R.E.M.
+Title: Near Wild Heaven
+Album: Out Of Time
+Track: 4
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461678
+added: 1769466376
+song_end
+song_begin: 05-R.E.M.-Endgame.mp3
+Time: 230.53300000000002
+Artist: R.E.M.
+Title: Endgame
+Album: Out Of Time
+Track: 5
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461703
+added: 1769466376
+song_end
+song_begin: 06-R.E.M.-Shiny Happy People.mp3
+Time: 226.266
+Artist: R.E.M.
+Title: Shiny Happy People
+Album: Out Of Time
+Track: 6
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461747
+added: 1769466376
+song_end
+song_begin: 07-R.E.M.-Belong.mp3
+Time: 246.96
+Artist: R.E.M.
+Title: Belong
+Album: Out Of Time
+Track: 7
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461802
+added: 1769466376
+song_end
+song_begin: 08-R.E.M.-Half a World Away.mp3
+Time: 208.306
+Artist: R.E.M.
+Title: Half A World Away
+Album: Out Of Time
+Track: 8
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461606
+added: 1769466376
+song_end
+song_begin: 09-R.E.M.-Texarkana.mp3
+Time: 220.026
+Artist: R.E.M.
+Title: Texarkana
+Album: Out Of Time
+Track: 9
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461584
+added: 1769466376
+song_end
+song_begin: 10-R.E.M.-Country Feedback.mp3
+Time: 249.70600000000002
+Artist: R.E.M.
+Title: Country Feedback
+Album: Out Of Time
+Track: 10
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461834
+added: 1769466376
+song_end
+song_begin: 11-R.E.M.-Me in Honey.mp3
+Time: 246.293
+Artist: R.E.M.
+Title: Me In Honey
+Album: Out Of Time
+Track: 11
+Date: 1991
+Genre: Rock
+Format: 44100:16:2
+mtime: 1769461564
+added: 1769466376
+song_end
+end: Out of Time (1991)
 directory: Parachutes
 mtime: 1728423136
 begin: Parachutes
@@ -12200,6 +13634,311 @@ mtime: 1725712448
 added: 1750582491
 song_end
 end: Phoneboy
+directory: Pink Pantheress - 2025 - Fancy That
+mtime: 1767179068
+begin: Pink Pantheress - 2025 - Fancy That
+song_begin: PinkPantheress - Fancy That - 01 - Illegal.mp3
+Time: 149.939
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Illegal
+Album: Fancy That
+Track: 1
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767178912
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 02 - Girl Like Me.mp3
+Time: 145.076
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Girl Like Me
+Album: Fancy That
+Track: 2
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767178937
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 03 - Tonight.mp3
+Time: 177.181
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Tonight
+Album: Fancy That
+Track: 3
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767178969
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 04 - Stars.mp3
+Time: 142.121
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Stars
+Album: Fancy That
+Track: 4
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767178994
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 05 - Intermission.mp3
+Time: 24.521
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Intermission
+Album: Fancy That
+Track: 5
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767178998
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 06 - Noises.mp3
+Time: 105.048
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Noises
+Album: Fancy That
+Track: 6
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767179017
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 07 - Nice to Know You.mp3
+Time: 170.75
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Nice to Know You
+Album: Fancy That
+Track: 7
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767179041
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 08 - Stateside.mp3
+Time: 168.318
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Stateside
+Album: Fancy That
+Track: 8
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767179067
+added: 1768495519
+song_end
+song_begin: PinkPantheress - Fancy That - 09 - Romeo.mp3
+Time: 154.488
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Romeo
+Album: Fancy That
+Track: 9
+Date: 2025
+Disc: 1
+Format: 44100:16:2
+mtime: 1767179092
+added: 1768495519
+song_end
+end: Pink Pantheress - 2025 - Fancy That
+directory: Pixies - [1989] Doolittle
+mtime: 1770553990
+begin: Pixies - [1989] Doolittle
+song_begin: 01 - Debaser.mp3
+Time: 175.964
+Artist: Pixies
+Title: Debaser
+Album: Doolittle
+Track: 1
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553902
+added: 1770554024
+song_end
+song_begin: 02 - Tame.mp3
+Time: 118.44800000000001
+Artist: Pixies
+Title: Tame
+Album: Doolittle
+Track: 2
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553915
+added: 1770554024
+song_end
+song_begin: 03 - Wave Of Multilation.mp3
+Time: 127.486
+Artist: Pixies
+Title: Wave Of Multilation
+Album: Doolittle
+Track: 3
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553931
+added: 1770554024
+song_end
+song_begin: 04 - I Bleed.mp3
+Time: 157.654
+Artist: Pixies
+Title: I Bleed
+Album: Doolittle
+Track: 4
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553921
+added: 1770554024
+song_end
+song_begin: 05 - Here Comes Your Man.mp3
+Time: 204.513
+Artist: Pixies
+Title: Here Comes Your Man
+Album: Doolittle
+Track: 5
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553926
+added: 1770554024
+song_end
+song_begin: 06 - Dead.mp3
+Time: 144.15
+Artist: Pixies
+Title: Dead
+Album: Doolittle
+Track: 6
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553929
+added: 1770554024
+song_end
+song_begin: 07 - Monkey Gone To Heaven.mp3
+Time: 180.17000000000002
+Artist: Pixies
+Title: Monkey Gone To Heaven
+Album: Doolittle
+Track: 7
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553935
+added: 1770554024
+song_end
+song_begin: 08 - Mr. Grieves.mp3
+Time: 128.739
+Artist: Pixies
+Title: Mr. Grieves
+Album: Doolittle
+Track: 8
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553937
+added: 1770554024
+song_end
+song_begin: 09 - Crackity Jones.mp3
+Time: 87.104
+Artist: Pixies
+Title: Crackity Jones
+Album: Doolittle
+Track: 9
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553939
+added: 1770554024
+song_end
+song_begin: 10 - La La Love you.mp3
+Time: 166.352
+Artist: Pixies
+Title: La La Love you
+Album: Doolittle
+Track: 10
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553945
+added: 1770554024
+song_end
+song_begin: 11 - No. 13 Baby.mp3
+Time: 234.446
+Artist: Pixies
+Title: No. 13 Baby
+Album: Doolittle
+Track: 11
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553954
+added: 1770554024
+song_end
+song_begin: 12 - There Goes My Gun.mp3
+Time: 112.336
+Artist: Pixies
+Title: There Goes My Gun
+Album: Doolittle
+Track: 12
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553949
+added: 1770554024
+song_end
+song_begin: 13 - Hey.mp3
+Time: 214.256
+Artist: Pixies
+Title: Hey
+Album: Doolittle
+Track: 13
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553957
+added: 1770554024
+song_end
+song_begin: 14 - Silver.mp3
+Time: 148.067
+Artist: Pixies
+Title: Silver
+Album: Doolittle
+Track: 14
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553960
+added: 1770554024
+song_end
+song_begin: 15 - Gouge Away.mp3
+Time: 166.195
+Artist: Pixies
+Title: Gouge Away
+Album: Doolittle
+Track: 15
+Date: 1989
+Genre: Rock
+Format: 44100:16:2
+mtime: 1770553963
+added: 1770554024
+song_end
+end: Pixies - [1989] Doolittle
 directory: Pop Smoke
 mtime: 1744816422
 begin: Pop Smoke
@@ -12613,120 +14352,6 @@ mtime: 1736507329
 added: 1750582492
 song_end
 end: Raving In The Studio
-directory: Read The Room
-mtime: 1728494154
-begin: Read The Room
-song_begin: Read The Room.m4a
-Time: 204.02
-Artist: Pleaser
-Album: Read The Room
-Title: Read The Room
-Track: 1
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Always Lookin In.m4a
-Time: 192.016
-Artist: Pleaser
-Album: Read The Room
-Title: Always Lookin In
-Track: 2
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: The Trouble.m4a
-Time: 176.412
-Artist: Pleaser
-Album: Read The Room
-Title: The Trouble
-Track: 3
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Give Me A Break.m4a
-Time: 157.81300000000002
-Artist: Pleaser
-Album: Read The Room
-Title: Give Me A Break
-Track: 4
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Time Moves Slow.m4a
-Time: 174.02
-Artist: Pleaser
-Album: Read The Room
-Title: Time Moves Slow
-Track: 5
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Shake Me Up.m4a
-Time: 139.817
-Artist: Pleaser
-Album: Read The Room
-Title: Shake Me Up
-Track: 6
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Song For Ethan.m4a
-Time: 150.011
-Artist: Pleaser
-Album: Read The Room
-Title: Song For Ethan
-Track: 7
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: I Think I'm Gonna Die.m4a
-Time: 155.375
-Artist: Pleaser
-Album: Read The Room
-Title: I Think I'm Gonna Die
-Track: 8
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Degrade.m4a
-Time: 208.804
-Artist: Pleaser
-Album: Read The Room
-Title: Degrade
-Track: 9
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-song_begin: Waiting For It.m4a
-Time: 165.15
-Artist: Pleaser
-Album: Read The Room
-Title: Waiting For It
-Track: 10
-Date: 20240502
-Format: 44100:f:2
-mtime: 1728494248
-added: 1750582493
-song_end
-end: Read The Room
 directory: saintmoteltelevision
 mtime: 1726869026
 begin: saintmoteltelevision
@@ -14028,8 +15653,80 @@ added: 1750582492
 song_end
 end: Sunset Ballad
 directory: Surfer Rosa
-mtime: 1752967563
+mtime: 1770553911
 begin: Surfer Rosa
+song_begin: 01 Bone Machine.mp3
+Time: 183.346
+Artist: Pixies
+Title: Bone Machine
+Album: Surfer Rosa
+Track: 1
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553861
+added: 1770553939
+song_end
+song_begin: 02 Break My Body.mp3
+Time: 126.2
+Artist: Pixies
+Title: Break My Body
+Album: Surfer Rosa
+Track: 2
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553865
+added: 1770553939
+song_end
+song_begin: 03 Something Against You.mp3
+Time: 108.413
+Artist: Pixies
+Title: Something Against You
+Album: Surfer Rosa
+Track: 3
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553867
+added: 1770553939
+song_end
+song_begin: 04 Broken Face.mp3
+Time: 90.64
+Artist: Pixies
+Title: Broken Face
+Album: Surfer Rosa
+Track: 4
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553870
+added: 1770553939
+song_end
+song_begin: 05 Gigantic.mp3
+Time: 235.70600000000002
+Artist: Pixies
+Title: Gigantic
+Album: Surfer Rosa
+Track: 5
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553876
+added: 1770553939
+song_end
+song_begin: 06 River Euphrates.mp3
+Time: 152.906
+Artist: Pixies
+Title: River Euphrates
+Album: Surfer Rosa
+Track: 6
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553880
+added: 1770553939
+song_end
 song_begin: 07 Where Is My Mind.mp3
 Time: 234.973
 Artist: Pixies
@@ -14039,8 +15736,80 @@ Track: 7
 Date: 1988
 Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
 Format: 44100:16:2
-mtime: 1752967567
+mtime: 1770553887
 added: 1752967595
+song_end
+song_begin: 08 Cactus.mp3
+Time: 136.613
+Artist: Pixies
+Title: Cactus
+Album: Surfer Rosa
+Track: 8
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553892
+added: 1770553939
+song_end
+song_begin: 09 Tony's Theme.mp3
+Time: 112.96000000000001
+Artist: Pixies
+Title: Tony's Theme
+Album: Surfer Rosa
+Track: 9
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553895
+added: 1770553939
+song_end
+song_begin: 10 Oh My Golly!.mp3
+Time: 153.16
+Artist: Pixies
+Title: Oh My Golly!
+Album: Surfer Rosa
+Track: 10
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553899
+added: 1770553939
+song_end
+song_begin: 11 Vamos.mp3
+Time: 262.786
+Artist: Pixies
+Title: Vamos
+Album: Surfer Rosa
+Track: 11
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553907
+added: 1770553939
+song_end
+song_begin: 12 I'm Amazed.mp3
+Time: 103.266
+Artist: Pixies
+Title: I'm Amazed
+Album: Surfer Rosa
+Track: 12
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553910
+added: 1770553939
+song_end
+song_begin: 13 Brick Is Red.mp3
+Time: 122.44
+Artist: Pixies
+Title: Brick Is Red
+Album: Surfer Rosa
+Track: 13
+Date: 1988
+Genre: Indie Rock;Alternative Rock;Noise Rock;Post-Hardcore
+Format: 44100:16:2
+mtime: 1770553914
+added: 1770553939
 song_end
 end: Surfer Rosa
 directory: Sweet Boy
@@ -14237,6 +16006,28 @@ mtime: 1610495572
 added: 1750582493
 song_end
 end: Switch
+directory: Talk That Talk
+mtime: 1770398442
+begin: Talk That Talk
+song_begin: 03 We Found Love (feat. Calvin Harris).m4a
+Time: 215.29500000000002
+Artist: Rihanna
+Album: Talk That Talk
+Title: We Found Love (feat. Calvin Harris)
+Track: 3
+Genre: Pop
+Date: 2011
+Composer: Calvin Harris
+Disc: 1
+AlbumArtist: Rihanna
+AlbumSort: Talk That Talk
+ArtistSort: Rihanna
+TitleSort: We Found Love (feat. Calvin Harris)
+Format: 44100:f:2
+mtime: 1770398473
+added: 1770553939
+song_end
+end: Talk That Talk
 directory: Teenage Dream - The Complete Confection
 mtime: 1759770757
 begin: Teenage Dream - The Complete Confection
@@ -15961,6 +17752,21 @@ mtime: 1701705180
 added: 1750582490
 song_end
 end: Unity
+directory: Unknown Album
+mtime: 1770397825
+begin: Unknown Album
+song_begin: 01 Call Me Maybe.m4a
+Time: 188.33700000000002
+Artist: Carly Rae Jepsen
+Title: 01 Call Me Maybe
+Genre: Other
+Composer: Carly Rae Jepsen
+AlbumArtist: Carly Rae Jepsen
+Format: 44100:f:2
+mtime: 1770397868
+added: 1770398336
+song_end
+end: Unknown Album
 directory: VANITY
 mtime: 1726903172
 begin: VANITY
@@ -16736,12 +18542,6 @@ Format: 48000:16:2
 mtime: 1720557638
 added: 1750582491
 song_end
-song_begin: The Search.mp3
-Time: 248.09
-Format: 48000:16:2
-mtime: 1720555965
-added: 1750582491
-song_end
 song_begin: The Vamps - Somebody To You _ Letra español e inglés.mp3
 Time: 185.498
 Format: 48000:16:2
@@ -16883,6 +18683,17 @@ Date: 2022
 AlbumArtist: NOTION
 Format: 44100:16:2
 mtime: 1744367112
+added: 1750582491
+song_end
+song_begin: The Search.mp3
+Time: 248.159
+Artist: NF
+Title: The Search
+Album: The Search
+Track: 1
+Date: 2019
+Format: 48000:16:2
+mtime: 1770137475
 added: 1750582491
 song_end
 song_begin: 1. KSI - Thick Of It (feat. Trippie Redd).flac
@@ -17243,13 +19054,13 @@ begin: Weathered (2001 US Wind-Up CD Pressing)
 song_begin: 05 One Last Breath.m4a
 Time: 238.24
 Artist: Creed
-Album: Weathered (2001 US Wind-Up CD Pressing) (16/44)
+Album: Weathered
 Title: One Last Breath
 Track: 5
 Genre: Rock
 Date: 2001
 Format: 44100:16:2
-mtime: 1764618637
+mtime: 1767179292
 added: 1764618721
 song_end
 end: Weathered (2001 US Wind-Up CD Pressing)

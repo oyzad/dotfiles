@@ -38057,3 +38057,1664 @@ Note: Hit end of (available) data during resync.
 2025-12-16T21:58:13 player: played "The Backseat Lovers [2019] When We Were Friends @128/09 - Sinking Ship.mp3"
 2025-12-16T21:58:29 client: [127.0.0.1:50018] malformed command "GET / HTTP/1.1"
 2025-12-16T21:58:30 client: [127.0.0.1:50020] malformed command "GET / HTTP/1.1"
+2025-12-31T11:04:55 player: played "Skepta Fred/03 - Last 1s Left.m4a"
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:05:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:52 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:06:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2025-12-31T11:08:24 update: added NA/Money For Nothing (acoustic cover).m4a
+2025-12-31T11:08:24 update: added NA/Bob Marley (acoustic cover).m4a
+2025-12-31T11:08:24 update: added NA/Red Hot Chili Peppers (acoustic cover).m4a
+2025-12-31T11:08:24 update: added NA/The Smiths (acoustic cover).m4a
+2025-12-31T11:08:24 update: added NA/Under the bridge Live acoustic.m4a
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-12-31T11:08:25 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2025-12-31T11:08:25 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2025-12-31T11:08:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-12-31T11:08:25 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2025-12-31T11:08:25 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-12-31T11:08:25 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2025-12-31T11:08:25 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-12-31T11:08:25 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2025-12-31T11:08:25 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2025-12-31T11:08:25 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2025-12-31T11:08:25 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2025-12-31T11:08:25 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2025-12-31T11:08:25 update: updating Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a
+2025-12-31T11:08:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:08:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:09:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:12:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:13:28 player: played "Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a"
+2025-12-31T11:13:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:13:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T11:17:16 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2025-12-31T12:02:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-31T12:02:46 player: played "Green Day/American Idiot/Boulevard of Broken Dreams.mp3"
+2026-01-01T11:25:24 player: played "Californication/03 Red Hot Chili Peppers - Scar Tissue.m4a"
+2026-01-01T11:30:36 player: played "By the Way/04 Dosed.mp3"
+2026-01-02T15:27:08 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T15:31:12 player: played "various artists/1-02 - Creep.flac"
+2026-01-02T17:00:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:01:12 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:05:11 player: played "Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a"
+2026-01-02T17:09:46 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-02T17:10:23 player: played "By the Way/04 Dosed.mp3"
+2026-01-02T17:16:21 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-02T17:16:44 player: played "Sick Music 2/Directions.m4a"
+2026-01-02T17:20:04 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-02T17:24:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:24:58 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-02T17:24:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:24:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:25:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:25:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:25:02 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:25:02 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:07 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:07 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-02T17:25:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:07 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:07 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:07 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:07 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:07 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:07 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:07 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:07 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:07 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-02T17:25:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-02T17:25:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-02T17:25:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-02T17:25:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-02T17:29:32 player: played "NA/Under the bridge Live acoustic.m4a"
+2026-01-02T17:31:02 player: played "NA/Money For Nothing (acoustic cover).m4a"
+2026-01-03T10:24:02 player: played "Men At Work/01 - Down Under.flac"
+2026-01-03T10:25:39 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-03T10:29:54 player: played "Californication/04 Red Hot Chili Peppers - Otherside.m4a"
+2026-01-03T17:07:47 player: played "By the Way/01 By the Way.mp3"
+2026-01-03T17:12:06 player: played "By the Way/02 Universally Speaking.mp3"
+2026-01-05T15:42:54 player: played "By the Way/03 This is the Place.mp3"
+2026-01-05T15:48:06 player: played "By the Way/04 Dosed.mp3"
+2026-01-05T15:52:44 player: played "By the Way/05 Don't Forget Me.mp3"
+2026-01-05T15:56:37 player: played "By the Way/06 The Zephyr Song.mp3"
+2026-01-05T16:01:06 player: played "By the Way/07 Can't Stop.mp3"
+2026-01-05T16:04:20 player: played "By the Way/08 I Could Die for You.mp3"
+2026-01-05T16:09:15 player: played "By the Way/09 Midnight.mp3"
+2026-01-05T16:13:00 player: played "By the Way/10 Throw Away Your Television.mp3"
+2026-01-12T18:11:05 player: played "By the Way/11 Cabron.mp3"
+2026-01-12T18:16:23 player: played "By the Way/12 Tear.mp3"
+2026-01-12T18:19:51 player: played "By the Way/13 On Mercury.mp3"
+2026-01-12T18:23:29 player: played "By the Way/14 Minor Thing.mp3"
+2026-01-12T18:27:45 player: played "By the Way/15 Warm Tape.mp3"
+2026-01-12T18:33:52 player: played "By the Way/16 Venice Queen.mp3"
+2026-01-13T20:22:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:22:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:22:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:22:54 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:22:54 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:22:55 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2026-01-13T20:23:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:23:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:23:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:23:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:23:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-13T20:26:47 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2026-01-13T20:31:10 player: played "Green Day/American Idiot/Boulevard of Broken Dreams.mp3"
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-15T16:45:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:19 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:19 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-15T16:45:19 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-15T16:45:19 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 08 - Dawn.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 04 - One at a Time.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 02 - Swim and Sleep (Like a Shark).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 07 - Monki.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 03 - So Good at Being in Trouble.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 09 - Faded in the Morning.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 05 - The Opposite of Afternoon.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 01 - From the Sun.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 06 - No Need for a Leader.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-01-15T16:45:19 update: added II (2013)/Unknown Mortal Orchestra - II - 10 - Secret Xtians.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 09 - Romeo.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 01 - Illegal.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 06 - Noises.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 07 - Nice to Know You.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 03 - Tonight.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 05 - Intermission.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 02 - Girl Like Me.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 08 - Stateside.mp3
+2026-01-15T16:45:19 update: added Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 04 - Stars.mp3
+2026-01-15T16:45:19 update: added 2016 - Guilty Pleasure/04 - Life Goes On.flac
+2026-01-15T16:45:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-15T16:45:20 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-15T16:45:20 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-15T16:45:20 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-15T16:45:20 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-15T16:45:20 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-15T16:45:20 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-15T16:45:20 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-15T16:45:20 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-15T16:45:20 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-15T16:45:28 player: played "Green Day/Dookie/Basket Case.mp3"
+2026-01-15T16:50:28 player: played "2016 - Guilty Pleasure/04 - Life Goes On.flac"
+2026-01-15T16:52:57 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 01 - Illegal.mp3"
+2026-01-15T16:55:31 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 09 - Romeo.mp3"
+2026-01-16T13:23:19 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 07 - Nice to Know You.mp3"
+2026-01-16T13:27:17 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 01 - Illegal.mp3"
+2026-01-16T13:29:42 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 02 - Girl Like Me.mp3"
+2026-01-16T13:32:39 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 03 - Tonight.mp3"
+2026-01-16T13:35:01 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 04 - Stars.mp3"
+2026-01-16T13:35:25 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 05 - Intermission.mp3"
+2026-01-16T13:37:10 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 06 - Noises.mp3"
+2026-01-16T13:40:01 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 07 - Nice to Know You.mp3"
+2026-01-17T10:21:29 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 08 - Stateside.mp3"
+2026-01-17T10:23:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T10:24:03 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 09 - Romeo.mp3"
+2026-01-17T10:24:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T10:24:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T10:27:51 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2026-01-17T11:03:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 player: played "various artists/1-02 - Creep.flac"
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:18:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-17T11:22:18 player: played "Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a"
+2026-01-17T11:26:13 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-01-17T11:29:19 player: played "NEVER ENOUGH/10 - Turnstile - SEEIN’ STARS.mp3"
+2026-01-17T11:35:13 player: played "2016 - Guilty Pleasure/04 - Life Goes On.flac"
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-17T11:35:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:43 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:43 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-17T11:35:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-17T11:35:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-17T11:35:44 update: added 1995 - The Bends/11 - Sulk.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/04 - Fake Plastic Trees.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/12 - Street Spirit (Fade Out).mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/09 - Bullet Proof...I Wish I Was.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/07 - Just.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/10 - Black Star.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/02 - The Bends.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/01 - Planet Telex.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/05 - Bones.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/03 - High And Dry.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/08 - My Iron Lung.mp3
+2026-01-17T11:35:44 update: added 1995 - The Bends/06 - (Nice Dream).mp3
+2026-01-17T11:35:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207537.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-17T11:35:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-17T11:35:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207533.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-17T11:35:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-17T11:35:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207535.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-17T11:35:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-17T11:35:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 207525.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-17T11:35:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-17T11:35:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-17T11:35:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-17T11:41:38 player: played "1995 - The Bends/01 - Planet Telex.mp3"
+2026-01-17T11:45:44 player: played "1995 - The Bends/02 - The Bends.mp3"
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 update: added Niko B /singles/grip-and-happy-pharrell-and-harlem-8.mp3
+2026-01-20T16:29:36 update: added Niko B /singles/rucksack-yb-5.mp3
+2026-01-20T16:29:36 update: added Niko B /singles/subway-surfers-loading-2.mp3
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-20T16:29:37 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-20T16:29:37 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-20T16:29:37 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-20T16:29:37 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-20T16:29:37 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:29:37 update: removing age tapes/push start - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/ordinary - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/not afraid at all.mp3
+2026-01-20T16:29:37 update: removing age tapes/not afraid at all - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/mr. sunshine.mp3
+2026-01-20T16:29:37 update: removing age tapes/mr. sunshine - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/love on u - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/leave a message - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/la di da (acoustic) - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/horror story.mp3
+2026-01-20T16:29:37 update: removing age tapes/horror story - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/green eyes - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/gold plated - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/day by day - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/daisy - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/careless - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/call it even.mp3
+2026-01-20T16:29:37 update: removing age tapes/call it even - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/bonnie & clyde - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/bedroom floor - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/bad 4 me.mp3
+2026-01-20T16:29:37 update: removing age tapes/4 walls (with Sarcastic Sounds) - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing Read The Room/Waiting For It.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Degrade.m4a
+2026-01-20T16:29:37 update: removing Read The Room/I Think I'm Gonna Die.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Song For Ethan.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Shake Me Up.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Time Moves Slow.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Give Me A Break.m4a
+2026-01-20T16:29:37 update: removing Read The Room/The Trouble.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Always Lookin In.m4a
+2026-01-20T16:29:37 update: removing Read The Room/Read The Room.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/13 - IN THE FUTURE.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/12 - ripping my tshirt.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/11 - I'll Keep Thinking I'm Important!.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/10 - baby boy Interlude.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/09 - alone, in her mind.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/08 - The Boxes Are Bumming me Out.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/07 - baby, Was It Me？.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/06 - always online.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/05 - pipe down.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/04 - Broken People Breaking Hearts.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/03 - NEWSFLASH! BRAINBLAST!.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/02 - Looking For The Danger.m4a
+2026-01-20T16:29:37 update: removing Album - Let's Dance Until We Get Scared/01 - Let's Dance Until We Get Scared.m4a
+2026-01-20T16:29:37 update: removing age tapes/without me - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/viisine - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/trippin - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/toxic crush - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/the ringer.mp3
+2026-01-20T16:29:37 update: removing age tapes/the other side - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/starstruck (demo) - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/starstruck - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/slow it down (u ain’t gotta move like that) - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/serotonin highs (feat. Allen Haley) - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/sabrina - Arden Jones.mp3
+2026-01-20T16:29:37 update: removing age tapes/run wild - Arden Jones.mp3
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-20T16:30:30 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-20T16:30:30 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-20T16:30:30 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-20T16:30:30 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-20T16:30:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-20T16:30:30 update: added In Rainbows/01 15 Step.mp3
+2026-01-20T16:30:30 update: added In Rainbows/05 All I Need.mp3
+2026-01-20T16:30:30 update: added In Rainbows/09 Jigsaw Falling Into Place.mp3
+2026-01-20T16:30:30 update: added In Rainbows/03 Nude.mp3
+2026-01-20T16:30:30 update: added In Rainbows/06 Faust Arp.mp3
+2026-01-20T16:30:30 update: added In Rainbows/15 Step.mp3
+2026-01-20T16:30:30 update: added In Rainbows/07 Reckoner.mp3
+2026-01-20T16:30:30 update: added In Rainbows/08 House of Cards.mp3
+2026-01-20T16:30:30 update: added In Rainbows/04 Weird FishesArpeggi.mp3
+2026-01-20T16:30:30 update: added In Rainbows/02 Bodysnatchers.mp3
+2026-01-20T16:30:30 update: added In Rainbows/10 Videotape.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/01 Radiohead - Airbag.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/02 Radiohead - Paranoid Android.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/07 Radiohead - Fitter Happier.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/06 Radiohead - Karma Police.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/04 Radiohead - Exit Music (For a Film).mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/11 Radiohead - Lucky.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/12 Radiohead - The Tourist.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/03 Radiohead - Subterranean Homesick Alien.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/08 Radiohead - Electioneering.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/10 Radiohead - No Surprises.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/05 Radiohead - Let Down.mp3
+2026-01-20T16:30:30 update: added (1997) OK Computer/09 Radiohead - Climbing Up the Walls.mp3
+2026-01-20T16:30:49 player: played "1995 - The Bends/03 - High And Dry.mp3"
+2026-01-20T16:35:08 player: played "various artists/1-02 - Creep.flac"
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:15 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:04:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:04:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-23T16:04:16 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-23T16:04:16 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-23T16:04:16 update: added CUCK/YE - HH (Hooligan version).mp3
+2026-01-23T16:04:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:04:47 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:04:47 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-23T16:04:47 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-23T16:04:47 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-23T16:04:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x509270df at offset 886760.
+Note: Trying to resync...
+Note: Skipped 319 bytes in input.
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:05:38 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-23T16:05:38 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-23T16:05:38 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-23T16:05:38 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-23T16:05:38 update: updating CUCK/YE - HH (Hooligan version).mp3
+2026-01-23T16:05:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+
+Warning: Encountered more data after announced end of track (frame 5952/5952). Frankenstein!
+2026-01-23T16:07:39 player: played "CUCK/YE - HH (Hooligan version).mp3"
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/03 Breaking The Girl.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/14 Greeting Song.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/15 My Lovely Man.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/08 Righteous And The Wicked.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/09 Give It Away.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/17 They're Red Hot.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/02 If You Have To Ask.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/10 Blood Sugar Sex Magik.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/12 Naked In The Rain.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/07 Mellowship Slinky In B Major.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/16 Sir Psycho Sexy.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/01 Power Of Equality.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/11 Under The Bridge.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/05 Suck My Kiss.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/06 I Could Have Lied.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/04 Funky Monks.mp3
+2026-01-26T22:26:16 update: added Blood Sugar Sex Magik/13 Apache Rose Peacock.mp3
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:16 update: added covers/cranberries-zombies-instruments-medievaux.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/03-R.E.M.-Low.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/06-R.E.M.-Shiny Happy People.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/07-R.E.M.-Belong.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/02-R.E.M.-Losing My Religion.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/10-R.E.M.-Country Feedback.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/09-R.E.M.-Texarkana.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/04-R.E.M.-Near Wild Heaven.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/08-R.E.M.-Half a World Away.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/05-R.E.M.-Endgame.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/01-R.E.M.-Radio Song.mp3
+2026-01-26T22:26:16 update: added Out of Time (1991)/11-R.E.M.-Me in Honey.mp3
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-26T22:26:16 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-26T22:26:17 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-26T22:26:17 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-26T22:26:17 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/03 - Brother.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/09 - Chamber of Reflection.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/10 - Go Easy.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/08 - Treat Her Better.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/02 - Blue Boy.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/05 - Goodbye Weekend.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/04 - Let Her Go.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/06 - Let My Baby Stay.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/11 - Jonny's Odyssey.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/07 - Passing Out Pieces.mp3
+2026-01-26T22:26:17 update: added mac de marco - salad days (2014)/01 - Salad Days.mp3
+2026-01-26T22:26:17 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-26T22:26:17 update: added Jar of Flies/01 Rotten Apple.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/03 I Stay Away.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/06 Don't Follow.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/05 Whale & Wasp.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/04 No Excuses.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/02 Nutshell.mp3
+2026-01-26T22:26:17 update: added Jar of Flies/07 Swing On This.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 12 - Angry Chair.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 09 - God Smack.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 10 - Iron Gland.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 07 - Junkhead.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 03 - Rain When I Die.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 05 - Sickman.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 11 - Hate to Feel.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 04 - Down in a Hole.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 01 - Them Bones.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 06 - Rooster.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 08 - Dirt.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 13 - Would.mp3
+2026-01-26T22:26:17 update: added Dirt (1992)/Alice in Chains - 02 - Dam That River.mp3
+2026-01-26T22:32:02 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-28T14:17:55 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-28T14:17:55 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-28T14:17:55 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-28T14:17:55 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-28T14:17:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-28T14:18:04 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-01-28T14:18:04 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-01-28T14:18:04 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-01-28T14:18:04 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-01-28T14:18:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-01-28T14:21:08 player: played "1991 - Blood Sugar Sex Magik/11 - Under The Bridge.mp3"
+2026-01-28T14:24:46 player: played "Blood Sugar Sex Magik/05 Suck My Kiss.mp3"
+2026-01-28T14:29:15 player: played "Out of Time (1991)/02-R.E.M.-Losing My Religion.mp3"
+2026-01-28T14:32:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:32:25 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:33:07 player: played "mac de marco - salad days (2014)/09 - Chamber of Reflection.mp3"
+2026-01-28T14:33:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:33:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:34:43 player: played "Who Really Cares/Cigarettes out the Window.m4a"
+2026-01-28T14:35:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:35:13 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:35:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:35:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:35:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:35:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:40:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:40:04 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:40:27 player: played "Blonde/Nikes.m4a"
+2026-01-28T14:40:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:40:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:44:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:44:14 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:44:36 player: played "Blonde/Ivy.m4a"
+2026-01-28T14:44:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:44:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:47:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:47:22 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:47:41 player: played "Blonde/Pink + White.m4a"
+2026-01-28T14:47:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:47:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:48:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:48:48 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:49:08 player: played "Blonde/Be Yourself.m4a"
+2026-01-28T14:49:08 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:49:08 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:53:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:53:05 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:53:25 player: played "Blonde/Solo.m4a"
+2026-01-28T14:53:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:53:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:56:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:56:11 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T14:56:30 player: played "Blonde/Skyline To.m4a"
+2026-01-28T14:56:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T14:56:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:00:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:00:19 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T15:00:40 player: played "Blonde/Self Control.m4a"
+2026-01-28T15:00:40 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:00:40 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:01:26 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:01:26 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T15:01:46 player: played "Blonde/Good Guy.m4a"
+2026-01-28T15:01:46 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:01:46 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:06:32 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:06:32 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T15:06:54 player: played "Blonde/Nights.m4a"
+2026-01-28T15:06:54 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:06:54 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:07 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T15:07:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:07:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:09:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-28T15:09:24 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T15:09:37 player: played "Blonde/Pretty Sweet.m4a"
+2026-01-28T15:09:41 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T16:28:28 player: played "covers/karma police - radiohead (cover) by alicia widar.m4a"
+2026-01-28T16:29:30 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T16:31:31 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T16:31:49 player: played "covers/dumb - nirvana (cover) by alicia widar.m4a"
+2026-01-28T16:35:38 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-28T16:35:55 player: played "covers/everlong - foo fighters (cover) by alicia widar.m4a"
+2026-01-29T16:09:20 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-29T16:46:30 player: played "covers/island in the sun - weezer (cover) by alicia widar.m4a"
+2026-01-29T16:50:32 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-29T16:50:51 player: played "covers/linger - the cranberries (cover) by alicia widar.m4a"
+2026-01-29T16:52:41 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-29T16:53:02 player: played "covers/washing machine heart - mitski (cover) by alicia widar.m4a"
+2026-01-30T12:28:33 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-01-30T12:28:52 player: played "covers/where is my mind？ - pixies (cover) by alicia widar.m4a"
+2026-01-30T12:32:29 player: played "covers/zombie - the cranberries (cover) by alicia widar.m4a"
+2026-02-02T17:19:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-02T17:19:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-02T17:19:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-02T17:19:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-02T17:19:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-02T17:23:31 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2026-02-03T15:56:33 player: played "West Ryder Pauper Lunatic Asylum/02 - Where Did All the Love Go_.mp3"
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-03T16:51:21 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-03T16:51:21 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-02-03T16:51:21 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-02-03T16:51:21 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-02-03T16:51:21 update: updating various artists/The Search.mp3
+2026-02-03T16:51:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-03T16:55:36 player: played "various artists/The Search.mp3"
+2026-02-03T16:55:38 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-05T16:34:08 player: played "By the Way/06 The Zephyr Song.mp3"
+2026-02-05T16:38:37 player: played "By the Way/07 Can't Stop.mp3"
+2026-02-05T16:41:33 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-05T16:42:15 player: played "By the Way/01 By the Way.mp3"
+2026-02-05T16:47:37 player: played "Californication/06 Red Hot Chili Peppers - Californication.m4a"
+2026-02-05T16:57:22 exception: Not playing
+2026-02-05T16:57:45 exception: Not playing
+2026-02-06T15:23:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 player: played "various artists/1-02 - Creep.flac"
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:24:42 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:28:40 player: played "Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a"
+2026-02-06T15:32:35 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-02-06T15:34:31 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-06T15:35:11 player: played "CUCK/YE - HH (Hooligan version).mp3"
+2026-02-06T15:37:25 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 player: played "Winnebago/Winnebago.m4a"
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:49 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:49 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:37:49 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T15:41:29 player: played "CD1/19. Katy Perry - Hot N Cold.m4a"
+2026-02-06T15:45:46 player: played "1995 - The Bends/03 - High And Dry.mp3"
+2026-02-06T15:49:41 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-02-06T16:26:55 player: played "(1997) OK Computer/12 Radiohead - The Tourist.mp3"
+2026-02-06T16:30:59 player: played "Loud/S&M.mp3"
+2026-02-06T16:32:55 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T16:33:34 player: played "CUCK/YE - HH (Hooligan version).mp3"
+2026-02-06T16:37:12 player: played "Californication/03 Red Hot Chili Peppers - Scar Tissue.m4a"
+2026-02-06T16:41:07 player: played "various artists/1-02 - Creep.flac"
+2026-02-06T17:04:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:04:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:04:24 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:04:24 player: played "Green Day/American Idiot/Boulevard of Broken Dreams.mp3"
+2026-02-06T17:11:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:34 player: played "Loud/S&M.mp3"
+2026-02-06T17:12:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:12:35 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T17:18:56 update: added Unknown Album/01 Call Me Maybe.m4a
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:18:56 update: added JLO/04-Jennifer Lopez-On the Floor.mp3
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-06T17:18:56 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-06T17:18:56 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-02-06T17:18:56 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-02-06T17:18:56 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-02-06T17:18:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:19:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T17:20:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:27:28 player: played "CD1/19. Katy Perry - Hot N Cold.m4a"
+2026-02-06T22:29:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:29:13 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-06T22:29:57 player: played "Pink Pantheress - 2025 - Fancy That/PinkPantheress - Fancy That - 01 - Illegal.mp3"
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:29:58 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:33:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:33:14 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-06T22:33:34 player: played "Teenage Dream - The Complete Confection/14 Part of Me.m4a"
+2026-02-06T22:33:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:33:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:37:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:37:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:37:05 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-06T22:37:28 player: played "Teenage Dream - The Complete Confection/03 California Gurls (feat. Snoop Dogg).m4a"
+2026-02-06T22:37:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:37:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Detected creation time before 1970, parsing as unix timestamp.
+2026-02-06T22:40:37 player: played "Unknown Album/01 Call Me Maybe.m4a"
+2026-02-06T22:45:29 player: played "JLO/04-Jennifer Lopez-On the Floor.mp3"
+2026-02-06T22:46:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:46:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:46:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:46:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:46:04 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T22:49:51 player: played "(2012) Colourmeinkindness/Covet.m4a"
+2026-02-06T22:53:36 player: played "Business As Usual/03 Down Under.mp3"
+2026-02-06T22:57:58 player: played "Green Day/American Idiot/Boulevard of Broken Dreams.mp3"
+2026-02-06T23:00:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 player: played "Green Day/Dookie/Basket Case.mp3"
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:00:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:04:58 player: played "Weathered (2001 US Wind-Up CD Pressing)/05 One Last Breath.m4a"
+2026-02-06T23:08:18 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-06T23:09:04 player: played "Business As Usual/13 Who Can It Be Now- [Live].mp3"
+2026-02-06T23:12:42 player: played "Californication/03 Red Hot Chili Peppers - Scar Tissue.m4a"
+2026-02-06T23:16:37 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:19 update: updating Surfer Rosa/07 Where Is My Mind.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/12 I'm Amazed.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/11 Vamos.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/05 Gigantic.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/03 Something Against You.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/10 Oh My Golly!.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/02 Break My Body.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/08 Cactus.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/01 Bone Machine.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/04 Broken Face.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/06 River Euphrates.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/09 Tony's Theme.mp3
+2026-02-08T12:32:19 update: added Surfer Rosa/13 Brick Is Red.mp3
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-08T12:32:19 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-08T12:32:19 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-02-08T12:32:19 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-02-08T12:32:19 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-02-08T12:32:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-02-08T12:32:19 update: added Talk That Talk/03 We Found Love (feat. Calvin Harris).m4a
+2026-02-08T12:32:20 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:32:40 player: played "Green Day/Insomniac/10-Brain Stew.mp3"
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-08T12:33:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-08T12:33:44 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-02-08T12:33:44 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-02-08T12:33:44 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/01 - Debaser.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/14 - Silver.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/04 - I Bleed.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/06 - Dead.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/09 - Crackity Jones.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/08 - Mr. Grieves.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/05 - Here Comes Your Man.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/13 - Hey.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/10 - La La Love you.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/03 - Wave Of Multilation.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/12 - There Goes My Gun.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/11 - No. 13 Baby.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/15 - Gouge Away.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/07 - Monkey Gone To Heaven.mp3
+2026-02-08T12:33:44 update: added Pixies - [1989] Doolittle/02 - Tame.mp3
+2026-02-08T12:33:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-08T12:37:00 player: played "Pixies - [1989] Doolittle/01 - Debaser.mp3"
+2026-02-08T14:43:16 player: played "Pixies - [1989] Doolittle/02 - Tame.mp3"
+2026-02-08T14:45:21 player: played "Pixies - [1989] Doolittle/03 - Wave Of Multilation.mp3"
+2026-02-08T14:47:56 player: played "Pixies - [1989] Doolittle/04 - I Bleed.mp3"
+2026-02-08T14:51:18 player: played "Pixies - [1989] Doolittle/05 - Here Comes Your Man.mp3"
+2026-02-08T14:53:39 player: played "Pixies - [1989] Doolittle/06 - Dead.mp3"
+2026-02-08T14:56:37 player: played "Pixies - [1989] Doolittle/07 - Monkey Gone To Heaven.mp3"
+2026-02-08T14:58:43 player: played "Pixies - [1989] Doolittle/08 - Mr. Grieves.mp3"
+2026-02-08T15:00:07 player: played "Pixies - [1989] Doolittle/09 - Crackity Jones.mp3"
+2026-02-08T15:02:51 player: played "Pixies - [1989] Doolittle/10 - La La Love you.mp3"
+2026-02-08T15:07:29 player: played "Pixies - [1989] Doolittle/12 - There Goes My Gun.mp3"
+2026-02-08T15:08:44 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-08T15:11:30 player: played "covers/hey - pixies (cover) by alicia widar.m4a"
+2026-02-08T15:50:55 player: played "Pixies - [1989] Doolittle/14 - Silver.mp3"
+2026-02-08T16:50:01 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-08T16:50:45 player: played "Surfer Rosa/07 Where Is My Mind.mp3"
+2026-02-08T16:51:22 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-02-08T16:55:03 player: played "Pop Smoke/12. Dior (Bonus).mp3"
+2026-02-08T21:18:39 player: played "various artists/Charlotte Plank - Nightshift.flac"
+2026-02-09T17:10:29 player: played "1991 - Blood Sugar Sex Magik/11 - Under The Bridge.mp3"
+2026-02-09T17:14:59 player: played "By the Way/07 Can't Stop.mp3"
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-20T14:04:27 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 473738.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+2026-02-20T14:04:27 mpg123: mpg123_getformat() failed: Message: I am done with this track.
+2026-02-20T14:04:27 ffmpeg/mp3: Format mp3 detected only with low score of 24, misdetection possible!
+2026-02-20T14:04:27 ffmpeg/mp3: Failed to find two consecutive MPEG audio frames.
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/05-dogpark-september-d655e78c.flac
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/01-dogpark-dialtone-f1dd4312.flac
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/04-dogpark-whats_my_line_again-b799bf19.flac
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/03-dogpark-dandelion-6a3ea203.flac
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/02-dogpark-i_dont_mind-7c912dbc.flac
+2026-02-20T14:04:27 update: added Dogpark-Corporate Pudding/06-dogpark-75s72-825d2260.flac
+2026-02-20T14:04:27 update: added Fling/2. Toss and Turn.mp3
+2026-02-20T14:04:27 update: added Fling/3. Bitter Love (feat. Ryann Barnes).mp3
+2026-02-20T14:04:27 update: added Fling/1. Violet.mp3
+2026-02-20T14:04:27 update: added Fling/5. Text Me.mp3
+2026-02-20T14:04:27 update: added Fling/4. IcyHot.mp3
+2026-02-20T14:04:27 update: added Fling/6. Cave.mp3
+2026-02-20T14:04:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found

@@ -1,5 +1,10 @@
 # skhd config - shortcut daemon
 
+# Scripts
+
+ctrl + shift - d : ~/Documents/Projects/bashy/define.sh
+
+
 # Move focus
 ctrl - h : yabai -m window --focus west
 ctrl - l : yabai -m window --focus east

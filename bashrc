@@ -64,3 +64,5 @@ export TERM=xterm-256color
 export PATH="$PATH:/Users/martin/.local/bin"
 export PATH="/usr/local/opt/openvpn/sbin:$PATH"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

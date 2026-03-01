@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apps_transparent="(Spotify|qTox)"
-
+apps_mgoff_normal="iloader"
 display_resolution=$(system_profiler SPDisplaysDataType | grep Resolution)
 if [[ $(echo "$display_resolution" | grep -c "Resolution") -ge 2 ]]; then
   apps_stream="(Brave|Google Chrome|Discord|Min)"
