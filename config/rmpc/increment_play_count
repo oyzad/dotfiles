@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-
+echo "$FILE" >>/tmp/rmpc_test
 sticker=$(rmpc sticker get "$FILE" "playCount" | jq -r '.value')
 if [ -z "$sticker" ]; then
-    rmpc sticker set "$FILE" "playCount" "1"
+  rmpc sticker set "$FILE" "playCount" "1"
 else
-    rmpc sticker set "$FILE" "playCount" "$((sticker + 1))"
+  rmpc sticker set "$FILE" "playCount" "$((sticker + 1))"
 fi

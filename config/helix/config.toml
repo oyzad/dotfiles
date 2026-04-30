@@ -1,0 +1,5 @@
+theme = "tokyonight_moon"
+
+[editor]
+line-number = "relative"
+mouse = false

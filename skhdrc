@@ -34,7 +34,8 @@ ctrl - return : open -a "iTerm"
 ctrl - s : open -a "Brave Browser"
 ctrl + shift - f : open -a "Finder"
 ctrl - d: open -a "Obsidian"
-ctrl - e: open -a "Spotify"
+#ctrl - e: open -a "Spotify"
+ctrl - j : open -a "sioyek"
 
 # Move to spaces
 ctrl + shift - 1 : yabai -m window --space 1; yabai -m space --focus 1
@@ -44,16 +45,6 @@ ctrl + shift - 4 : yabai -m window --space 4; yabai -m space --focus 4
 # ... add more if needed
 
 # float toggle
-ctrl - t : yabai -m window --toggle float
-ctrl - F : yabai -m window --toggle zoom-fullscreen
-
-ctrl + shift - t : \
-    current_layout=$(yabai -m query --spaces --space | jq -r '.type'); \
-    if [ "$current_layout" = "bsp" ]; then \
-        yabai -m space --layout stack; \
-    else \
-        yabai -m space --layout bsp; \
-    fi
 
 ctrl + shift - r : yabai --restart-service
 

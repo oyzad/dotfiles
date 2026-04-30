@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+~/.config/rmpc/lyrics &
+~/.config/rmpc/increment_play_count &

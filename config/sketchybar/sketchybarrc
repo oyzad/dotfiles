@@ -160,29 +160,29 @@ sketchybar \
 
 # middle items 
 sketchybar --add item mpd_song center \
-           --set mpd_song label="🎵 Waiting for MPD..." \
-                          update_freq=0 \
-                          icon.drawing=off
-
+           --set mpd_song label="🎵 Loading..." \
+                          update_freq=5 \
+                          icon.drawing=off \
+                          script="$PLUGIN_DIR/mpd.sh"
 
 # Previous track button
 sketchybar --add item mpd_prev right \
            --set mpd_prev label="󰒮" \
-                         click_script="mpc prev" \
+                         click_script="mpc --host /tmp/mpd_socket prev" \
                          icon.font="FontAwesome:Regular:14.0" \
                          icon.color=0xffffffff
 
 # Play/Pause toggle button
 sketchybar --add item mpd_play_pause right \
            --set mpd_play_pause label="󰐎" \
-                              click_script="mpc toggle" \
+                              click_script="mpc --host /tmp/mpd_socket toggle" \
                               icon.font="FontAwesome:Regular:14.0" \
                               icon.color=0xffffffff
 
 # Next track button
 sketchybar --add item mpd_next right \
            --set mpd_next label="󰒭" \
-                         click_script="mpc next" \
+                         click_script="mpc --host /tmp/mpd_socket next" \
                          icon.font="FontAwesome:Regular:14.0" \
                          icon.color=0xffffffff
 

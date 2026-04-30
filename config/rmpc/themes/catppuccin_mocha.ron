@@ -19,7 +19,7 @@
     current_item_style: (fg: "black", bg: "blue", modifiers: "Bold"),
     borders_style: (fg: "blue"),
     highlight_border_style: (fg: "blue"),
-    symbols: (song: "󰎇", dir: "󰉋", marker: " ", ellipsis: "..."),
+    symbols: (song: "󰝚 ", dir: "󱍙 ", playlist: "󰲸 ", marker: "* ", ellipsis: "...", ),
     progress_bar: (
         symbols: ["█", "█", "█"],
         track_style: (fg: "#1e2030"),
@@ -38,12 +38,12 @@
                 default: (kind: Text("Unknown"))
             ),
             width: "15%",
-        ),
+        ),        
         (
             prop: (kind: Property(Title),
                 default: (kind: Text("Unknown"))
             ),
-            width: "55%",
+            width: "45%",
         ),
         (
             prop: (kind: Property(Album), style: (fg: "white"),
@@ -57,6 +57,12 @@
             ),
             width: "10%",
             alignment: Right,
+        ),
+        (
+            prop: (kind: Sticker("playCount"), default: (kind: Text("0"))),
+            width: "10%",
+            alignment: Right,
+            label: "Playcount"
         ),
     ],
     layout: Split(

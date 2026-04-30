@@ -2,13 +2,16 @@
 #![enable(unwrap_newtypes)]
 #![enable(unwrap_variant_newtypes)]
 (
-    address: "127.0.0.1:6600",
+    /*address: "127.0.0.1:6600",*/
+    address: "/tmp/mpd_socket",
     cache_dir: Some("/tmp/rmpc/cache"),
     lyrics_dir: Some("/Users/martin/Documents/Downloads/Lyrics"),
     password: None,
    	enable_config_hot_reload: true,
     theme: "catppuccin_mocha",
-    on_song_change: ["/Users/martin/.config/rmpc/lyrics"],
+    on_song_change: [
+    "/Users/martin/.config/rmpc/on_song_change",
+    ],
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
@@ -18,7 +21,7 @@
     select_current_song_on_change: false,
     browser_column_widths: [20, 38, 42],
     album_art: (
-        method: Auto,
+        method: Iterm2 ,
         max_size_px: (width: 500, height: 500),
         disabled_protocols: ["http://", "https://"],
         vertical_align: Top,
@@ -116,7 +119,9 @@
             name: "Playing",
             pane: Split(
                 direction: Horizontal,
-                panes: [(size: "20%", pane: Pane(AlbumArt)), (size: "80%", pane: Pane(Queue))],
+                panes: [(size: "30%", pane: Pane(AlbumArt)), (size: "70%", pane: Pane(Queue))],
+
+
             ),
         ),
         (
@@ -135,7 +140,7 @@
             name: "Lyrics",
             pane: Split(
                 direction: Vertical,
-                panes: [(size: "25%", pane: Pane(AlbumArt)), (size: "70%", pane: Pane(Lyrics), vertical_align: Bottom)],
+                panes: [(size: "30%", pane: Pane(AlbumArt)), (size: "70%", pane: Pane(Lyrics), vertical_align: Bottom)],
             ),
         ),
     ],

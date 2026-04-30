@@ -1,0 +1,2 @@
+method = "GET"
+url = "https://pokeapi.co/api/v2/pokemon/%7B?pokemon}"
