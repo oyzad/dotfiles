@@ -326,12 +326,14 @@ window.Spicetify = {
 		setTimeout(addMissingPlatformAPIs, 50);
 		return;
 	}
+	const os = Spicetify.Platform.operatingSystem;
 	const version = Spicetify.Platform.version.split(".").map((i) => Number.parseInt(i, 10));
 	if (version[0] === 1 && version[1] === 2 && version[2] < 38) return;
 
 	for (const [key, _] of Spicetify.Platform.Registry._map.entries()) {
 		if (typeof key?.description !== "string" || !key?.description.endsWith("API")) continue;
 		const symbolName = key.description;
+		if (symbolName === "ExclusiveModeAPI" && os === "Linux") continue;
 		if (Object.hasOwn(Spicetify.Platform, symbolName)) continue;
 		try {
 			const resolvedAPI = Spicetify.Platform.Registry.resolve(key);
@@ -421,7 +423,7 @@ applyScrollingFix();
 			const internalFetch = Reflect.get(target, prop, receiver);
 
 			if (typeof internalFetch !== "function" || !allowedMethodsSet.has(prop)) return internalFetch;
-			const version = Spicetify.Platform.version.split(".").map((i) => Number.parseInt(i));
+			const version = Spicetify.Platform.version.split(".").map((i) => Number.parseInt(i, 10));
 			if (version[1] >= 2 && version[2] < 31) return internalFetch;
 
 			return async function (url, body) {
@@ -504,6 +506,18 @@ applyScrollingFix();
 	});
 })();
 
+const fnStr = (f) => {
+	try {
+		return f.toString();
+	} catch {
+		try {
+			return Function.prototype.toString.call(f);
+		} catch {
+			return "";
+		}
+	}
+};
+
 (async function hotloadWebpackModules() {
 	while (!window?.webpackChunkclient_web) {
 		await new Promise((r) => setTimeout(r, 50));
@@ -554,27 +568,39 @@ applyScrollingFix();
 			return a;
 		}, {});
 	};
-	const functionModules = modules.filter((module) => typeof module === "function");
+	const webpackFactories = new Set(Object.values(require.m));
+	const functionModules = modules.flatMap((module) =>
+		typeof module === "function"
+			? [module]
+			: typeof module === "object" && module
+				? Object.values(module).filter((v) => typeof v === "function" && !webpackFactories.has(v))
+				: []
+	);
 	const exportedReactObjects = groupBy(modules.filter(Boolean), (x) => x.$$typeof);
 	const exportedMemos = exportedReactObjects[Symbol.for("react.memo")];
 	const exportedForwardRefs = exportedReactObjects[Symbol.for("react.forward_ref")];
 	const exportedMemoFRefs = exportedMemos.filter((m) => m.type.$$typeof === Symbol.for("react.forward_ref"));
-	const exposeReactComponentsUI = ({ modules, functionModules, exportedForwardRefs }) => {
-		const componentNames = Object.keys(modules.filter(Boolean).find((e) => e.BrowserDefaultFocusStyleProvider));
-		const componentRegexes = componentNames.map((n) => new RegExp(`"data-encore-id":(?:[a-zA-Z_\$][\w\$]*\\.){2}${n}\\b`));
-		const componentPairs = [functionModules.map((f) => [f, f]), exportedForwardRefs.map((f) => [f.render, f])]
+	const exposeReactComponentsUI = ({ modules, functionModules, exportedForwardRefs, exportedMemoFRefs }) => {
+		const componentNames = Object.keys(modules.filter(Boolean).find((e) => typeof e.BrowserDefaultFocusStyleProvider === "string"));
+		const componentRegexes = componentNames.map((n) => new RegExp(`"data-encore-id":(?:[a-zA-Z_$][\\w$]*\\.){2}${n}\\b`));
+		const componentPairs = [
+			functionModules.map((f) => [f, f]),
+			exportedForwardRefs.map((f) => [f.render, f]),
+			exportedMemoFRefs.map((f) => [f.type.render, f]),
+		]
 			.flat()
-			.map(([s, f]) => [componentNames.find((_, i) => s.toString().match(componentRegexes[i])), f]);
+			.map(([s, f]) => [componentNames.find((_, i) => fnStr(s)?.match(componentRegexes[i])), f]);
+
 		return Object.fromEntries(componentPairs);
 	};
-	const reactComponentsUI = exposeReactComponentsUI({ modules, functionModules, exportedForwardRefs });
+	const reactComponentsUI = exposeReactComponentsUI({ modules, functionModules, exportedForwardRefs, exportedMemoFRefs });
 
 	const knownMenuTypes = ["album", "show", "artist", "track", "playlist"];
 	const menus = modules
 		.map((m) => {
-			const valueMatch = m?.type?.toString().match(/value:"([\w-]+)"/);
+			const valueMatch = (m?.type ? fnStr(m.type) : "").match(/value:"([\w-]+)"/);
 			if (valueMatch) return [m, valueMatch[1]];
-			const typeMatch = m?.type?.toString().match(/type:[\w$]+\.[\w$]+\.([A-Z_]+)/);
+			const typeMatch = (m?.type ? fnStr(m.type) : "").match(/type:[\w$]+\.[\w$]+\.([A-Z_]+)/);
 			if (typeMatch) return [m, typeMatch[1].toLowerCase()];
 			return null;
 		})
@@ -594,12 +620,17 @@ applyScrollingFix();
 		})
 		.filter(Boolean);
 
+	const menuOverrides = [
+		["PlaylistMenu", exportedMemos?.find((m) => fnStr(m.type).includes("labelPlacement") && fnStr(m.type).includes("menuPlacement"))],
+		["TrackMenu", exportedMemos?.find((m) => fnStr(m.type).includes("canSwitchVisuals") && fnStr(m.type).includes("showCanvasAction"))],
+	].filter(([, v]) => v !== undefined);
+
 	const cardTypesToFind = ["album", "artist", "audiobook", "episode", "playlist", "profile", "show", "track"];
 	const cards = [
 		...functionModules
 			.flatMap((m) => {
 				return cardTypesToFind.map((type) => {
-					if (m.toString().includes(`featureIdentifier:"${type}"`)) {
+					if (fnStr(m).includes(`featureIdentifier:"${type}"`)) {
 						cardTypesToFind.splice(cardTypesToFind.indexOf(type), 1);
 						return [type[0].toUpperCase() + type.slice(1), m];
 					}
@@ -610,7 +641,7 @@ applyScrollingFix();
 			.flatMap((m) => {
 				return cardTypesToFind.map((type) => {
 					try {
-						if (m?.type?.toString().includes(`featureIdentifier:"${type}"`)) {
+						if ((m?.type ? fnStr(m.type) : "").includes(`featureIdentifier:"${type}"`)) {
 							cardTypesToFind.splice(cardTypesToFind.indexOf(type), 1);
 							return [type[0].toUpperCase() + type.slice(1), m];
 						}
@@ -619,6 +650,340 @@ applyScrollingFix();
 			})
 			.filter(Boolean),
 	];
+
+	const _ScrollableContainer = (() => {
+		const SHOW_BUTTONS = { NEVER: "never", ALWAYS: "always", ON_HOVER: "on-hover" };
+		const SCROLLING_METHOD = { BY_RATIO: "by-ratio", SNAP: "snap" };
+		const EDGE_GRADIENTS = { NONE: "none", MASK: "mask", LINEAR_GRADIENT: "linear-gradient" };
+		const DIRECTION = { START: -1, END: 1 };
+
+		const CHEVRON_LEFT = '<path d="M11.521 1.38l-.65-.76L2.23 8l8.641 7.38.65-.76L3.77 8z"/>';
+		const CHEVRON_RIGHT = '<path d="M5.129.62l-.65.76L12.231 8l-7.752 6.62.65.76L13.771 8z"/>';
+		let stylesInjected = false;
+
+		function injectStyles() {
+			if (stylesInjected) return;
+			stylesInjected = true;
+			const style = document.createElement("style");
+			style.className = "spicetify-scrollable-container";
+			style.textContent = `
+.spicetify-sc-contentArea { overflow: hidden; position: relative; }
+.spicetify-sc-scroller { display: flex; align-items: center; overflow-x: auto; scrollbar-width: none; white-space: nowrap; width: 100%; -ms-overflow-style: none; overscroll-behavior-x: contain; will-change: transform; }
+@media (prefers-reduced-motion: no-preference) { .spicetify-sc-scroller { scroll-behavior: smooth; } }
+.spicetify-sc-scroller::-webkit-scrollbar { display: none; }
+.spicetify-sc-scroller.spicetify-sc-snap { scroll-snap-type: inline mandatory; }
+.spicetify-sc-scroller.spicetify-sc-snap .spicetify-sc-snapCenter [data-carousel-item] { scroll-snap-align: center; }
+.spicetify-sc-scroller.spicetify-sc-snap .spicetify-sc-snapStart [data-carousel-item] { scroll-snap-align: start; }
+.spicetify-sc-scroller.spicetify-sc-wheelEnabled { overscroll-behavior: contain; }
+.spicetify-sc-scroller.spicetify-sc-maskGradient { --sc-start-color: #000; --sc-end-color: #000; -webkit-mask-composite: source-in, xor; mask-composite: intersect; -webkit-mask-image: linear-gradient(90deg, var(--sc-start-color) 0, #000 120px), linear-gradient(90deg, #000 calc(100% - 120px), var(--sc-end-color) 100%); mask-image: linear-gradient(90deg, var(--sc-start-color) 0, #000 120px), linear-gradient(90deg, #000 calc(100% - 120px), var(--sc-end-color) 100%); -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+.spicetify-sc-scroller.spicetify-sc-maskGradient.spicetify-sc-maskStart { --sc-start-color: transparent; }
+.spicetify-sc-scroller.spicetify-sc-maskGradient.spicetify-sc-maskEnd { --sc-end-color: transparent; }
+.spicetify-sc-linearGradient::before, .spicetify-sc-linearGradient::after { bottom: 0; content: ""; height: 100%; opacity: 0; pointer-events: none; position: absolute; top: 0; transition: opacity .15s ease-out; width: 120px; z-index: 2; }
+.spicetify-sc-linearGradient::before { background: linear-gradient(90deg, var(--carousel-start-chevron-gradient, var(--spice-main)) 0, transparent 100%); inset-inline-start: 0; }
+.spicetify-sc-linearGradient::after { background: linear-gradient(-90deg, var(--carousel-end-chevron-gradient, var(--spice-main)) 0, transparent 100%); inset-inline-end: 0; }
+.spicetify-sc-linearGradient.spicetify-sc-lgStart::before { opacity: 1; }
+.spicetify-sc-linearGradient.spicetify-sc-lgEnd::after { opacity: 1; }
+.spicetify-sc-carousel { bottom: 0; left: 0; position: absolute; right: 0; top: 0; justify-content: space-between; align-items: center; display: flex; pointer-events: none; }
+.spicetify-sc-chevronBtn { display: flex; border: none; border-radius: 50%; cursor: pointer; justify-content: center; align-items: center; backdrop-filter: var(--chevrons-button-backdrop-filter, none); background: transparent; background-color: var(--chevrons-button-color, var(--background-elevated-base)); height: 24px; opacity: 0; position: relative; transition: color .15s ease-out, opacity .15s ease-out, background-color .15s ease-out, translate .15s ease-out; translate: 0; width: 24px; z-index: 3; pointer-events: none; color: var(--text-base, #fff); }
+.spicetify-sc-chevronBtn > * { opacity: .7; z-index: 2; }
+.spicetify-sc-chevronBtn:hover { background-color: var(--chevrons-button-hover-color, var(--background-elevated-highlight)); }
+.spicetify-sc-chevronBtn:hover > * { opacity: 1; }
+.spicetify-sc-chevronBtn.spicetify-sc-chevronVisible { opacity: 1; pointer-events: auto; }
+.spicetify-sc-onHover .spicetify-sc-chevronBtn { opacity: 0; }
+.spicetify-sc-contentArea:hover .spicetify-sc-onHover .spicetify-sc-chevronBtn.spicetify-sc-chevronVisible { opacity: 1; }
+.spicetify-sc-contentArea:hover .spicetify-sc-onHover .spicetify-sc-chevronStart.spicetify-sc-chevronVisible { translate: 8px; }
+.spicetify-sc-contentArea:hover .spicetify-sc-onHover .spicetify-sc-chevronEnd.spicetify-sc-chevronVisible { translate: -8px; }
+.spicetify-sc-scroller > div[role="presentation"] > button { margin-inline-start: 0px !important; }
+body[data-dragging-uri-type] .spicetify-sc-chevronBtn { pointer-events: none; }`;
+			document.head.appendChild(style);
+		}
+
+		function useDragToScroll({ isDisabled = true } = {}) {
+			const { useRef, useCallback } = Spicetify.React;
+			const frameRef = useRef(0);
+			const savedBehavior = useRef(null);
+			const savedSnapType = useRef(null);
+
+			return useCallback(
+				isDisabled
+					? () => {}
+					: ({ currentTarget, clientX }) => {
+							if (!(currentTarget instanceof HTMLElement)) return;
+							const el = currentTarget;
+
+							const restore = () => {
+								el.style.removeProperty("user-select");
+								if (savedBehavior.current !== null) el.style.scrollBehavior = savedBehavior.current;
+								if (savedSnapType.current !== null) el.style.scrollSnapType = savedSnapType.current;
+							};
+							const fullCleanup = () => {
+								cancelAnimationFrame(frameRef.current);
+								restore();
+							};
+
+							fullCleanup();
+							const computed = window.getComputedStyle(el);
+							savedBehavior.current = computed.scrollBehavior;
+							savedSnapType.current = computed.scrollSnapType;
+							el.style.userSelect = "none";
+							el.style.scrollBehavior = "auto";
+							el.style.scrollSnapType = "none";
+
+							let dragged = false;
+							const startScroll = el.scrollLeft;
+							const startX = clientX;
+							let velocity = 0;
+
+							const coast = () => {
+								el.scrollLeft += velocity;
+								velocity *= 0.95;
+								if (Math.abs(velocity) > 0.5) frameRef.current = requestAnimationFrame(coast);
+								else fullCleanup();
+							};
+
+							const onMove = (e) => {
+								const dx = e.clientX - startX;
+								if (Math.abs(dx) > 10) dragged = true;
+								const prev = el.scrollLeft;
+								el.scrollLeft = startScroll - dx;
+								velocity = el.scrollLeft - prev;
+							};
+
+							document.addEventListener("mousemove", onMove);
+							document.addEventListener(
+								"mouseup",
+								() => {
+									if (dragged) {
+										const block = (e) => {
+											e.preventDefault();
+											e.stopImmediatePropagation();
+										};
+										el.addEventListener("click", block, { once: true, capture: true });
+										setTimeout(() => el.removeEventListener("click", block, { capture: true }));
+									}
+									document.removeEventListener("mousemove", onMove);
+									cancelAnimationFrame(frameRef.current);
+									frameRef.current = requestAnimationFrame(coast);
+									document.addEventListener("wheel", fullCleanup, { once: true });
+								},
+								{ once: true }
+							);
+						},
+				[isDisabled]
+			);
+		}
+
+		function useWheelScroll(onlyHorizontalWheel) {
+			const { useRef, useCallback } = Spicetify.React;
+			const isFirst = useRef(true);
+			const savedBehavior = useRef(null);
+			const timer = useRef(null);
+
+			return useCallback(
+				(e) => {
+					if (!e.deltaY) return;
+					if (onlyHorizontalWheel && Math.abs(e.deltaY) > Math.abs(e.deltaX)) return;
+					const el = e.currentTarget;
+					if (isFirst.current) {
+						isFirst.current = false;
+						savedBehavior.current = el.style.scrollBehavior;
+						el.style.scrollBehavior = "auto";
+					}
+
+					el.scrollLeft += e.deltaY + e.deltaX;
+					clearTimeout(timer.current);
+					timer.current = setTimeout(() => {
+						isFirst.current = true;
+						el.style.scrollBehavior = savedBehavior.current ?? "";
+					}, 100);
+				},
+				[onlyHorizontalWheel]
+			);
+		}
+
+		function useScrollState(scrollerRef, contentRef) {
+			const { useState, useCallback, useEffect } = Spicetify.React;
+			const [canGoStart, setCanGoStart] = useState(false);
+			const [canGoEnd, setCanGoEnd] = useState(false);
+
+			const update = useCallback(() => {
+				const el = scrollerRef.current;
+				const child = contentRef.current;
+				if (!el || !child) return;
+				const maxScroll = el.scrollWidth - el.clientWidth;
+				const pos = Math.abs(el.scrollLeft);
+				const rounded = pos < 1 ? Math.floor(pos) : Math.ceil(pos);
+				const overflows = child.offsetWidth > el.clientWidth;
+				setCanGoStart(overflows && rounded !== 0);
+				setCanGoEnd(overflows && rounded < maxScroll);
+			}, [scrollerRef, contentRef]);
+
+			useEffect(() => {
+				const el = scrollerRef.current;
+				const child = contentRef.current;
+				if (!el || !child) return;
+
+				update();
+				el.addEventListener("scroll", update);
+				const ro = new ResizeObserver(update);
+				ro.observe(el);
+				ro.observe(child);
+				return () => {
+					el.removeEventListener("scroll", update);
+					ro.disconnect();
+				};
+			}, [update, scrollerRef, contentRef]);
+
+			return { canGoStart, canGoEnd };
+		}
+
+		function ScrollableContainerComponent(props) {
+			const { useRef, useCallback, useMemo } = Spicetify.React;
+			const h = Spicetify.ReactJSX.jsx;
+			const hsf = Spicetify.ReactJSX.jsxs;
+			const cn = Spicetify.classnames;
+
+			const {
+				children,
+				className,
+				chevronsClassName,
+				showButtons = SHOW_BUTTONS.ALWAYS,
+				ariaLabel,
+				onlyHorizontalWheel = false,
+				wheelScrollEnabled = true,
+				scrollContentClassName,
+				scrollerClassName,
+				scrollRatio = 0.9,
+				scrollingMethod = SCROLLING_METHOD.BY_RATIO,
+				scrollPadding,
+				scrollSnapAlign,
+				scrollSnapByItems = 1,
+				edgeGradients = EDGE_GRADIENTS.MASK,
+				dragToScrollOptions = { isDisabled: true },
+				onScroll,
+				activeElementThreshold = 10,
+				onNavigationClick,
+				role = "list",
+			} = props;
+
+			injectStyles();
+
+			const scrollerRef = useRef(null);
+			const contentRef = useRef(null);
+			const lastIndex = useRef(-1);
+
+			const { canGoStart, canGoEnd } = useScrollState(scrollerRef, contentRef);
+			const dragHandler = useDragToScroll(dragToScrollOptions);
+			const wheelHandler = useWheelScroll(onlyHorizontalWheel);
+			const isRtl = useMemo(() => document.documentElement.dir === "rtl", []);
+
+			const getActiveIndex = useCallback(() => {
+				const scrollPos = Math.abs(scrollerRef.current?.scrollLeft ?? 0);
+				let index = -1;
+				if (contentRef.current?.children) {
+					let idx = -1;
+					for (const child of contentRef.current.children) {
+						if (child instanceof HTMLElement) {
+							idx++;
+							if (Math.abs(child.offsetLeft - scrollPos) <= child.offsetWidth / activeElementThreshold) index = idx;
+						}
+					}
+				}
+				return index;
+			}, [activeElementThreshold]);
+
+			const fireScroll = useCallback(() => {
+				if (!onScroll) return;
+				const index = getActiveIndex();
+				if (lastIndex.current !== index) {
+					lastIndex.current = index;
+					onScroll(index);
+				}
+			}, [getActiveIndex, onScroll]);
+
+			const navigate = useCallback(
+				(direction) => {
+					if (!scrollerRef.current) return;
+					const dir = isRtl ? -1 : 1;
+
+					if (scrollingMethod === SCROLLING_METHOD.SNAP) {
+						const item = contentRef.current?.querySelector("[data-carousel-item]");
+						if (!item) return;
+						scrollerRef.current.scrollBy({ left: dir * scrollSnapByItems * item.getBoundingClientRect().width * direction });
+					} else scrollerRef.current.scrollBy({ left: dir * direction * scrollerRef.current.clientWidth * scrollRatio });
+
+					fireScroll();
+					onNavigationClick?.(direction);
+				},
+				[scrollingMethod, fireScroll, isRtl, scrollSnapByItems, scrollRatio, onNavigationClick]
+			);
+
+			const isSnap = scrollingMethod === SCROLLING_METHOD.SNAP;
+			const isMask = edgeGradients === EDGE_GRADIENTS.MASK;
+			const isLinearGradient = edgeGradients === EDGE_GRADIENTS.LINEAR_GRADIENT;
+
+			const makeChevron = (svgPath, position, visible, dir) =>
+				h("div", {
+					className: cn("spicetify-sc-chevronBtn", `spicetify-sc-chevron${position}`, { "spicetify-sc-chevronVisible": visible }),
+					onClick: (e) => {
+						e.preventDefault();
+						e.stopPropagation();
+						navigate(dir);
+					},
+					"aria-hidden": "true",
+					children: h("svg", { height: 12, width: 12, viewBox: "0 0 16 16", fill: "currentColor", dangerouslySetInnerHTML: { __html: svgPath } }),
+				});
+
+			return hsf("div", {
+				className: cn("spicetify-sc-contentArea", className, {
+					"spicetify-sc-linearGradient": isLinearGradient,
+					"spicetify-sc-lgStart": isLinearGradient && canGoStart,
+					"spicetify-sc-lgEnd": isLinearGradient && canGoEnd,
+				}),
+				children: [
+					h("div", {
+						ref: scrollerRef,
+						className: cn("spicetify-sc-scroller", scrollerClassName, {
+							"spicetify-sc-snap": isSnap,
+							"spicetify-sc-maskGradient": isMask,
+							"spicetify-sc-wheelEnabled": wheelScrollEnabled,
+							"spicetify-sc-maskStart": isMask && canGoStart,
+							"spicetify-sc-maskEnd": isMask && canGoEnd,
+						}),
+						onScroll: onScroll ? fireScroll : undefined,
+						onMouseDownCapture: dragHandler,
+						onWheel: wheelScrollEnabled ? wheelHandler : undefined,
+						role,
+						"aria-label": ariaLabel,
+						style: isSnap ? { scrollPadding } : undefined,
+						children: h("div", {
+							ref: contentRef,
+							role: "presentation",
+							className: cn(scrollContentClassName, {
+								"spicetify-sc-snapStart": scrollSnapAlign === "start",
+								"spicetify-sc-snapCenter": scrollSnapAlign === "center",
+							}),
+							children,
+						}),
+					}),
+					showButtons !== SHOW_BUTTONS.NEVER &&
+						hsf("div", {
+							className: cn("spicetify-sc-carousel", chevronsClassName, {
+								"spicetify-sc-onHover": showButtons === SHOW_BUTTONS.ON_HOVER,
+							}),
+							children: [makeChevron(CHEVRON_LEFT, "Start", canGoStart, DIRECTION.START), makeChevron(CHEVRON_RIGHT, "End", canGoEnd, DIRECTION.END)],
+						}),
+				],
+			});
+		}
+
+		ScrollableContainerComponent.SHOW_BUTTONS = SHOW_BUTTONS;
+		ScrollableContainerComponent.SCROLLING_METHOD = SCROLLING_METHOD;
+		ScrollableContainerComponent.EDGE_GRADIENTS = EDGE_GRADIENTS;
+		ScrollableContainerComponent.DIRECTION = DIRECTION;
+
+		return ScrollableContainerComponent;
+	})();
 
 	Object.assign(Spicetify, {
 		React: cache.find((m) => m?.useMemo),
@@ -630,7 +995,7 @@ applyScrollingFix();
 			.filter(([_, v]) => v.toString().includes("[native code]"))
 			.map(([i]) => require(i))
 			.find((e) => typeof e === "function"),
-		Color: functionModules.find((m) => m.toString().includes("static fromHex") || m.toString().includes("this.rgb")),
+		Color: functionModules.find((m) => fnStr(m).includes("static fromHex") || fnStr(m).includes("this.rgb")),
 		Player: {
 			...Spicetify.Player,
 			get origin() {
@@ -642,59 +1007,74 @@ applyScrollingFix();
 			get Request() {
 				return Spicetify.Platform?.GraphQLLoader || Spicetify.GraphQL.Handler?.(Spicetify.GraphQL.Context);
 			},
-			Context: functionModules.find((m) => m.toString().includes("subscription") && m.toString().includes("mutation")),
-			Handler: functionModules.find((m) => m.toString().includes("GraphQL subscriptions are not supported")),
+			Context: functionModules.find((m) => fnStr(m).includes("subscription") && fnStr(m).includes("mutation")),
+			Handler: functionModules.find((m) => fnStr(m).includes("GraphQL subscriptions are not supported")),
 		},
 		ReactComponent: {
 			...Spicetify.ReactComponent,
 			TextComponent: modules.find((m) => m?.h1 && m?.render),
-			Menu: functionModules.find((m) => m.toString().includes("getInitialFocusElement") && m.toString().includes("children")),
-			MenuItem: functionModules.find((m) => m.toString().includes("handleMouseEnter") && m.toString().includes("onClick")),
-			MenuSubMenuItem: functionModules.find((f) => f.toString().includes("subMenuIcon")),
-			Slider: wrapProvider(functionModules.find((m) => m.toString().includes("progressBarRef"))),
-			RemoteConfigProvider: functionModules.find((m) => m.toString().includes("resolveSuspense") && m.toString().includes("configuration")),
+			Menu: functionModules.find((m) => fnStr(m).includes("getInitialFocusElement") && fnStr(m).includes("children")),
+			MenuItem: functionModules.find((m) => fnStr(m).includes("handleMouseEnter") && fnStr(m).includes("onClick")),
+			MenuSubMenuItem: functionModules.find((f) => fnStr(f).includes("subMenuIcon")),
+			Slider: wrapProvider(functionModules.find((m) => fnStr(m).includes("progressBarRef"))),
+			RemoteConfigProvider: functionModules.find((m) => fnStr(m).includes("resolveSuspense") && fnStr(m).includes("configuration")),
 			RightClickMenu: functionModules.find(
-				(m) =>
-					m.toString().includes("action") && m.toString().includes("open") && m.toString().includes("trigger") && m.toString().includes("right-click")
+				(m) => fnStr(m).includes("action") && fnStr(m).includes("open") && fnStr(m).includes("trigger") && fnStr(m).includes("right-click")
 			),
-			TooltipWrapper: functionModules.find((m) => m.toString().includes("renderInline") && m.toString().includes("showDelay")),
+			TooltipWrapper: functionModules.find((m) => fnStr(m).includes("renderInline") && fnStr(m).includes("showDelay")),
 			ButtonPrimary: reactComponentsUI.ButtonPrimary,
 			ButtonSecondary: reactComponentsUI.ButtonSecondary,
 			ButtonTertiary: reactComponentsUI.ButtonTertiary,
 			Snackbar: {
-				wrapper: functionModules.find((m) => m.toString().includes("encore-light-theme") && m.toString().includes("elevated")),
-				simpleLayout: functionModules.find((m) => ["leading", "center", "trailing"].every((keyword) => m.toString().includes(keyword))),
-				ctaText: functionModules.find((m) => m.toString().includes("ctaText")),
-				styledImage: functionModules.find((m) => m.toString().includes("placeholderSrc")),
+				wrapper: functionModules.find((m) => fnStr(m).includes("encore-light-theme") && fnStr(m).includes("elevated")),
+				simpleLayout: functionModules.find((m) => ["leading", "center", "trailing"].every((keyword) => fnStr(m).includes(keyword))),
+				ctaText: functionModules.find((m) => fnStr(m).includes("ctaText")),
+				styledImage: functionModules.find((m) => fnStr(m).includes("placeholderSrc")),
 			},
 			Chip: reactComponentsUI.Chip,
-			Toggle: functionModules.find((m) => m.toString().includes("onSelected") && m.toString().includes('type:"checkbox"')),
+			Toggle: functionModules.find((m) => fnStr(m).includes("onSelected") && fnStr(m).includes('type:"checkbox"')),
 			Cards: {
 				Default: reactComponentsUI.Card,
 				FeatureCard: functionModules.find(
-					(m) => m.toString().includes("?highlight") && m.toString().includes("headerText") && m.toString().includes("imageContainer")
+					(m) => fnStr(m).includes("?highlight") && fnStr(m).includes("headerText") && fnStr(m).includes("imageContainer")
 				),
-				Hero: functionModules.find((m) => m?.toString().includes('"herocard-click-handler"')),
+				Hero: functionModules.find((m) => fnStr(m).includes('"herocard-click-handler"')),
 				CardImage: functionModules.find(
 					(m) =>
-						m.toString().includes("isHero") &&
-						(m.toString().includes("withWaves") || m.toString().includes("isCircular")) &&
-						m.toString().includes("imageWrapper")
+						fnStr(m).includes("isHero") && (fnStr(m).includes("withWaves") || fnStr(m).includes("isCircular")) && fnStr(m).includes("imageWrapper")
 				),
 				...Object.fromEntries(cards),
 			},
-			Router: functionModules.find((m) => m.toString().includes("navigationType") && m.toString().includes("static")),
-			Routes: functionModules.find((m) => m.toString().match(/\([\w$]+\)\{let\{children:[\w$]+,location:[\w$]+\}=[\w$]+/)),
-			Route: functionModules.find((m) => m.toString().match(/^function [\w$]+\([\w$]+\)\{\(0,[\w$]+\.[\w$]+\)\(!1\)\}$/)),
-			StoreProvider: functionModules.find((m) => m.toString().includes("notifyNestedSubs") && m.toString().includes("serverState")),
-			ScrollableContainer: functionModules.find((m) => m.toString().includes("scrollLeft") && m.toString().includes("showButtons")),
+			Router: functionModules.find((m) => fnStr(m).includes("navigationType") && fnStr(m).includes("static")),
+			Routes: functionModules.find((m) => fnStr(m).match(/\([\w$]+\)\{let\{children:[\w$]+,location:[\w$]+\}=[\w$]+/)),
+			Route: functionModules.find((m) => fnStr(m).match(/^function [\w$]+\([\w$]+\)\{\(0,[\w$]+\.[\w$]+\)\(!1\)\}$/)),
+			StoreProvider: functionModules.find((m) => fnStr(m).includes("notifyNestedSubs") && fnStr(m).includes("serverState")),
+			ScrollableContainer: _ScrollableContainer,
 			IconComponent: reactComponentsUI.Icon,
+			Navigation: (() => {
+				// Spotify >= 1.2.86
+				try {
+					const navModuleEntry = Object.entries(require.m).find(([, v]) => fnStr(v).includes("navigationalRoot") && fnStr(v).includes("noLink"));
+					if (navModuleEntry) {
+						const Logo = require(navModuleEntry[0])?.A;
+						if (typeof Logo === "function") {
+							const element = Logo({ customLink: "/", noLink: false, hasText: false });
+							if (element?.type) return element.type;
+						}
+					}
+					// <= Spotify 1.2.85
+					return exportedMemoFRefs.find((m) => fnStr(m.type?.render).includes("navigationalRoot"));
+				} catch {
+					return undefined;
+				}
+			})(),
 			...Object.fromEntries(menus),
+			...Object.fromEntries(menuOverrides),
 		},
 		ReactHook: {
-			DragHandler: functionModules.find((m) => m.toString().includes("dataTransfer") && m.toString().includes("data-dragging")),
+			DragHandler: functionModules.find((m) => fnStr(m).includes("dataTransfer") && fnStr(m).includes("data-dragging")),
 			useExtractedColor: functionModules.find(
-				(m) => m.toString().includes("extracted-color") || (m.toString().includes("colorRaw") && m.toString().includes("useEffect"))
+				(m) => fnStr(m).includes("extracted-color") || (fnStr(m).includes("colorRaw") && fnStr(m).includes("useEffect"))
 			),
 		},
 		// React Query
@@ -702,19 +1082,17 @@ applyScrollingFix();
 		// v3 until Spotify v1.2.29
 		// v5 since Spotify v1.2.30
 		ReactQuery: cache.find((module) => module.useQuery) || {
-			PersistQueryClientProvider: functionModules.find((m) => m.toString().includes("persistOptions")),
-			QueryClient: functionModules.find((m) => m.toString().includes("defaultMutationOptions")),
-			QueryClientProvider: functionModules.find((m) => m.toString().includes("use QueryClientProvider")),
+			PersistQueryClientProvider: functionModules.find((m) => fnStr(m).includes("persistOptions")),
+			QueryClient: functionModules.find((m) => fnStr(m).includes("defaultMutationOptions")),
+			QueryClientProvider: functionModules.find((m) => fnStr(m).includes("use QueryClientProvider")),
 			notifyManager: modules.find((m) => m?.setBatchNotifyFunction),
-			useMutation: functionModules.find((m) => m.toString().includes("mutateAsync")),
+			useMutation: functionModules.find((m) => fnStr(m).includes("mutateAsync")),
 			useQuery: functionModules.find((m) =>
-				m.toString().match(/^function [\w_$]+\(([\w_$]+),([\w_$]+)\)\{return\(0,[\w_$]+\.[\w_$]+\)\(\1,[\w_$]+\.[\w_$]+,\2\)\}$/)
+				fnStr(m).match(/^function [\w_$]+\(([\w_$]+),([\w_$]+)\)\{return\(0,[\w_$]+\.[\w_$]+\)\(\1,[\w_$]+\.[\w_$]+,\2\)\}$/)
 			),
-			useQueryClient: functionModules.find(
-				(m) => m.toString().includes("client") && m.toString().includes("Provider") && m.toString().includes("mount")
-			),
+			useQueryClient: functionModules.find((m) => fnStr(m).includes("client") && fnStr(m).includes("Provider") && fnStr(m).includes("mount")),
 			useSuspenseQuery: functionModules.find(
-				(m) => m.toString().includes("throwOnError") && m.toString().includes("suspense") && m.toString().includes("enabled")
+				(m) => fnStr(m).includes("throwOnError") && fnStr(m).includes("suspense") && fnStr(m).includes("enabled")
 			),
 		},
 		ReactFlipToolkit: {
@@ -728,22 +1106,12 @@ applyScrollingFix();
 	});
 
 	if (!Spicetify.ContextMenuV2._context) Spicetify.ContextMenuV2._context = Spicetify.React.createContext({});
-	if (!Spicetify.ReactComponent.Navigation)
-		Spicetify.ReactComponent.Navigation = exportedMemoFRefs.find((m) => m.type.render.toString().includes("navigationalRoot"));
 
 	(function waitForChunks() {
-		const listOfComponents = [
-			"ScrollableContainer",
-			"Slider",
-			"Dropdown",
-			"Toggle",
-			"Cards.Artist",
-			"Cards.Audiobook",
-			"Cards.Profile",
-			"Cards.Show",
-			"Cards.Track",
-		];
-		if (listOfComponents.every((component) => Spicetify.ReactComponent[component] !== undefined)) return;
+		const listOfComponents = ["Slider", "Dropdown", "Toggle", "Cards.Artist", "Cards.Audiobook", "Cards.Profile", "Cards.Show", "Cards.Track"];
+		if (listOfComponents.every((component) => component.split(".").reduce((o, k) => o?.[k], Spicetify.ReactComponent) !== undefined)) return;
+		const currentChunks = Object.entries(require.m);
+
 		const cache = Object.keys(require.m).map((id) => require(id));
 		const modules = cache
 			.filter((module) => typeof module === "object")
@@ -752,13 +1120,20 @@ applyScrollingFix();
 					return Object.values(module);
 				} catch {}
 			});
-		const functionModules = modules.filter((module) => typeof module === "function");
-		const cardTypesToFind = ["artist", "audiobook", "profile", "show", "track"];
-		const cards = [
+		const functionModules = modules.flatMap((module) =>
+			typeof module === "function"
+				? [module]
+				: typeof module === "object" && module
+					? Object.values(module).filter((v) => typeof v === "function" && !webpackFactories.has(v))
+					: []
+		);
+
+		const cardTypesToFind = ["audiobook", "profile", "show"];
+		const lazyCards = [
 			...functionModules
 				.flatMap((m) => {
 					return cardTypesToFind.map((type) => {
-						if (m.toString().includes(`featureIdentifier:"${type}"`)) {
+						if (fnStr(m).includes(`featureIdentifier:"${type}"`)) {
 							cardTypesToFind.splice(cardTypesToFind.indexOf(type), 1);
 							return [type[0].toUpperCase() + type.slice(1), m];
 						}
@@ -769,7 +1144,7 @@ applyScrollingFix();
 				.flatMap((m) => {
 					return cardTypesToFind.map((type) => {
 						try {
-							if (m?.type?.toString().includes(`featureIdentifier:"${type}"`)) {
+							if ((m?.type ? fnStr(m.type) : "").includes(`featureIdentifier:"${type}"`)) {
 								cardTypesToFind.splice(cardTypesToFind.indexOf(type), 1);
 								return [type[0].toUpperCase() + type.slice(1), m];
 							}
@@ -778,32 +1153,33 @@ applyScrollingFix();
 				})
 				.filter(Boolean),
 		];
+		Object.assign(Spicetify.ReactComponent.Cards, Object.fromEntries(lazyCards));
 
-		Spicetify.ReactComponent.Slider = wrapProvider(functionModules.find((m) => m.toString().includes("progressBarRef")));
-		Spicetify.ReactComponent.Toggle = functionModules.find((m) => m.toString().includes("onSelected") && m.toString().includes('type:"checkbox"'));
-		Spicetify.ReactComponent.ScrollableContainer = functionModules.find(
-			(m) => m.toString().includes("scrollLeft") && m.toString().includes("showButtons")
-		);
-		Object.assign(Spicetify.ReactComponent.Cards, Object.fromEntries(cards));
+		Spicetify.ReactComponent.Slider = wrapProvider(functionModules.find((m) => fnStr(m).includes("progressBarRef")));
+		Spicetify.ReactComponent.Toggle = functionModules.find((m) => fnStr(m).includes("onSelected") && fnStr(m).includes('type:"checkbox"'));
 
 		// chunks
-		const dropdownChunk = chunks.find(([, value]) => value.toString().includes("dropDown") && value.toString().includes("isSafari"));
+		const dropdownChunk = currentChunks.find(([, value]) => fnStr(value).includes("dropdown-list") && fnStr(value).includes('"listbox"'));
 		if (dropdownChunk) {
 			Spicetify.ReactComponent.Dropdown =
-				Object.values(require(dropdownChunk[0]))?.[0]?.render ?? Object.values(require(dropdownChunk[0])).find((m) => typeof m === "function");
+				Object.values(require(dropdownChunk[0])).find(
+					(m) => m?.$$typeof === Symbol.for("react.forward_ref") && fnStr(m.render).includes("dropdown-list")
+				) ??
+				Object.values(require(dropdownChunk[0]))?.[0]?.render ??
+				Object.values(require(dropdownChunk[0])).find((m) => typeof m === "function");
 		}
 
-		const toggleChunk = chunks.find(([, value]) => value.toString().includes("onSelected") && value.toString().includes('type:"checkbox"'));
+		const toggleChunk = currentChunks.find(([, value]) => fnStr(value).includes("onSelected") && fnStr(value).includes('type:"checkbox"'));
 		if (toggleChunk && !Spicetify.ReactComponent.Toggle) {
 			Spicetify.ReactComponent.Toggle = Object.values(require(toggleChunk[0]))[0].render;
 		}
 
-		if (!listOfComponents.every((component) => Spicetify.ReactComponent[component] !== undefined)) {
+		if (!listOfComponents.every((component) => component.split(".").reduce((o, k) => o?.[k], Spicetify.ReactComponent) !== undefined)) {
 			setTimeout(waitForChunks, 100);
 			return;
 		}
 
-		if (Spicetify.ReactComponent.ScrollableContainer) setTimeout(refreshNavLinks?.(), 100);
+		if (Spicetify.ReactComponent.ScrollableContainer) setTimeout(refreshNavLinks, 100);
 	})();
 
 	(function waitForSnackbar() {
@@ -815,16 +1191,14 @@ applyScrollingFix();
 		// https://github.com/iamhosseindhv/notistack
 		Spicetify.Snackbar = {
 			...Spicetify.Snackbar,
-			SnackbarProvider: functionModules.find((m) => m.toString().includes("enqueueSnackbar called with invalid argument")),
-			useSnackbar: functionModules.find((m) => m.toString().match(/^function\(\)\{return\(0,[\w$]+\.useContext\)\([\w$]+\)\}$/)),
+			SnackbarProvider: functionModules.find((m) => fnStr(m).includes("enqueueSnackbar called with invalid argument")),
+			useSnackbar: functionModules.find((m) => fnStr(m).match(/^function\(\)\{return\(0,[\w$]+\.useContext\)\([\w$]+\)\}$/)),
 		};
 	})();
 
 	const localeModule = modules.find((m) => m?.getTranslations);
 	if (localeModule) {
-		const createUrlLocale = functionModules.find(
-			(m) => m.toString().includes("has") && m.toString().includes("baseName") && m.toString().includes("language")
-		);
+		const createUrlLocale = functionModules.find((m) => fnStr(m).includes("has") && fnStr(m).includes("baseName") && fnStr(m).includes("language"));
 		Spicetify.Locale = {
 			get _relativeTimeFormat() {
 				return localeModule._relativeTimeFormat;
@@ -892,7 +1266,7 @@ applyScrollingFix();
 		Spicetify.ReactComponent.ConfirmDialog = Object.values(require(confirmDialogChunk[0])).find((m) => typeof m === "object");
 	} else {
 		Spicetify.ReactComponent.ConfirmDialog = functionModules.find(
-			(m) => m.toString().includes("isOpen") && m.toString().includes("shouldCloseOnEsc") && m.toString().includes("onClose")
+			(m) => fnStr(m).includes("isOpen") && fnStr(m).includes("shouldCloseOnEsc") && fnStr(m).includes("onClose")
 		);
 	}
 
@@ -949,21 +1323,10 @@ applyScrollingFix();
 			setTimeout(bindColorExtractor, 10);
 			return;
 		}
-		let imageAnalysis = functionModules.find((m) => m.toString().match(/![\w$]+\.isFallback|\{extractColor/g));
+		const imageAnalysis = functionModules.find(
+			(m) => fnStr(m).match(/![\w$]+\.isFallback|\{extractColor/g) || (fnStr(m).includes("extractedColors") && fnStr(m).includes("imageUris"))
+		);
 		const fallbackPreset = modules.find((m) => m?.colorDark);
-
-		// Search chunk in Spotify 1.2.13 or much older because it is impossible to find any distinguishing features
-		if (!imageAnalysis) {
-			let chunk = chunks.find(
-				([, value]) =>
-					(value.toString().match(/[\w$]+\.isFallback/g) || value.toString().includes("colorRaw:")) && value.toString().match(/.extractColor/g)
-			);
-			if (!chunk) {
-				await new Promise((resolve) => setTimeout(resolve, 100));
-				chunk = chunks.find(([, value]) => value.toString().match(/[\w$]+\.isFallback/g) && value.toString().match(/.extractColor/g));
-			}
-			imageAnalysis = Object.values(require(chunk[0])).find((m) => typeof m === "function");
-		}
 
 		Spicetify.extractColorPreset = async (image) => {
 			const analysis = await imageAnalysis(Spicetify.GraphQL.Request, image);
@@ -1017,7 +1380,7 @@ applyScrollingFix();
 		// createURI functions
 		const createURIFunctions = URIModules.filter((m) => typeof m === "function" && m.toString().match(/\([\w$]+\./));
 		for (const type of Object.keys(Spicetify.URI.Type)) {
-			const func = createURIFunctions.find((m) => m.toString().match(new RegExp(`\\([\\w$]+\\.${type}\(?!_\)`)));
+			const func = createURIFunctions.find((m) => m.toString().match(new RegExp(`\\([\\w$]+\\.${type}(?!_)`)));
 			if (!func) continue;
 
 			const camelCaseType = type
@@ -1034,7 +1397,7 @@ applyScrollingFix();
 		// isURI functions
 		const isURIFUnctions = URIModules.filter((m) => typeof m === "function" && m.toString().match(/=[\w$]+\./));
 		for (const type of Object.keys(Spicetify.URI.Type)) {
-			const func = isURIFUnctions.find((m) => m.toString().match(new RegExp(`===[\\w$]+\\.${type}\(?!_\)\\}`)));
+			const func = isURIFUnctions.find((m) => m.toString().match(new RegExp(`===[\\w$]+\\.${type}(?!_)\\}`)));
 			const camelCaseType = type
 				.toLowerCase()
 				.split("_")
@@ -1568,6 +1931,48 @@ Spicetify.SVGIcons = {
 	watch:
 		'<path d="M4.347 1.122l-.403 1.899A2.25 2.25 0 002 5.25v5.5a2.25 2.25 0 001.944 2.23l.403 1.898c.14.654.717 1.122 1.386 1.122h4.535c.668 0 1.246-.468 1.385-1.122l.404-1.899A2.25 2.25 0 0014 10.75v-5.5a2.25 2.25 0 00-1.943-2.23l-.404-1.898A1.417 1.417 0 0010.267 0H5.734c-.67 0-1.247.468-1.386 1.122zM5.8 1.5h4.4l.319 1.5H5.48l.32-1.5zM10.52 13l-.319 1.5H5.8L5.481 13h5.038zM4.25 4.5h7.5a.75.75 0 01.75.75v5.5a.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75v-5.5a.75.75 0 01.75-.75z"/>',
 	x: '<path d="M14.354 2.353l-.708-.707L8 7.293 2.353 1.646l-.707.707L7.293 8l-5.647 5.646.707.708L8 8.707l5.646 5.647.708-.708L8.707 8z"/>',
+	addToPlaylist:
+		'<path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75"/>',
+	addToQueue:
+		'<path d="M16 15H2v-1.5h14zm0-4.5H2V9h14zm-8.034-6A5.5 5.5 0 0 1 7.187 6H13.5a2.5 2.5 0 0 0 0-5H7.966c.159.474.255.978.278 1.5H13.5a1 1 0 1 1 0 2zM2 2V0h1.5v2h2v1.5h-2v2H2v-2H0V2z"/>',
+	collapseLibrary: '<path d="M14 6l-6 6-6-6h12z"/><path d="M14 1.5H2V0h12z"/>',
+	connectDevice:
+		'<path d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15h-6.5A1.75 1.75 0 0 1 6 13.25zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25zm-6 0a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25H4V11H1.75A1.75 1.75 0 0 1 0 9.25v-6.5C0 1.784.784 1 1.75 1H4v1.5zM4 15H2v-1.5h2z"/><path d="M13 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-1-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>',
+	create:
+		'<path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75"/>',
+	credits:
+		'<path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/><path d="M8 4.5a.75.75 0 0 1 .75.75v2h2a.75.75 0 0 1 0 1.5h-2v2a.75.75 0 0 1-1.5 0v-2h-2a.75.75 0 0 1 0-1.5h2v-2A.75.75 0 0 1 8 4.5"/>',
+	enterFullScreen:
+		'<path d="M6.53 9.47a.75.75 0 0 1 0 1.06l-2.72 2.72h1.018a.75.75 0 0 1 0 1.5H1.25v-3.579a.75.75 0 0 1 1.5 0v1.018l2.72-2.72a.75.75 0 0 1 1.06 0m2.94-2.94a.75.75 0 0 1 0-1.06l2.72-2.72h-1.018a.75.75 0 1 1 0-1.5h3.578v3.579a.75.75 0 0 1-1.5 0V3.811l-2.72 2.72a.75.75 0 0 1-1.06 0"/>',
+	excludeTaste:
+		'<path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/><path d="M11.25 8a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1 0-1.5h5a.75.75 0 0 1 .75.75"/>',
+	expandLibrary: '<path d="M2 10l6-6 6 6H2z"/><path d="M2 14.5h12V16H2z"/>',
+	friendActivity:
+		'<path d="M3.849 10.034c-.021-.465.026-.93.139-1.381H1.669c.143-.303.375-.556.665-.724l.922-.532a1.63 1.63 0 0 0 .436-2.458 1.8 1.8 0 0 1-.474-1.081q-.014-.287.057-.563a1.12 1.12 0 0 1 .627-.7 1.2 1.2 0 0 1 .944 0q.225.1.392.281c.108.12.188.263.237.417q.074.276.057.561a1.8 1.8 0 0 1-.475 1.084 1.6 1.6 0 0 0-.124 1.9c.36-.388.792-.702 1.272-.927v-.015c.48-.546.768-1.233.821-1.958a3.2 3.2 0 0 0-.135-1.132 2.657 2.657 0 0 0-5.04 0c-.111.367-.157.75-.135 1.133.053.724.341 1.41.821 1.955A.13.13 0 0 1 2.565 6a.13.13 0 0 1-.063.091l-.922.532A3.2 3.2 0 0 0-.004 9.396v.75h3.866c.001-.033-.01-.071-.013-.112m10.568-3.401c.48-.546.768-1.233.822-1.957a3.2 3.2 0 0 0-.135-1.132 2.657 2.657 0 0 0-5.04 0 3.2 3.2 0 0 0-.135 1.132c.053.724.341 1.411.821 1.957a.13.13 0 0 1-.107.218l-.922.532a3.197 3.197 0 0 0-1.585 3.169h7.977v-.75a3.2 3.2 0 0 0-1.584-2.773l-.922-.532a.13.13 0 0 1-.063-.091.13.13 0 0 1 .031-.112.12.12 0 0 1 .013-.018l.003-.002a1.6 1.6 0 0 0-.124-1.9c.379.227.72.472 1.01.791a3.66 3.66 0 0 1 .934 2.087h3.855v-.75a3.2 3.2 0 0 0-1.584-2.773l-.922-.532a.13.13 0 0 1-.032-.2"/>',
+	goToAlbum:
+		'<path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/><path d="M8 6.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>',
+	goToArtist:
+		'<path d="M11.757 2.987A4.356 4.356 0 0 0 7.618.9a4.06 4.06 0 0 0-3.084 3.293 4 4 0 0 0 .55 2.953l-.8.937a1.96 1.96 0 0 0 .49 2.853l1.89 1.09a1.96 1.96 0 0 0 2.7-.635l.578-1.004A4.4 4.4 0 0 0 12 9.545c.007-1.074-.319-2.126-.943-3.025a16 16 0 0 0 1.527-2.2A10 10 0 0 0 14 1H4v1.5h8.437a9 9 0 0 1-.68 1.487"/>',
+	heartAdd:
+		'<path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/><path d="M11.75 8a.75.75 0 0 1-.75.75H8.75V11a.75.75 0 0 1-1.5 0V8.75H5a.75.75 0 0 1 0-1.5h2.25V5a.75.75 0 0 1 1.5 0v2.25H11a.75.75 0 0 1 .75.75"/>',
+	miniplayer:
+		'<path d="M16 2.45c0-.8-.65-1.45-1.45-1.45H1.45C.65 1 0 1.65 0 2.45v11.1C0 14.35.65 15 1.45 15h5.557v-1.5H1.5v-11h13V7H16zM10 10.45C10 9.65 10.65 9 11.45 9h3.1c.8 0 1.45.65 1.45 1.45v3.1c0 .8-.65 1.45-1.45 1.45h-3.1c-.8 0-1.45-.65-1.45-1.45zM11.5 13h3v-3h-3z"/>',
+	nowPlaying: '<path d="M11.196 8 6 5v6z"/><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0"/>',
+	openDesktop:
+		'<path d="M1 2.75A.75.75 0 0 1 1.75 2H7v1.5H2.5v11h11V10H15v5.25a.75.75 0 0 1-.75.75H1.75a.75.75 0 0 1-.75-.75z"/><path d="M15 1v4.993a.75.75 0 1 1-1.5 0V3.56L8.78 8.28a.75.75 0 0 1-1.06-1.06l4.72-4.72h-2.433a.75.75 0 0 1 0-1.5z"/>',
+	radio: '<path d="M2 0v2h12V0h1.5v2H16v1.5H0V2h.5V0zm0 5v2.5H0V5zm7 0v7a4 4 0 1 1-4-4h.5V5zm-1.5 3H7a2.5 2.5 0 1 0 .5 4.95zm8.5-3v2.5h-2V5z"/>',
+	share:
+		'<path d="M1 5.75A.75.75 0 0 1 1.75 5H4v1.5H2.5v8h11v-8H12V5h2.25a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-.75.75H1.75a.75.75 0 0 1-.75-.75z"/><path d="M8 9.576V.5h-1.5v9.076L4.596 7.672 3.536 8.732 7.804 13l4.268-4.268-1.06-1.06z"/>',
+	skipBack:
+		'<path d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.15v5.15a.7.7 0 0 1-1.4 0V1.7a.7.7 0 0 1 .7-.7m1.4 7 9.2 5.31V1.69z"/>',
+	skipForward:
+		'<path d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.15v5.15a.7.7 0 0 0 1.4 0V1.7a.7.7 0 0 0-.7-.7m-1.4 7L2.1 13.31V2.69z"/>',
+	smartShuffle:
+		'<path d="M4.5 6.8a.75.75 0 0 0-.6.3 4 4 0 0 0-.456.97 2.63 2.63 0 0 0 0 1.86c.114.34.27.657.456.97a.75.75 0 0 0 1.028.274.75.75 0 0 0 .274-1.024 3 3 0 0 1-.312-.66 1.14 1.14 0 0 1 0-.82c.074-.22.177-.433.312-.66a.75.75 0 0 0-.274-1.024.75.75 0 0 0-.428-.136m3.5 0a.75.75 0 0 0-.6.3 4 4 0 0 0-.456.97 2.63 2.63 0 0 0 0 1.86c.114.34.27.657.456.97A.75.75 0 0 0 8.7 10.6a.75.75 0 0 0-.274-1.024 3 3 0 0 1-.312-.66 1.14 1.14 0 0 1 0-.82c.074-.22.177-.433.312-.66A.75.75 0 0 0 8.1 6.41.75.75 0 0 0 8 6.8m3.072.3a.75.75 0 0 0-.274 1.024c.135.227.238.44.312.66a1.14 1.14 0 0 1 0 .82 3 3 0 0 1-.312.66.75.75 0 0 0 .274 1.024.75.75 0 0 0 1.024-.274 4 4 0 0 0 .46-.97 2.63 2.63 0 0 0 0-1.86 4 4 0 0 0-.46-.97.75.75 0 0 0-1.024-.274"/><path d="M13.5 3a.5.5 0 0 0-.5.5V5H8.421a4.98 4.98 0 0 0-2.727.807l-.18.124-.136.094A3.5 3.5 0 0 0 4.004 8a3.5 3.5 0 0 0 1.374 2.975l.136.094.18.124A4.98 4.98 0 0 0 8.421 12H13v1.5a.5.5 0 0 0 .8.4l2.4-1.8a.5.5 0 0 0 0-.8l-2.4-1.8a.5.5 0 0 0-.8.4V11H8.421a3.49 3.49 0 0 1-1.912-.567l-.176-.122-.138-.095A2 2 0 0 1 5.421 8c0-.56.23-1.068.6-1.433l.138-.095.346-.238A3.49 3.49 0 0 1 8.421 5.5H13V7a.5.5 0 0 0 .8.4l2.4-1.8a.5.5 0 0 0 0-.8l-2.4-1.8a.5.5 0 0 0-.3-.1"/>',
+	volumeHigh:
+		'<path d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.64 3.64 0 0 1-1.33-4.967 3.64 3.64 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.14 2.14 0 0 0 0 3.7l5.8 3.35V2.8zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88"/><path d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127z"/>',
+	whatsNew:
+		'<path d="M8 1.5a4 4 0 0 0-4 4v3.27a.75.75 0 0 1-.1.373L2.255 12h11.49L12.1 9.142a.75.75 0 0 1-.1-.374V5.5a4 4 0 0 0-4-4m-5.5 4a5.5 5.5 0 0 1 11 0v3.067l2.193 3.809a.75.75 0 0 1-.65 1.124H10.5a2.5 2.5 0 0 1-5 0H.957a.75.75 0 0 1-.65-1.124L2.5 8.569zm4.5 8a1 1 0 1 0 2 0z"/>',
 };
 
 (async function waitUserAPI() {
@@ -2000,7 +2405,7 @@ let navLinkFactoryCtx = null;
 let refreshNavLinks = null;
 
 Spicetify._renderNavLinks = (list, isTouchScreenUi) => {
-	const [refreshCount, refresh] = Spicetify.React.useReducer((x) => x + 1, 0);
+	const [, refresh] = Spicetify.React.useReducer((x) => x + 1, 0);
 	refreshNavLinks = refresh;
 
 	if (
@@ -2142,6 +2547,7 @@ const NavLinkGlobal = ({ appProper, appRoutePath, createIcon, isActive }) => {
 
 class _HTMLGenericModal extends HTMLElement {
 	hide() {
+		Spicetify.ReactDOM.unmountComponentAtNode(this.querySelector("main"));
 		this.remove();
 	}
 

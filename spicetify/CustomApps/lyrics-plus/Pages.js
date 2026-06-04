@@ -18,17 +18,14 @@ const CreditFooter = react.memo(({ provider, copyright }) => {
 	);
 });
 
-const IdlingIndicator = ({ isActive, progress, delay }) => {
+const IdlingIndicator = ({ isActive, progress, delay, className = "", style = {} }) => {
 	return react.createElement(
 		"div",
 		{
-			className: `lyrics-idling-indicator ${
-				!isActive ? "lyrics-idling-indicator-hidden" : ""
-			} lyrics-lyricsContainer-LyricsLine lyrics-lyricsContainer-LyricsLine-active`,
+			className: `lyrics-idling-indicator ${isActive === false ? "lyrics-idling-indicator-hidden" : ""} ${className}`.trim(),
 			style: {
-				"--position-index": 0,
-				"--animation-index": 1,
 				"--indicator-delay": `${delay}ms`,
+				...style,
 			},
 		},
 		react.createElement("div", { className: `lyrics-idling-indicator__circle ${progress >= 0.05 ? "active" : ""}` }),
@@ -41,6 +38,96 @@ const emptyLine = {
 	startTime: 0,
 	endTime: 0,
 	text: [],
+};
+
+const isPauseLine = (text) => {
+	if (!text) return true;
+	if (Array.isArray(text)) {
+		const joined = text
+			.map((w) => (typeof w === "object" ? w.word : w))
+			.join("")
+			.trim();
+		return joined === "♪" || joined === "";
+	}
+	let str = typeof text === "object" ? text?.props?.children?.[0] : text;
+	if (typeof str !== "string") {
+		str = String(str || "");
+	}
+	const trimmed = str.trim();
+	return trimmed === "♪" || trimmed === "";
+};
+
+const findNextLineStartTime = (lines, fromIndex) => {
+	for (let j = fromIndex + 1; j < lines.length; j++) {
+		if (!isPauseLine(lines[j].text) && lines[j].startTime != null) {
+			return lines[j].startTime;
+		}
+	}
+	return null;
+};
+
+const getPauseIndicator = (lyrics, lineNumber, startTime, position, isFocused, isPause) => {
+	if (!isFocused || !isPause) return null;
+
+	const nextStart = findNextLineStartTime(lyrics, lineNumber);
+	const pauseStart = startTime || 0;
+	const pauseDuration = nextStart ? nextStart - pauseStart : 0;
+	const progress = pauseDuration > 0 ? (position - pauseStart) / pauseDuration : 0;
+	const delay = pauseDuration / 3;
+
+	return react.createElement(IdlingIndicator, {
+		progress,
+		delay,
+	});
+};
+
+const LONG_PAUSE_THRESHOLD = 8000; // 8 seconds
+
+const processPauseLines = (lyrics) => {
+	if (!lyrics || !lyrics.length) return lyrics;
+	const result = [];
+	for (let i = 0; i < lyrics.length; i++) {
+		const line = lyrics[i];
+		const nextLine = lyrics[i + 1];
+
+		if (isPauseLine(line.text)) {
+			// Skip consecutive pause lines to consolidate them into one idling indicator
+			const lastLine = result[result.length - 1];
+			if (lastLine && isPauseLine(lastLine.text)) {
+				continue;
+			}
+			const nextStart = findNextLineStartTime(lyrics, i);
+			const pauseStart = line.startTime || 0;
+			if (nextStart != null) {
+				const pauseDuration = nextStart - pauseStart;
+				if (pauseDuration >= LONG_PAUSE_THRESHOLD) {
+					result.push(line);
+				}
+			}
+		} else {
+			result.push(line);
+			const hasLineEndTime = line.endTime != null && line.endTime > line.startTime;
+			const endTime = hasLineEndTime ? line.endTime : null;
+			if (endTime != null && nextLine && nextLine.startTime != null) {
+				const gap = nextLine.startTime - endTime;
+				if (gap >= LONG_PAUSE_THRESHOLD && nextLine.startTime > line.startTime && !isPauseLine(nextLine.text)) {
+					result.push({
+						text: "♪",
+						startTime: endTime,
+						endTime: nextLine.startTime,
+					});
+				}
+			}
+		}
+	}
+	return result;
+};
+
+const isRTLText = (str) => /[\u0591-\u07FF\u200F\u202B\u202E\uFB1D-\uFDFD\uFE70-\uFEFC]/.test(str);
+
+const renderPerformer = (performer, previousPerformer, compact) => {
+	if (!CONFIG.visual["show-performers"] || !performer || (!compact && previousPerformer === performer)) return null;
+	return react.createElement("span", { className: "lyrics-lyricsContainer-Performer" }, performer);
 };
 
 const useTrackPosition = (callback) => {
@@ -56,22 +143,26 @@ const useTrackPosition = (callback) => {
 	}, [callbackRef]);
 };
 
-const KaraokeLine = ({ text, isActive, position, startTime }) => {
-	if (!isActive) {
-		return text.map(({ word }) => word).join("");
+const KaraokeLine = ({ text, isActive, position, startTime, endTime }) => {
+	if ((endTime != null && position > endTime) || (!isActive && position > startTime)) {
+		return text.map(({ word }, i) => (typeof word === "string" ? word : react.cloneElement(word, { key: i })));
 	}
 
-	return text.map(({ word, time }) => {
-		const isWordActive = position >= startTime;
-		startTime += time;
+	let accumulatedTime = startTime;
+	return text.map(({ word, time }, i) => {
+		const isRTL = isRTLText(typeof word === "string" ? word : "");
+		const isWordActive = position >= accumulatedTime;
+		accumulatedTime += time;
+		const isWordComplete = isWordActive && position >= accumulatedTime;
 		return react.createElement(
 			"span",
 			{
-				className: `lyrics-lyricsContainer-Karaoke-Word${isWordActive ? " lyrics-lyricsContainer-Karaoke-WordActive" : ""}`,
+				key: i,
+				className: `lyrics-lyricsContainer-Karaoke-Word${isWordActive ? " lyrics-lyricsContainer-Karaoke-WordActive" : ""}${isRTL ? " lyrics-lyricsContainer-Karaoke-WordRTL" : ""}`,
 				style: {
 					"--word-duration": `${time}ms`,
 					// don't animate unless we have to
-					transition: !isWordActive ? "all 0s linear" : "",
+					transition: !isWordActive || isWordComplete ? "all 0s linear" : "",
 				},
 			},
 			word
@@ -94,7 +185,7 @@ const SyncedLyricsPage = react.memo(({ lyrics = [], provider, copyright, isKara 
 
 	const lyricWithEmptyLines = useMemo(
 		() =>
-			[emptyLine, emptyLine, ...lyrics].map((line, i) => ({
+			[emptyLine, emptyLine, ...processPauseLines(lyrics)].map((line, i) => ({
 				...line,
 				lineNumber: i,
 			})),
@@ -106,21 +197,66 @@ const SyncedLyricsPage = react.memo(({ lyrics = [], provider, copyright, isKara 
 	let activeLineIndex = 0;
 	for (let i = lyricWithEmptyLines.length - 1; i > 0; i--) {
 		if (position >= lyricWithEmptyLines[i].startTime) {
+			// If this is a pause line and the next one starts at the same time and is NOT a pause line,
+			// prefer the next line (the text).
+			if (
+				isPauseLine(lyricWithEmptyLines[i].text) &&
+				lyricWithEmptyLines[i + 1] &&
+				position >= lyricWithEmptyLines[i + 1].startTime &&
+				!isPauseLine(lyricWithEmptyLines[i + 1].text)
+			) {
+				continue;
+			}
 			activeLineIndex = i;
 			break;
 		}
 	}
 
-	const activeLines = useMemo(() => {
-		const startIndex = Math.max(activeLineIndex - 1 - CONFIG.visual["lines-before"], 0);
-		// 3 lines = 1 padding top + 1 padding bottom + 1 active
-		const linesCount = CONFIG.visual["lines-before"] + CONFIG.visual["lines-after"] + 3;
-		return lyricWithEmptyLines.slice(startIndex, startIndex + linesCount);
-	}, [activeLineIndex, lyricWithEmptyLines]);
+	const { activeLines, activeElementIndex } = useMemo(() => {
+		let startIndex = activeLineIndex;
+		let visibleBefore = 0;
+		const targetBefore = Number(CONFIG.visual["lines-before"]) + 1;
+		while (startIndex > 0 && visibleBefore < targetBefore) {
+			startIndex--;
+			if (!isPauseLine(lyricWithEmptyLines[startIndex].text)) {
+				visibleBefore++;
+			}
+		}
+
+		let endIndex = activeLineIndex;
+		let visibleAfter = 0;
+		const targetAfter = Number(CONFIG.visual["lines-after"]) + 1;
+		while (endIndex < lyricWithEmptyLines.length - 1 && visibleAfter < targetAfter) {
+			endIndex++;
+			if (!isPauseLine(lyricWithEmptyLines[endIndex].text)) {
+				visibleAfter++;
+			}
+		}
+
+		return {
+			activeLines: lyricWithEmptyLines.slice(startIndex, endIndex + 1),
+			activeElementIndex: activeLineIndex - startIndex,
+		};
+	}, [activeLineIndex, lyricWithEmptyLines, CONFIG.visual["lines-before"], CONFIG.visual["lines-after"]]);
 
 	let offset = lyricContainerEle.current ? lyricContainerEle.current.clientHeight / 2 : 0;
 	if (activeLineEle.current) {
 		offset += -(activeLineEle.current.offsetTop + activeLineEle.current.clientHeight / 2);
+	}
+	const adjustedAnimationIndices = [];
+	let currentIndex = 0;
+	for (let j = activeElementIndex; j < activeLines.length; j++) {
+		adjustedAnimationIndices[j] = currentIndex;
+		if (!isPauseLine(activeLines[j].text) || j === activeElementIndex) {
+			currentIndex++;
+		}
+	}
+	currentIndex = -1;
+	for (let j = activeElementIndex - 1; j >= 0; j--) {
+		adjustedAnimationIndices[j] = currentIndex;
+		if (!isPauseLine(activeLines[j].text)) {
+			currentIndex--;
+		}
 	}
 
 	return react.createElement(
@@ -138,32 +274,32 @@ const SyncedLyricsPage = react.memo(({ lyrics = [], provider, copyright, isKara 
 				},
 				key: lyricsId,
 			},
-			activeLines.map(({ text, lineNumber, startTime, originalText }, i) => {
-				if (i === 1 && activeLineIndex === 1) {
-					return react.createElement(IdlingIndicator, {
-						progress: position / activeLines[2].startTime,
-						delay: activeLines[2].startTime / 3,
-					});
-				}
+			activeLines.map(({ text, lineNumber, startTime, endTime, originalText, performer }, i) => {
+				const isFocusedLine = activeElementIndex === i;
+				const isPause = isPauseLine(text);
+
+				// Calculate indicator state for pause lines
+				const indicatorEl = getPauseIndicator(lyricWithEmptyLines, lineNumber, startTime, position, isFocusedLine, isPause);
 
 				let className = "lyrics-lyricsContainer-LyricsLine";
-				const activeElementIndex = Math.min(activeLineIndex, CONFIG.visual["lines-before"] + 1);
 				let ref;
 
-				const isActive = activeElementIndex === i;
-				if (isActive) {
-					className += " lyrics-lyricsContainer-LyricsLine-active";
+				const isPlaying = startTime != null && endTime != null && position >= startTime && position <= endTime;
+				const isActive = isFocusedLine || isPlaying;
+
+				if (isFocusedLine) {
 					ref = activeLineEle;
 				}
-
-				let animationIndex;
-				if (activeLineIndex <= CONFIG.visual["lines-before"]) {
-					animationIndex = i - activeLineIndex;
-				} else {
-					animationIndex = i - CONFIG.visual["lines-before"] - 1;
+				if (isActive) {
+					className += " lyrics-lyricsContainer-LyricsLine-active";
+				} else if (isPause && !indicatorEl) {
+					className += " lyrics-lyricsContainer-LyricsLine-hidden";
 				}
 
-				const paddingLine = (animationIndex < 0 && -animationIndex > CONFIG.visual["lines-before"]) || animationIndex > CONFIG.visual["lines-after"];
+				let animationIndex = adjustedAnimationIndices[i];
+
+				const paddingLine =
+					(animationIndex < 0 && -animationIndex > Number(CONFIG.visual["lines-before"])) || animationIndex > Number(CONFIG.visual["lines-after"]);
 				if (paddingLine) {
 					className += " lyrics-lyricsContainer-LyricsLine-paddingLine";
 				}
@@ -174,7 +310,12 @@ const SyncedLyricsPage = react.memo(({ lyrics = [], provider, copyright, isKara 
 
 				// Convert lyrics to text for comparison
 				const belowOrigin = (typeof originalText === "object" ? originalText?.props?.children?.[0] : originalText)?.replace(/\s+/g, "");
-				const belowTxt = (typeof text === "object" ? text?.props?.children?.[0] : text)?.replace(/\s+/g, "");
+				const belowTxt =
+					typeof text === "string"
+						? text.replace(/\s+/g, "")
+						: typeof text?.props?.children?.[0] === "string"
+							? text.props.children[0].replace(/\s+/g, "")
+							: "";
 
 				const belowMode = showTranslatedBelow && originalText && belowOrigin !== belowTxt;
 
@@ -197,18 +338,21 @@ const SyncedLyricsPage = react.memo(({ lyrics = [], provider, copyright, isKara 
 							}
 						},
 					},
-					react.createElement(
-						"p",
-						{
-							onContextMenu: (event) => {
-								event.preventDefault();
-								Spicetify.Platform.ClipboardAPI.copy(Utils.convertParsedToLRC(lyrics, belowMode).original)
-									.then(() => Spicetify.showNotification("Lyrics copied to clipboard"))
-									.catch(() => Spicetify.showNotification("Failed to copy lyrics to clipboard"));
-							},
-						},
-						!isKara ? lineText : react.createElement(KaraokeLine, { text, startTime, position, isActive })
-					),
+					isPause
+						? indicatorEl
+						: react.createElement(
+								"p",
+								{
+									onContextMenu: (event) => {
+										event.preventDefault();
+										Spicetify.Platform.ClipboardAPI.copy(Utils.convertParsedToLRC(lyrics, belowMode).original)
+											.then(() => Spicetify.showNotification("Lyrics copied to clipboard"))
+											.catch(() => Spicetify.showNotification("Failed to copy lyrics to clipboard"));
+									},
+								},
+								renderPerformer(performer, lyricWithEmptyLines[lineNumber - 1]?.performer, CONFIG.visual["synced-compact"]),
+								!isKara ? lineText : react.createElement(KaraokeLine, { text, startTime, endTime, position, isActive })
+							),
 					belowMode &&
 						react.createElement(
 							"p",
@@ -393,7 +537,7 @@ function isInViewport(element) {
 }
 
 const SyncedExpandedLyricsPage = react.memo(({ lyrics, provider, copyright, isKara }) => {
-	const [position, setPosition] = useState(0);
+	const [position, setPosition] = useState(() => Spicetify.Player.getProgress() + CONFIG.visual["global-delay"] + CONFIG.visual.delay);
 	const activeLineRef = useRef(null);
 	const pageRef = useRef(null);
 
@@ -403,9 +547,14 @@ const SyncedExpandedLyricsPage = react.memo(({ lyrics, provider, copyright, isKa
 		}
 	});
 
-	const padded = useMemo(() => [emptyLine, ...lyrics], [lyrics]);
+	const padded = useMemo(() => [emptyLine, ...processPauseLines(lyrics)], [lyrics]);
 
-	const intialScroll = useMemo(() => [false], [lyrics]);
+	const initialScroll = useRef(true);
+
+	// Reset scroll state when lyrics change
+	useEffect(() => {
+		initialScroll.current = true;
+	}, [lyrics]);
 
 	const lyricsId = lyrics[0].text;
 
@@ -413,21 +562,36 @@ const SyncedExpandedLyricsPage = react.memo(({ lyrics, provider, copyright, isKa
 	for (let i = padded.length - 1; i >= 0; i--) {
 		const line = padded[i];
 		if (position >= line.startTime) {
+			// If this is a pause line and the next one starts at the same time and is NOT a pause line,
+			// prefer the next line (the text).
+			if (isPauseLine(line.text) && padded[i + 1] && position >= padded[i + 1].startTime && !isPauseLine(padded[i + 1].text)) {
+				continue;
+			}
 			activeLineIndex = i;
 			break;
 		}
 	}
 
 	useEffect(() => {
-		if (activeLineRef.current && (!intialScroll[0] || isInViewport(activeLineRef.current))) {
+		if (activeLineRef.current && (initialScroll.current || isInViewport(activeLineRef.current))) {
+			// Ignore focus on the first "empty" idling indicator if it's during initial load
+			if (initialScroll.current && activeLineIndex === 0) {
+				const nextStart = findNextLineStartTime(padded, 0);
+				// If the intro is very short (e.g. less than 300ms), don't focus it
+				if (nextStart && nextStart - position < 300) {
+					initialScroll.current = false;
+					return;
+				}
+			}
+
 			activeLineRef.current.scrollIntoView({
-				behavior: "smooth",
+				behavior: initialScroll.current ? "auto" : "smooth",
 				block: "center",
 				inline: "nearest",
 			});
-			intialScroll[0] = true;
+			initialScroll.current = false;
 		}
-	}, [activeLineRef.current]);
+	}, [activeLineIndex, lyricsId]);
 
 	return react.createElement(
 		"div",
@@ -439,16 +603,35 @@ const SyncedExpandedLyricsPage = react.memo(({ lyrics, provider, copyright, isKa
 		react.createElement("p", {
 			className: "lyrics-lyricsContainer-LyricsUnsyncedPadding",
 		}),
-		padded.map(({ text, startTime, originalText }, i) => {
+		padded.map(({ text, startTime, endTime, originalText, performer }, i) => {
+			// Show idling indicator for the initial empty line
 			if (i === 0) {
+				const nextStart = findNextLineStartTime(padded, 0);
 				return react.createElement(IdlingIndicator, {
+					key: i,
 					isActive: activeLineIndex === 0,
-					progress: position / padded[1].startTime,
-					delay: padded[1].startTime / 3,
+					progress: nextStart ? position / nextStart : 0,
+					delay: nextStart ? nextStart / 3 : 0,
+					className: "lyrics-lyricsContainer-LyricsLine lyrics-lyricsContainer-LyricsLine-active",
+					style: { "--position-index": 0, "--animation-index": 1 },
 				});
 			}
 
-			const isActive = i === activeLineIndex;
+			const isFocused = i === activeLineIndex;
+			const isPause = isPauseLine(text);
+
+			// Calculate indicator state for pause lines
+			const indicatorEl = getPauseIndicator(padded, i, startTime, position, isFocused, isPause);
+
+			const isPlaying = startTime != null && endTime != null && position >= startTime && position <= endTime;
+			const isPast = (endTime != null && position > endTime) || (!isFocused && startTime != null && position > startTime);
+			const isActive = isFocused || isPlaying;
+
+			let className = `lyrics-lyricsContainer-LyricsLine${isActive ? " lyrics-lyricsContainer-LyricsLine-active" : ""}${isPast ? " lyrics-lyricsContainer-LyricsLine-past" : ""}`;
+			if (isPause && !indicatorEl) {
+				className += " lyrics-lyricsContainer-LyricsLine-hidden";
+			}
+
 			const showTranslatedBelow = CONFIG.visual["translate:display-mode"] === "below";
 			// If we have original text and we are showing translated below, we should show the original text
 			// Otherwise we should show the translated text
@@ -456,38 +639,46 @@ const SyncedExpandedLyricsPage = react.memo(({ lyrics, provider, copyright, isKa
 
 			// Convert lyrics to text for comparison
 			const belowOrigin = (typeof originalText === "object" ? originalText?.props?.children?.[0] : originalText)?.replace(/\s+/g, "");
-			const belowTxt = (typeof text === "object" ? text?.props?.children?.[0] : text)?.replace(/\s+/g, "");
+			const belowTxt =
+				typeof text === "string"
+					? text.replace(/\s+/g, "")
+					: typeof text?.props?.children?.[0] === "string"
+						? text.props.children[0].replace(/\s+/g, "")
+						: "";
 
 			const belowMode = showTranslatedBelow && originalText && belowOrigin !== belowTxt;
 
 			return react.createElement(
 				"div",
 				{
-					className: `lyrics-lyricsContainer-LyricsLine${i <= activeLineIndex ? " lyrics-lyricsContainer-LyricsLine-active" : ""}`,
+					className,
 					key: i,
 					style: {
 						cursor: "pointer",
 					},
 					dir: "auto",
-					ref: isActive ? activeLineRef : null,
+					ref: isFocused ? activeLineRef : null,
 					onClick: (event) => {
 						if (startTime) {
 							Spicetify.Player.seek(startTime);
 						}
 					},
 				},
-				react.createElement(
-					"p",
-					{
-						onContextMenu: (event) => {
-							event.preventDefault();
-							Spicetify.Platform.ClipboardAPI.copy(Utils.convertParsedToLRC(lyrics, belowMode).original)
-								.then(() => Spicetify.showNotification("Lyrics copied to clipboard"))
-								.catch(() => Spicetify.showNotification("Failed to copy lyrics to clipboard"));
-						},
-					},
-					!isKara ? lineText : react.createElement(KaraokeLine, { text, startTime, position, isActive })
-				),
+				isPause
+					? indicatorEl
+					: react.createElement(
+							"p",
+							{
+								onContextMenu: (event) => {
+									event.preventDefault();
+									Spicetify.Platform.ClipboardAPI.copy(Utils.convertParsedToLRC(lyrics, belowMode).original)
+										.then(() => Spicetify.showNotification("Lyrics copied to clipboard"))
+										.catch(() => Spicetify.showNotification("Failed to copy lyrics to clipboard"));
+								},
+							},
+							renderPerformer(performer, padded[i - 1]?.performer, CONFIG.visual["synced-compact"]),
+							!isKara ? lineText : react.createElement(KaraokeLine, { text, startTime, endTime, position, isActive })
+						),
 				belowMode &&
 					react.createElement(
 						"p",
@@ -524,7 +715,7 @@ const UnsyncedLyricsPage = react.memo(({ lyrics, provider, copyright }) => {
 		react.createElement("p", {
 			className: "lyrics-lyricsContainer-LyricsUnsyncedPadding",
 		}),
-		lyrics.map(({ text, originalText }, index) => {
+		lyrics.map(({ text, originalText, performer }, index) => {
 			const showTranslatedBelow = CONFIG.visual["translate:display-mode"] === "below";
 			// If we have original text and we are showing translated below, we should show the original text
 			// Otherwise we should show the translated text
@@ -532,7 +723,12 @@ const UnsyncedLyricsPage = react.memo(({ lyrics, provider, copyright }) => {
 
 			// Convert lyrics to text for comparison
 			const belowOrigin = (typeof originalText === "object" ? originalText?.props?.children?.[0] : originalText)?.replace(/\s+/g, "");
-			const belowTxt = (typeof text === "object" ? text?.props?.children?.[0] : text)?.replace(/\s+/g, "");
+			const belowTxt =
+				typeof text === "string"
+					? text.replace(/\s+/g, "")
+					: typeof text?.props?.children?.[0] === "string"
+						? text.props.children[0].replace(/\s+/g, "")
+						: "";
 
 			const belowMode = showTranslatedBelow && originalText && belowOrigin !== belowTxt;
 
@@ -553,6 +749,7 @@ const UnsyncedLyricsPage = react.memo(({ lyrics, provider, copyright }) => {
 								.catch(() => Spicetify.showNotification("Failed to copy lyrics to clipboard"));
 						},
 					},
+					renderPerformer(performer, lyrics[index - 1]?.performer, false),
 					lineText
 				),
 				belowMode &&

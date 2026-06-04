@@ -7,13 +7,12 @@ ctrl + shift - d : ~/Documents/Projects/bashy/define.sh
 
 # Move focus
 ctrl - h : yabai -m window --focus west
-ctrl - l : yabai -m window --focus east
+#ctrl - l : yabai -m window --focus east
 ctrl - k : yabai -m window --focus north
-ctrl - j : yabai -m window --focus south
 
 # Swap windows
 shift + ctrl - h : yabai -m window --swap west
-shift + ctrl - l : yabai -m window --swap east
+#shift + ctrl - l : yabai -m window --swap east
 shift + ctrl - k : yabai -m window --swap north
 shift + ctrl - j : yabai -m window --swap south
 
@@ -31,9 +30,12 @@ ctrl - m : yabai -m space --mirror vertical
 
 # Launch apps
 ctrl - return : open -a "iTerm"
-ctrl - s : open -a "Brave Browser"
+ctrl - space : open -a "iTerm"
+ctrl - s : open -a "LibreWolf"
 ctrl + shift - f : open -a "Finder"
-ctrl - d: open -a "Obsidian"
+ctrl - d: open -a "Discord"
+ctrl - l: open -a "Obsidian"
+ctrl - a: open -a "Anki"
 #ctrl - e: open -a "Spotify"
 ctrl - j : open -a "sioyek"
 

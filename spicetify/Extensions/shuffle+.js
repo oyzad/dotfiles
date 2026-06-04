@@ -23,7 +23,11 @@
 			throw "";
 		} catch {
 			Spicetify.LocalStorage.set("shufflePlus:settings", "{}");
-			return { artistMode: "all", artistNameMust: false, enableQueueButton: false };
+			return {
+				artistMode: "all",
+				artistNameMust: false,
+				enableQueueButton: false,
+			};
 		}
 	}
 
@@ -121,7 +125,10 @@
 								onclickFun();
 							},
 						},
-						React.createElement(DisplayIcon, { icon: Spicetify.SVGIcons.check, size: 16 })
+						React.createElement(DisplayIcon, {
+							icon: Spicetify.SVGIcons.check,
+							size: 16,
+						})
 					)
 				)
 			);
@@ -291,38 +298,39 @@
 	}
 
 	async function fetchPlaylistTracks(uri) {
-		const res = await Spicetify.CosmosAsync.get(`sp://core-playlist/v1/playlist/spotify:playlist:${uri}/rows`, {
-			policy: { link: true, playable: true },
+		const res = await Spicetify.Platform.PlaylistAPI.getContents(`spotify:playlist:${uri}`, {
+			limit: 9999999,
 		});
-		return res.rows.filter((track) => track.playable).map((track) => track.link);
+		return res.items.filter((track) => track.isPlayable).map((track) => track.uri);
 	}
 
 	function searchFolder(rows, uri) {
 		for (const r of rows) {
-			if (r.type !== "folder" || !r.rows) continue;
+			if (r.type !== "folder" || !r.items) continue;
 
-			if (r.link === uri) return r;
+			if (r.uri === uri) return r;
 
-			const found = searchFolder(r.rows, uri);
+			const found = searchFolder(r.items, uri);
 			if (found) return found;
 		}
 	}
 
 	async function fetchFolderTracks(uri) {
-		const res = await Spicetify.CosmosAsync.get("sp://core-playlist/v1/rootlist", {
-			policy: { folder: { rows: true, link: true } },
-		});
+		const res = await Spicetify.Platform.RootlistAPI.getContents();
 
-		const requestFolder = searchFolder(res.rows, uri);
+		const requestFolder = searchFolder(res.items, uri);
 		if (!requestFolder) throw "Cannot find folder";
 
 		const requestPlaylists = [];
 		async function fetchNested(folder) {
-			if (!folder.rows) return;
+			if (!folder.items) return;
 
-			for (const i of folder.rows) {
-				if (i.type === "playlist") requestPlaylists.push(await fetchPlaylistTracks(i.link.split(":")[2]));
-				else if (i.type === "folder") await fetchNested(i);
+			for (const i of folder.items) {
+				if (i.type === "playlist") {
+					const uriObj = Spicetify.URI.fromString(i.uri);
+					const uri = uriObj._base62Id ?? uriObj.id;
+					requestPlaylists.push(await fetchPlaylistTracks(uri));
+				} else if (i.type === "folder") await fetchNested(i);
 			}
 		}
 
@@ -333,7 +341,11 @@
 
 	async function fetchAlbumTracks(uri, includeMetadata = false) {
 		const { queryAlbumTracks } = Spicetify.GraphQL.Definitions;
-		const { data, errors } = await Spicetify.GraphQL.Request(queryAlbumTracks, { uri, offset: 0, limit: 100 });
+		const { data, errors } = await Spicetify.GraphQL.Request(queryAlbumTracks, {
+			uri,
+			offset: 0,
+			limit: 100,
+		});
 
 		if (errors) throw errors[0].message;
 		if (data.albumUnion.playability.playable === false) throw "Album is not playable";
@@ -537,7 +549,10 @@
 
 		if (context) {
 			const { sessionId } = Spicetify.Platform.PlayerAPI.getState();
-			Spicetify.Platform.PlayerAPI.updateContext(sessionId, { uri: context, url: `context://${context}` });
+			Spicetify.Platform.PlayerAPI.updateContext(sessionId, {
+				uri: context,
+				url: `context://${context}`,
+			});
 		}
 
 		Spicetify.Player.next();

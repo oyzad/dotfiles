@@ -72,8 +72,15 @@ const RefreshTokenButton = ({ setTokenCallback }) => {
 
 	useEffect(() => {
 		if (buttonText === "Refreshing token...") {
-			Spicetify.CosmosAsync.get("https://apic-desktop.musixmatch.com/ws/1.1/token.get?app_id=web-desktop-app-v1.0", null, {
-				authority: "apic-desktop.musixmatch.com",
+			Spicetify.CosmosAsync.get("https://apic-appmobile.musixmatch.com/ws/1.1/token.get?app_id=mac-ios-v2.0", null, {
+				Host: "apic-appmobile.musixmatch.com",
+				authority: "apic-appmobile.musixmatch.com",
+				"X-Cookie": "x-mxm-token-guid=",
+				"x-mxm-app-version": "10.1.1",
+				"X-User-Agent": "Musixmatch/2025120901 CFNetwork/3860.300.31 Darwin/25.2.0",
+				"Accept-Language": "en-US,en;q=0.9",
+				Connection: "keep-alive",
+				Accept: "application/json",
 			})
 				.then(({ message: response }) => {
 					if (response.header.status_code === 200 && response.body.user_token) {
@@ -547,17 +554,6 @@ const OptionList = ({ type, items, onChange }) => {
 	});
 };
 
-const languageCodes =
-	"none,en,af,ar,bg,bn,ca,zh,cs,da,de,el,es,et,fa,fi,fr,gu,he,hi,hr,hu,id,is,it,ja,jv,kn,ko,lt,lv,ml,mr,ms,nl,no,pl,pt,ro,ru,sk,sl,sr,su,sv,ta,te,th,tr,uk,ur,vi,zu".split(
-		","
-	);
-
-const displayNames = new Intl.DisplayNames(["en"], { type: "language" });
-const languageOptions = languageCodes.reduce((acc, code) => {
-	acc[code] = code === "none" ? "None" : displayNames.of(code);
-	return acc;
-}, {});
-
 function openConfig() {
 	const configContainer = react.createElement(
 		"div",
@@ -676,13 +672,6 @@ function openConfig() {
 					step: thresholdSizeLimit.step,
 				},
 				{
-					desc: "Musixmatch Translation Language.",
-					info: "Choose the language you want to translate the lyrics to. When the language is changed, the lyrics reloads.",
-					key: "musixmatch-translation-language",
-					type: ConfigSelection,
-					options: languageOptions,
-				},
-				{
 					desc: "Clear Memory Cache",
 					info: "Loaded lyrics are cached in memory for faster reloading. Press this button to clear the cached lyrics from memory without restarting Spotify.",
 					key: "clear-memore-cache",
@@ -696,17 +685,7 @@ function openConfig() {
 			onChange: (name, value) => {
 				CONFIG.visual[name] = value;
 				localStorage.setItem(`${APP_NAME}:visual:${name}`, value);
-
-				// Reload Lyrics if translation language is changed
-				if (name === "musixmatch-translation-language") {
-					if (value === "none") {
-						CONFIG.visual["translate:translated-lyrics-source"] = "none";
-						localStorage.setItem(`${APP_NAME}:visual:translate:translated-lyrics-source`, "none");
-					}
-					reloadLyrics?.();
-				} else {
-					lyricContainerUpdate?.();
-				}
+				lyricContainerUpdate?.();
 
 				const configChange = new CustomEvent("lyrics-plus", {
 					detail: {
