@@ -2,13 +2,13 @@
 
 # Scripts
 
-ctrl + shift - d : ~/Documents/Projects/bashy/define.sh
+ctrl + shift - d : ./Users/martin/Documents/Projects/bashy/define.sh
 
 
 # Move focus
-ctrl - h : yabai -m window --focus west
-#ctrl - l : yabai -m window --focus east
-ctrl - k : yabai -m window --focus north
+# ctrl - h : yabai -m window --focus west
+# ctrl - l : yabai -m window --focus east
+# ctrl - k : yabai -m window --focus north
 
 # Swap windows
 shift + ctrl - h : yabai -m window --swap west
@@ -23,21 +23,21 @@ ctrl + alt - k : yabai -m window --resize top:0:-30
 ctrl + alt - j : yabai -m window --resize bottom:0:30
 
 # Rotate layouts
-ctrl - r : yabai -m space --rotate 90
+# ctrl - r : yabai -m space --rotate 90
 
 # Mirror layout
-ctrl - m : yabai -m space --mirror vertical
+# ctrl - m : yabai -m space --mirror vertical
 
 # Launch apps
-ctrl - return : open -a "iTerm"
-ctrl - space : open -a "iTerm"
-ctrl - s : open -a "LibreWolf"
-ctrl + shift - f : open -a "Finder"
-ctrl - d: open -a "Discord"
-ctrl - l: open -a "Obsidian"
-ctrl - a: open -a "Anki"
+ctrl + alt + shift + cmd - return : open -a "iTerm"
+ctrl + alt + shift + cmd - space : open -a "iTerm"
+ctrl + alt + shift + cmd - s : open -a "LibreWolf"
+ctrl + alt + shift + cmd - h : open -a "Finder"
+ctrl + alt + shift + cmd - d: open -a "Vesktop"
+ctrl + alt + shift + cmd - l: open -a "Obsidian"
+ctrl + alt + shift + cmd - a: open -a "Anki"
 #ctrl - e: open -a "Spotify"
-ctrl - j : open -a "sioyek"
+ctrl + alt + shift + cmd - j : open -a "sioyek"
 
 # Move to spaces
 ctrl + shift - 1 : yabai -m window --space 1; yabai -m space --focus 1

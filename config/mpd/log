@@ -50564,3 +50564,183 @@ Note: Hit end of (available) data during resync.
 2026-06-03T22:55:14 exception: No such song
 2026-06-03T22:55:14 exception: No such song
 2026-06-03T22:55:14 exception: No such song
+2026-06-04T23:24:20 exception: Failed to rename file: No such file or directory
+2026-06-04T23:24:20 exception: Failed to rename file: No such file or directory
+2026-06-04T23:24:20 player: played "Skepta Fred/05 - Victory Lap.m4a"
+2026-06-04T23:24:20 player: played "Music/Red Hot Chili Peppers/By the Way/04 Dosed.mp3"
+2026-06-05T12:52:38 config: inotify: auto_update was disabled. enable during compilation phase
+2026-06-05T12:52:59 exception: No such directory
+2026-06-05T12:53:05 exception: No such directory
+2026-06-05T12:55:09 exception: Failed to decode "/Users/martin/Documents/Downloads/Music/The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac"; Failed to open "/Users/martin/Documents/Downloads/Music/The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac": No such file or directory
+2026-06-05T12:55:54 player: played "Music/Sublime/Sublime/06 Santeria.mp3"
+2026-06-05T12:55:54 player: played "The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac"
+2026-06-05T12:55:54 exception: Failed to decode "/Users/martin/Documents/Downloads/Music/The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac"; Failed to open "/Users/martin/Documents/Downloads/Music/The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac": No such file or directory
+2026-06-05T12:55:54 player: played "The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac"
+2026-06-05T12:59:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T12:59:50 player: played "various artists/1-02 - Creep.flac"
+2026-06-05T12:59:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T12:59:50 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T15:58:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T15:58:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T15:58:47 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T15:59:10 player: played "Oracular Spectacular/01 Time to Pretend.m4a"
+2026-06-05T15:59:10 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T15:59:10 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:03:03 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:03:21 player: played "Oracular Spectacular/02 Weekend Wars.m4a"
+2026-06-05T16:03:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:03:21 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:06:48 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:07:09 player: played "Oracular Spectacular/03 The Youth.m4a"
+2026-06-05T16:07:09 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:07:09 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:10:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:10:59 player: played "Oracular Spectacular/04 Electric Feel.m4a"
+2026-06-05T16:10:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:10:59 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:14:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:14:57 player: played "Oracular Spectacular/06 4th Dimensional Transition.m4a"
+2026-06-05T16:14:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:14:57 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:17:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:17:41 player: played "Oracular Spectacular/07 Pieces of What.m4a"
+2026-06-05T16:17:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:17:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:22:05 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:22:27 player: played "Oracular Spectacular/08 Of Moons, Birds & Monsters.m4a"
+2026-06-05T16:22:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:22:27 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:25:44 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:26:07 player: played "Oracular Spectacular/09 The Handshake.m4a"
+2026-06-05T16:26:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:26:07 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-05T16:30:07 player: played "Oracular Spectacular/10 Future Reflections.m4a"
+2026-06-07T12:56:29 player: played "Music/The Boy With the Thorn In His Side/Unknown Album/The Smiths (acoustic cover).m4a"
+2026-06-07T12:58:08 player: played "Music/The Kooks/Inside in_Inside out/01 Seaside.mp3"
+2026-06-07T13:00:47 player: played "Music/The Kooks/Inside in_Inside out/02 See the World.mp3"
+2026-06-07T13:03:00 player: played "Music/The Kooks/Inside in_Inside out/03 Sofa Song.mp3"
+2026-06-07T13:05:13 player: played "Music/The Kooks/Inside in_Inside out/04 Eddie_s Gun.mp3"
+2026-06-07T13:08:42 player: played "Music/The Kooks/Inside in_Inside out/05 Ooh La.mp3"
+2026-06-07T15:05:39 player: played "Music/The Kooks/Inside in_Inside out/07 She Moves in Her Own Way.mp3"
+2026-06-07T15:08:49 player: played "Music/The Kooks/Inside in_Inside out/08 Matchbox.mp3"
+2026-06-07T16:11:55 player: played "Music/The Kooks/Inside in_Inside out/09 Naïve.mp3"
+2026-06-07T16:15:22 player: played "Music/The Kooks/Inside in_Inside out/10 I Want You.mp3"
+2026-06-07T16:17:23 player: played "Music/The Kooks/Inside in_Inside out/11 If Only.mp3"
+2026-06-07T16:19:56 player: played "Music/The Kooks/Inside in_Inside out/12 Jackie Big Tits.mp3"
+2026-06-07T16:25:04 player: played "Music/The Kooks/Inside in_Inside out/13 Time Awaits.mp3"
+2026-06-07T16:28:42 player: played "Music/The Kooks/Inside in_Inside out/14 Got No Love.mp3"
+2026-06-07T16:35:44 player: played "Music/Saint Motel/Move/Move.mp3"
+2026-06-07T16:40:02 player: played "Music/Radiohead/The Bends/01 Planet Telex.mp3"
+2026-06-07T16:44:09 player: played "Music/Radiohead/The Bends/02 The Bends.mp3"
+2026-06-07T16:52:08 player: played "Music/Radiohead/The Bends/03 High And Dry.mp3"
+2026-06-07T16:56:58 player: played "Music/Radiohead/The Bends/04 Fake Plastic Trees.mp3"
+2026-06-07T17:00:07 player: played "Music/Radiohead/The Bends/05 Bones.mp3"
+2026-06-07T17:04:00 player: played "Music/Radiohead/The Bends/06 Nice Dream.mp3"
+2026-06-07T17:07:55 player: played "Music/Radiohead/The Bends/07 Just.mp3"
+2026-06-07T17:12:31 player: played "Music/Radiohead/The Bends/08 My Iron Lung.mp3"
+2026-06-07T17:16:00 player: played "Music/Radiohead/The Bends/09 Bullet Proof...I Wish I Was.mp3"
+2026-06-07T17:20:07 player: played "Music/Radiohead/The Bends/10 Black Star.mp3"
+2026-06-07T17:23:50 player: played "Music/Radiohead/The Bends/11 Sulk.mp3"
+2026-06-07T17:28:03 player: played "Music/Radiohead/The Bends/12 Street Spirit.mp3"
+2026-06-07T17:38:58 player: played "Music/PinkPantheress/Fancy That/1-01 Illegal.mp3"
+2026-06-07T17:41:22 player: played "Music/PinkPantheress/Fancy That/1-02 Girl Like Me.mp3"
+2026-06-07T17:44:19 player: played "Music/PinkPantheress/Fancy That/1-03 Tonight.mp3"
+2026-06-07T17:46:41 player: played "Music/PinkPantheress/Fancy That/1-04 Stars.mp3"
+2026-06-07T17:47:06 player: played "Music/PinkPantheress/Fancy That/1-05 Intermission.mp3"
+2026-06-07T17:48:50 player: played "Music/PinkPantheress/Fancy That/1-06 Noises.mp3"
+2026-06-07T17:51:41 player: played "Music/PinkPantheress/Fancy That/1-07 Nice to Know You.mp3"
+2026-06-07T17:54:29 player: played "Music/PinkPantheress/Fancy That/1-08 Stateside.mp3"
+2026-06-07T18:50:42 player: played "Music/Issey Cross/Bittersweet Goodbye/01 Bittersweet Goodbye.mp3"
+2026-06-08T20:52:04 config: inotify: auto_update was disabled. enable during compilation phase
+2026-06-08T20:55:18 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:56:01 player: played "Music/Dr. Dog/Shame, Shame/05 Where'd All the Time Go_.mp3"
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2821 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 3 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 2 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 1 is invalid (first=0 count=0 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: STSC entry 0 is invalid (first=1 count=2820 id=0)
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 1, contradictionary STSC and STCO
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: error reading header
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-06-08T20:58:22 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+2026-06-08T20:58:23 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:23 update: added Music/Stone Temple Pilots/MTV Unplugged/02 Creep.m4a
+2026-06-08T20:58:23 update: removing Chase and Status/Chase & Status Essentials/02 - Chase & Status ft Cutty Ranks - Retreat2018 RTRN VIP.flac
+2026-06-08T20:58:23 update: removing Phoneboy/Acid Girl.mp3
+2026-06-08T20:58:23 update: removing Niko B /singles/Niko B - Why's this dealer_.flac
+2026-06-08T20:58:23 update: removing Niko B /singles/Niko B - just call me.flac
+2026-06-08T20:58:23 update: removing Men At Work/01 - Down Under.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/06-dogpark-75s72-825d2260.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/05-dogpark-september-d655e78c.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/04-dogpark-whats_my_line_again-b799bf19.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/03-dogpark-dandelion-6a3ea203.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/02-dogpark-i_dont_mind-7c912dbc.flac
+2026-06-08T20:58:23 update: removing Dogpark-Corporate Pudding/01-dogpark-dialtone-f1dd4312.flac
+2026-06-08T20:58:23 update: removing dexter_in_the_newsagents/Kid Apollo, Dexter in the Newsagent - fantasise.flac
+2026-06-08T20:58:23 update: removing Bruno Mars/15 - Die with a Smile.flac
+2026-06-08T20:58:23 update: removing Bruno Mars/02. Just the way you are.flac
+2026-06-08T20:58:23 update: removing Blur/02 Song 2.flac
+2026-06-08T20:58:23 update: removing Beatport Top 100 - July 2025/Skepta, Sammy Virji - Cops & Robbers (Extended Mix).flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/13 - mood.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/12 - donâ€™t sleep.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/11 - cut it off.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/10 - empty.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/09 - 3, 2, 1.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/08 - yellow lights.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/07 - breath away.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/06 - butterflies.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/05 - coco.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/04 - outta pocket.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/03 - love or lust.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/02 - company.flac
+2026-06-08T20:58:23 update: removing 24kGoldn  - El Dorado (2021)/01 - the top.flac
+2026-06-08T20:58:23 update: removing 2016 - Guilty Pleasure/04 - Life Goes On.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 14 - Sun of Jean (feat. Mum & Dad).flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 13 - Mrs C.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 12 - NO CD.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 11 - Rebel 101.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 10 - No Worries.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 09 - Stars & Shards.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 08 - The Seamstress (Tooting Masala).flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 07 - Florence.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 06 - Swear.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 05 - Ain’t Nothing Changed.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 04 - Damselfly.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 03 - +44.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 02 - Mean It in the Morning.flac
+2026-06-08T20:58:23 update: removing Yesterday’s Gone (2017)/Loyle Carner - Yesterday’s Gone - 01 - The Isle of Arran.flac
+2026-06-08T20:58:23 update: removing The Days/Chrystal - The Days (NOTION Remix)/Chrystal - The Days (NOTION Remix).flac
+2026-06-08T20:58:23 update: removing Pop Smoke/Pop Smoke - 19 - Dior.flac
+2026-06-08T20:58:23 update: removing Pop Smoke/Pop Smoke - 09 - Make It Rain.flac
+2026-06-08T20:58:23 update: removing Phoneboy/Cocolalla.mp3
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T20:58:28 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T21:01:00 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T21:01:00 ffmpeg/aac: Could not update timestamps for skipped samples.
+2026-06-08T21:01:38 player: played "Music/Creed/Weathered/05 One Last Breath.m4a"
+2026-06-08T21:01:39 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T21:01:39 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-06-08T21:07:12 player: played "Music/Stone Temple Pilots/MTV Unplugged/02 Creep.m4a"

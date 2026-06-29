@@ -4,7 +4,7 @@ vim.g.maplocalleader = " "
 local map = function(mode, lhs, rhs, desc)
   vim.keymap.set(mode, lhs, rhs, { silent = true, desc = desc })
 end
-map('n', '<leader>f', ":Pick files<CR>", "Open file picker")
+-- map('n', '<leader>f', ":Pick files<CR>", "Open file picker")
 map('n', '<leader>h', ":Pick help<CR>", "Open help picker")
 map('n', '<leader>e', '<cmd>Oil<CR>', 'Open file explorer')
 
@@ -65,3 +65,10 @@ map('n', '<leader>?', ':lua require(\'which-key\').show({ global = false })<CR>'
 
 map("n", "<Down>", "gj", "Move down ignoring wrap")
 map("n", "<Up>", "gk", "Move up ignoring wrap")
+
+
+-- telescope
+vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find recent files" })
+vim.keymap.set("n", "<leader>fw", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
+vim.keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
+

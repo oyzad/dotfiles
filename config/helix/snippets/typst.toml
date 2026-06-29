@@ -1,0 +1,391 @@
+[[snippets]]
+prefix = "lnk"
+scope = ["typst"]
+body = '#link("${1:url}")[${2:label}]'
+description = "Link"
+
+[[snippets]]
+prefix = "pdfr"
+scope = ["typst"]
+body = '''
+#for p in range(${2:first_page_in_range}, ${3:last_page_in_range}){
+  image("${1:some_document}.pdf", page: p, width: 100%)
+}
+'''
+description = "Insert a range of PDF pages"
+
+[[snippets]]
+prefix = "lscape"
+scope = ["typst"]
+body = '''
+// set page to landscape
+#set page(
+  flipped: true,
+)
+
+${0}
+
+//set page back to portrait
+#set page(
+  flipped: false,
+)
+'''
+description = "Landscape"
+
+[[snippets]]
+prefix = "ctbl"
+scope = ["typst"]
+body = '''
+#let ${1/\\\\\\w+\\{(.*?)\\}|\\\\(.)|(\\w+)|([^\\w\\\\]+)/(?4:_:\\l$1$2$3)/g} = csv("${1:name}.csv")
+#figure(
+  table(
+  columns: 2,
+  inset: 10pt,
+  align: left,
+  ..for (col1, col2) in ${2:${1/\\\\\\w+\\{(.*?)\\}|\\\\(.)|(\\w+)|([^\\w\\\\]+)/(?4:_:\\l$1$2$3)/g}} { (col1, col2) }
+  ),
+  caption: [${2:desc}],
+) <${1/\\\\\\w+\\{(.*?)\\}|\\\\(.)|(\\w+)|([^\\w\\\\]+)/(?4:_:\\l$1$2$3)/g}>
+'''
+description = "CSV Table"
+
+[[snippets]]
+prefix = "apdx"
+scope = ["typst"]
+body = '''
+#pagebreak(weak: true)
+// appendix
+#let appendix(body) = {
+  set heading(numbering: "A.1"/*, supplement: [Appendices]*/)
+  counter(heading).update(0)
+  body
+}
+#show: appendix
+// appendices hereon
+'''
+description = "Appendix"
+
+[[snippets]]
+prefix = "ref"
+scope = ["typst"]
+body = '#bibliography(title: "References", "${1:filename_incl_path}.bib")'
+description = "Bibliography"
+
+[[snippets]]
+prefix = "bib"
+scope = ["typst"]
+body = '''
+@book{${1:key},
+  author  = "${2:author}",
+  title   = "${3:title}",
+  edition = "{${4:document number and revision}}",
+  date    = "${5:year and month in yyyy-mm}",
+},
+'''
+description = "Bibliography entry"
+
+[[snippets]]
+prefix = "cod"
+scope = ["typst"]
+body = '''
+#let ${1:subj} = read("${2:filepath}${1:subj}.py")
+#{linebreak();raw(${1:subj}, lang: "python")}
+'''
+description = "Insert code file"
+
+[[snippets]]
+prefix = "fig"
+scope = ["typst"]
+body = '''
+#figure(
+  image("${1:filename_incl_path}", width: 100%),
+    caption: [${2:Description}]
+) <${3:label}>
+'''
+description = "Figure"
+
+[[snippets]]
+prefix = "gal"
+scope = ["typst"]
+body = '''
+#let gimg(path) = image(path, width: 100%, height: 6cm, fit: "cover")
+#figure(
+  grid(
+    columns: ${1:2},
+    gutter: 1mm,
+     gimg("img/photo-1.jpg"),
+     gimg("img/photo-2.jpg"),
+     gimg("img/photo-3.jpg"),
+     gimg("img/photo-4.jpg"),
+  ),
+  caption: [${2:Defect photos}]
+) <${3:label}>
+'''
+description = "Image gallery"
+
+[[snippets]]
+prefix = "file"
+scope = ["typst"]
+body = '#include "${1:filename_incl_path}"'
+description = "File"
+
+[[snippets]]
+prefix = "hd"
+scope = ["typst"]
+body = '#set heading(numbering: "1.1")'
+description = "Set heading number format hereon"
+
+[[snippets]]
+prefix = "note"
+scope = ["typst"]
+body = '''
+#import "template.typ": *
+#show: note.with(
+  title: [${1:Title}],
+  author: "${2:Author}",
+  paper: "a4",
+)
+// get template.typ from github.com/ckunte/note
+// curl -LJO <rawfile url here>
+//
+// content from here-on
+'''
+description = "Note"
+
+[[snippets]]
+prefix = "pb"
+scope = ["typst"]
+body = '#pagebreak(weak: true)'
+description = "Page break"
+
+[[snippets]]
+prefix = "tbl"
+scope = ["typst"]
+body = '''
+#figure(
+  table(
+    columns: (auto, 1fr),
+    inset: 10pt,
+    align: horizon,
+    [label1], [label2],
+    [Full spectrum], [0.358],
+    [Narrow band], [0.343],
+  ),
+  caption: [${1:Description}],
+) <${2:label}>
+'''
+description = "Table"
+
+[[snippets]]
+prefix = "letter"
+scope = ["typst"]
+body = '''
+#import "letter-template.typ": letter
+#show: letter.with(
+  sender: [
+    ${1:name_and_address}  
+  ],
+  recipient: [
+    ${2:name_and_address}		  
+  ],
+  date: [#datetime.today().display("[month repr:long] [day], [year]")],
+  subject: [${3:subject}],
+  name: [],			  
+)
+// letter content hereon
+${4:letter_content_hereon}
+'''
+description = "Letter"
+
+[[snippets]]
+prefix = "ltmpl"
+scope = ["typst"]
+body = '''
+// ckunte's custom letter template -- 2024
+// This function gets your whole document as its `body`
+// and formats it as a simple letter.
+#let letter(
+  // The letter's sender, which is display at the top of the page.
+  sender: none,
+
+  // The letter's recipient, which is displayed close to the top.
+  recipient: none,
+
+  // The date, displayed to the right.
+  date: none,
+
+  // The subject line.
+  subject: none,
+
+  // The name with which the letter closes.
+  name: none,
+
+  // The letter's content.
+  body
+) = {
+  // Configure page and text properties.
+  set page(
+    paper: "a5",
+    margin: (top: 15mm), 
+    numbering: "1",
+    )
+  set text(
+    font: "erewhon", // options: erewhon, Courier Prime, etc
+    size: 10pt,
+    top-edge: "cap-height", 
+    bottom-edge: "baseline",
+    number-type: "old-style",
+    // size: 10pt // 11pt is default
+    )  
+  // Set paragraph
+  set par(justify: true)
+
+  // Display sender at top of page. If there's no sender
+  // add some hidden text to keep the same spacing.
+  align(center, {
+    text(9pt, if sender == none {
+      hide("a")
+    } else {
+      sender
+    })
+  })
+
+  v(10mm)
+
+  // Display date. If there's no date add some hidden
+  // text to keep the same spacing.
+  align(right, if date != none {
+    date
+  } else {
+    hide("a")
+  })
+
+  v(5mm)
+
+  // Display recipient.
+  recipient
+
+  v(5mm)
+
+  // Add the subject line, if any.
+  if subject != none {
+    pad(right: 10%, strong(subject))
+  }
+
+  // Add body and name.
+  body
+  v(5mm)
+  name
+}
+'''
+description = "Letter template"
+[[snippets]]
+prefix = "mt"
+scope = ["typst"]
+body = "$$1$ "
+description = "inline math"
+
+[[snippets]]
+prefix = "mmt"
+scope = ["typst"]
+body = "$ $1 $ "
+description = "spaced inline math"
+
+[[snippets]]
+prefix = "i"
+scope = ["typst"]
+body = "==>"
+description = "arrow"
+
+[[snippets]]
+prefix = "plus"
+scope = ["typst"]
+body = "^+"
+description = "plus exponent"
+
+[[snippets]]
+prefix = "min"
+scope = ["typst"]
+body = "^-"
+description = "minus exponent"
+
+[[snippets]]
+prefix = "lim"
+scope = ["typst"]
+body = "lim_(${1}) "
+description = "limit"
+
+[[snippets]]
+prefix = "integral"
+scope = ["typst"]
+body = "integral_(${1})^(${2}) "
+description = "definite integral"
+
+[[snippets]]
+prefix = "sum"
+scope = ["typst"]
+body = "sum_(${1})^(${2}) "
+description = "summation"
+
+[[snippets]]
+prefix = "inf"
+scope = ["typst"]
+body = "infinity"
+description = "infinity"
+
+[[snippets]]
+prefix = "abs"
+scope = ["typst"]
+body = "abs(${1})"
+description = "absolute value"
+
+[[snippets]]
+prefix = "cent"
+scope = ["typst"]
+body = "#align(center)[${1}]"
+description = "center align"
+
+[[snippets]]
+prefix = "v"
+scope = ["typst"]
+body = "#let ${1} = ${2}"
+description = "variable definition"
+
+[[snippets]]
+prefix = "f"
+scope = ["typst"]
+body = '''
+#let ${1} = (${2}) = {
+	${3}
+}'''
+description = "function definition"
+
+[[snippets]]
+prefix = "uq"
+scope = ["typst"]
+body = "^2"
+description = "square exponent"
+
+[[snippets]]
+prefix = "sq"
+scope = ["typst"]
+body = "^2"
+description = "square exponent"
+
+[[snippets]]
+prefix = "cu"
+scope = ["typst"]
+body = "^3"
+description = "cubed exponent"
+
+[[snippets]]
+prefix = "q4"
+scope = ["typst"]
+body = "^4"
+description = "quartic exponent"
+
+[[snippets]]
+prefix = "q5"
+scope = ["typst"]
+body = "^5"
+description = "quintic exponent"

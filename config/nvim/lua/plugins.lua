@@ -10,6 +10,55 @@ end
 --  
 --})
 
+vim.pack.add({ "https://github.com/nvim-lua/plenary.nvim" })
+vim.pack.add({ "https://github.com/nvim-tree/nvim-web-devicons" })
+vim.pack.add({ "https://github.com/nvim-telescope/telescope-fzf-native.nvim" })
+vim.pack.add({ "https://github.com/nvim-telescope/telescope.nvim" })
+
+local telescope = require("telescope")
+local actions = require("telescope.actions")
+
+-- Dynamically try to pull your 'rndr' dependency if it exists in your environment
+local ok_rndr, rndr = pcall(require, "rndr")
+local previewer_maker = ok_rndr and rndr.telescope_buffer_previewer_maker or nil
+
+telescope.setup({
+    defaults = {
+        -- Your specific custom rules
+        buffer_previewer_maker = previewer_maker,
+        file_ignore_patterns = { "node_modules", "vendor", "build", "%.git" },
+        path_display = { "smart" },
+        
+        -- Your custom inside-picker movement mappings
+        mappings = {
+            i = {
+                ["<C-k>"] = actions.move_selection_previous,
+                ["<C-j>"] = actions.move_selection_next,
+                ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
+                -- Safe integration for Trouble.nvim if it's installed
+                ["<C-t>"] = function(...) 
+                    local ok, trouble_tele = pcall(require, "trouble.sources.telescope")
+                    if ok then trouble_tele.open(...) else actions.select_tab(...) end
+                end,
+            },
+        },
+        
+        -- Keeps Telescope centered across your system
+        sorting_strategy = "ascending",
+        layout_strategy = "center",
+        layout_config = {
+            width = 0.5,
+            height = 0.4,
+            prompt_position = "top",
+        },
+    }
+})
+
+-- Load your native performance optimization extension
+pcall(telescope.load_extension, "fzf")
+
+
+
 
 install('nvim-lua/plenary.nvim')
 install('epwalsh/obsidian.nvim')
